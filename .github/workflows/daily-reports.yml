@@ -3,7 +3,7 @@ name: Daily Git Reports
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *" # todo dia 03:00 UTC (ajuste se quiser)
+    - cron: "0 3 * * *" # todo dia 03:00 UTC
 
 permissions:
   contents: write
@@ -24,16 +24,21 @@ jobs:
           python-version: "3.11"
 
       - name: Generate reports
+        env:
+          GH_TOKEN: ${{ secrets.GH_REPORTS_TOKEN }}
+          GH_OWNER: "JulianoVinceCampos"
+          GH_SCOPE: "user"
+          GH_GENERAL_DAYS: "365"
+          GH_DISPLAY_LIMIT: "500"
         run: |
           python git_report.py
-          # Se seu script gera arquivos em pastas, mantenha tudo no mesmo lugar.
-          # Garanta que exista um index.html no final.
           ls -la
+          ls -la site || true
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: .   # publica a raiz do repo (onde está o index.html)
+          publish_dir: site   # <--- IMPORTANTE: agora publica a pasta site/
           force_orphan: true
