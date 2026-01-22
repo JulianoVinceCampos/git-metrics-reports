@@ -35,11 +35,11 @@ CSS_DASHBOARD = """
   .btn-disabled { opacity:.45; pointer-events:none; cursor:not-allowed; }
   .footer { text-align:center; margin-top:60px; color:#94a3b8; font-size:13px; }
 
-  /* --- Card clicável (vira link) --- */
-  .card-link { color: inherit; text-decoration: none; }
-  .card-link:hover { color: inherit; text-decoration: none; }
+  /* Card clicável */
+  .card-clickable { cursor: pointer; }
+  .card-clickable:focus { outline: 3px solid rgba(59,130,246,.25); outline-offset: 2px; }
 
-  /* --- Selo executivo --- */
+  /* Selo executivo por repo */
   .exec-badge {
     margin-top: 6px;
     padding: 10px 12px;
@@ -48,7 +48,9 @@ CSS_DASHBOARD = """
     background: #f8fafc;
   }
   .exec-badge-title {
-    display:block;
+    display:flex;
+    align-items:center;
+    gap:8px;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -56,6 +58,14 @@ CSS_DASHBOARD = """
     color: #0f172a;
     margin-bottom: 4px;
   }
+  .dot {
+    width:8px; height:8px; border-radius:999px; display:inline-block;
+    background:#94a3b8;
+  }
+  .dot.green { background:#22c55e; }
+  .dot.amber { background:#f59e0b; }
+  .dot.red { background:#ef4444; }
+
   .exec-badge-desc {
     display:block;
     font-size: 12px;
@@ -79,9 +89,17 @@ def file_exists(rel_path: str) -> bool:
     return os.path.isfile(rel_path)
 
 def make_href(reports_dir: str, filename: str) -> str:
-    if reports_dir == ".":
-        return filename
-    return f"{reports_dir}/{filename}"
+    return filename if reports_dir == "." else f"{reports_dir}/{filename}"
+
+def repo_exec_badge(geral_ok: bool, trend_ok: bool):
+    """
+    Texto executivo por repo (varia conforme disponibilidade real dos arquivos).
+    """
+    if geral_ok and trend_ok:
+        return ("green", "Status Operacional", "Relatório executivo e tendência disponíveis para decisão e acompanhamento.")
+    if geral_ok and not trend_ok:
+        return ("amber", "Cobertura Parcial", "Relatório executivo disponível. Tendência ainda não foi gerada/publicada.")
+    return ("red", "Sem Evidência Publicada", "Relatórios não encontrados no Pages. Verifique geração e deploy no gh-pages.")
 
 def generate_portal(repos_list, output_file="index.html"):
     now = datetime.datetime.now()
@@ -122,7 +140,7 @@ def generate_portal(repos_list, output_file="index.html"):
 
     for repo in repos:
         geral_file = f"{repo}.html"
-        trend_file = f"{repo}_90d.html"  # mantém o mesmo arquivo, só muda o texto no botão
+        trend_file = f"{repo}_90d.html"  # mantém o arquivo; só renomeamos o rótulo do botão
 
         geral_path = os.path.join(reports_dir, geral_file) if reports_dir != "." else geral_file
         trend_path = os.path.join(reports_dir, trend_file) if reports_dir != "." else trend_file
@@ -130,27 +148,29 @@ def generate_portal(repos_list, output_file="index.html"):
         geral_ok = file_exists(geral_path)
         trend_ok = file_exists(trend_path)
 
-        geral_href = make_href(reports_dir, geral_file) if geral_ok else "#"
+        geral_href = make_href(reports_dir, geral_file) if geral_ok else ""
         trend_href = make_href(reports_dir, trend_file) if trend_ok else "#"
 
         geral_cls = "btn btn-primary" + ("" if geral_ok else " btn-disabled")
         trend_cls = "btn btn-secondary" + ("" if trend_ok else " btn-disabled")
 
-        # Card inteiro clicável se existir o relatório geral
-        card_open = f"<a class='project-card card-link' href='{geral_href}'>" if geral_ok else "<div class='project-card'>"
-        card_close = "</a>" if geral_ok else "</div>"
+        dot_color, badge_title, badge_desc = repo_exec_badge(geral_ok, trend_ok)
 
-        highlight_title = "Pulso do Projeto"
-        highlight_desc = "Visão executiva de ritmo de entrega, estabilidade e volume de mudanças."
+        # Card clicável via JS (sem <a> wrapper)
+        data_href_attr = f"data-href='{geral_href}'" if geral_ok else ""
+        clickable_class = "card-clickable" if geral_ok else ""
+        tabindex = "tabindex='0' role='link'" if geral_ok else ""
 
         html.append(f"""
-        {card_open}
+        <div class='project-card {clickable_class}' {data_href_attr} {tabindex}>
           <div>
             <div class='project-name'>{repo}</div>
 
             <div class='exec-badge'>
-              <span class='exec-badge-title'>{highlight_title}</span>
-              <span class='exec-badge-desc'>{highlight_desc}</span>
+              <span class='exec-badge-title'>
+                <span class='dot {dot_color}'></span>{badge_title}
+              </span>
+              <span class='exec-badge-desc'>{badge_desc}</span>
             </div>
 
             <div style='font-size:12px; color:#64748b; margin-top:10px;'>
@@ -158,19 +178,43 @@ def generate_portal(repos_list, output_file="index.html"):
             </div>
 
             <div class='btn-group'>
-              <a href='{geral_href}' class='{geral_cls}' onclick="event.stopPropagation();">Relatório Executivo</a>
+              <a href='{geral_href if geral_ok else "#"}' class='{geral_cls}' onclick="event.stopPropagation();">Relatório Executivo</a>
               <a href='{trend_href}' class='{trend_cls}' onclick="event.stopPropagation();">Tendência de Atividade</a>
             </div>
           </div>
-        {card_close}
+        </div>
         """)
 
     html.append("</div>")
+
+    # JS para tornar o card clicável (mouse + teclado)
+    html.append("""
+    <script>
+      document.querySelectorAll('.card-clickable[data-href]').forEach(card => {
+        card.addEventListener('click', () => {
+          const href = card.getAttribute('data-href');
+          if (href) window.location.href = href;
+        });
+
+        card.addEventListener('keydown', (e) => {
+          const href = card.getAttribute('data-href');
+          if (!href) return;
+
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            window.location.href = href;
+          }
+        });
+      });
+    </script>
+    """)
+
     html.append(f"<div class='footer'>Atualizado automaticamente via GitHub Actions em {now.strftime('%d/%m/%Y %H:%M:%S')}</div>")
     html.append("</div></body></html>")
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(html))
+
 
 meus_repos = [
     "-BoasNoticias", "android-marvel-app", "AndroidCoroutinesRetrofitMVVM",
