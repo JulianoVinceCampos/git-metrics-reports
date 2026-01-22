@@ -1,65 +1,39 @@
 name: Daily Git Reports
 
 on:
-  schedule:
-    - cron: "0 12 * * *" # todo dia 12:00 UTC
   workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *" # todo dia 03:00 UTC (ajuste se quiser)
 
 permissions:
   contents: write
 
 jobs:
-  build-and-publish:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout metrics repo
+      - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
-      - name: Generate reports (public repos)
-        env:
-          GH_USER: JulianoVinceCampos
+      - name: Generate reports
         run: |
-          set -e
-          mkdir -p work site
-
-          git config --global advice.detachedHead false
-
-          python - <<'PY'
-          import json, urllib.request, os
-          user = os.environ["GH_USER"]
-          url = f"https://api.github.com/users/{user}/repos?per_page=100"
-          data = json.loads(urllib.request.urlopen(url).read().decode())
-          repos = [r["clone_url"] for r in data if not r.get("fork")]
-          open("repos.txt","w",encoding="utf-8").write("\n".join(repos))
-          print("Repos:", len(repos))
-          PY
-
-          echo "<html><head><meta charset='utf-8'><title>Git Reports</title></head><body><h1>Relatórios Git - $GH_USER</h1><ul>" > site/index.html
-
-          while read -r REPO; do
-            [ -z "$REPO" ] && continue
-            NAME=$(basename "$REPO" .git)
-
-            echo "==> $NAME"
-            rm -rf "work/$NAME"
-            git clone --quiet --no-tags --depth 1 "$REPO" "work/$NAME" || continue
-
-            python "$GITHUB_WORKSPACE/git_report.py" --repo "$GITHUB_WORKSPACE/work/${NAME}" --out "$GITHUB_WORKSPACE/site/${NAME}.html"
-            python "$GITHUB_WORKSPACE/git_report.py" --repo "$GITHUB_WORKSPACE/work/${NAME}" --since "90 days ago" --out "$GITHUB_WORKSPACE/site/${NAME}_90d.html"
-
-            echo "<li><a href='${NAME}.html'>${NAME} (geral)</a> | <a href='${NAME}_90d.html'>90 dias</a></li>" >> site/index.html
-          done < repos.txt
-
-          echo "</ul><p><small>Atualizado automaticamente via GitHub Actions.</small></p></body></html>" >> site/index.html
+          python git_report.py
+          # Se seu script gera arquivos em pastas, mantenha tudo no mesmo lugar.
+          # Garanta que exista um index.html no final.
+          ls -la
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+          publish_branch: gh-pages
+          publish_dir: .   # publica a raiz do repo (onde está o index.html)
+          force_orphan: true
