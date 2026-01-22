@@ -1,9 +1,10 @@
 import os
 import datetime
+from typing import Optional
 
 CSS_DASHBOARD = """
 <style>
-  :root { --primary:#0f172a; --accent:#3b82f6; --success:#10b981; --bg:#f8fafc; --card:#ffffff; }
+  :root { --primary:#0f172a; --accent:#3b82f6; --success:#10b981; --danger:#ef4444; --bg:#f8fafc; --card:#ffffff; }
   body { font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--primary); margin:0; padding:40px; }
   .container { max-width:1200px; margin:0 auto; }
 
@@ -21,33 +22,73 @@ CSS_DASHBOARD = """
   .project-card {
     background:var(--card); border-radius:16px; border:1px solid #e2e8f0; padding:24px;
     transition:all .3s ease; display:flex; flex-direction:column; justify-content:space-between;
-    cursor: pointer; position: relative;
+    position: relative;
   }
+  .project-card.clickable { cursor:pointer; }
   .project-card:hover { transform:translateY(-5px); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); border-color:var(--accent); }
-  .project-name { font-size:18px; font-weight:700; margin-bottom:15px; color:var(--primary); }
 
-  .btn-group { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:18px; z-index: 10; }
-  .btn { padding:10px; border-radius:8px; font-size:13px; font-weight:600; text-align:center; text-decoration:none; transition:background .2s; }
+  .project-name { font-size:18px; font-weight:700; margin-bottom:12px; color:var(--primary); }
+
+  .status-box {
+    background:#f8fafc; padding:12px; border-radius:10px;
+    border:1px dashed #cbd5e1; margin-bottom:12px;
+  }
+  .status-title { font-size:11px; font-weight:800; letter-spacing:.3px; color:#475569; text-transform:uppercase; display:flex; align-items:center; gap:8px; }
+  .dot { width:8px; height:8px; border-radius:99px; display:inline-block; background:var(--success); }
+  .dot.danger { background:var(--danger); }
+  .info-text { font-size:12px; color:#64748b; margin:8px 0 0 0; line-height:1.4; }
+
+  .btn-group { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px; z-index:10; }
+  .btn { padding:10px; border-radius:8px; font-size:13px; font-weight:700; text-align:center; text-decoration:none; transition:background .2s, opacity .2s; }
   .btn-primary { background:#eff6ff; color:#2563eb; border:1px solid #bfdbfe; }
   .btn-primary:hover { background:#dbeafe; }
   .btn-secondary { background:#f0fdf4; color:#166534; border:1px solid #bbf7d0; }
   .btn-secondary:hover { background:#dcfce7; }
+  .btn-disabled { opacity:.45; pointer-events:none; cursor:not-allowed; }
 
   .footer { text-align:center; margin-top:60px; color:#94a3b8; font-size:13px; }
-
-  .info-text { font-size:12px; color:#64748b; margin-top:12px; line-height:1.4; }
 </style>
 """
 
-def sanitize_repo_name(name: str) -> str:
-    # Remove hífens iniciais e espaços
+def sanitize_display_name(name: str) -> str:
+    # só para exibição (não mexe no filename real)
     return name.strip().lstrip("-").strip()
+
+def detect_reports_dir() -> str:
+    """
+    Detecta onde estão os HTMLs que serão publicados:
+    - se existir ./site com HTMLs, usa 'site'
+    - senão usa '.'
+    """
+    if os.path.isdir("site"):
+        if any(f.endswith(".html") for f in os.listdir("site")):
+            return "site"
+    return "."
+
+def list_html_files(reports_dir: str) -> set[str]:
+    base = reports_dir if reports_dir != "." else "."
+    try:
+        return {f for f in os.listdir(base) if f.endswith(".html")}
+    except FileNotFoundError:
+        return set()
+
+def choose_existing(files: set[str], candidates: list[str]) -> Optional[str]:
+    for c in candidates:
+        if c in files:
+            return c
+    return None
+
+def make_href(reports_dir: str, filename: str) -> str:
+    # href relativo ao index.html
+    return filename if reports_dir == "." else f"{reports_dir}/{filename}"
 
 def generate_portal(repos_list, output_file="index.html"):
     now = datetime.datetime.now()
-    
-    # Lista limpa de repositórios
-    repos = [sanitize_repo_name(r) for r in repos_list if r]
+    reports_dir = detect_reports_dir()
+    files = list_html_files(reports_dir)
+
+    repos_raw = [r for r in repos_list if r and r.strip()]
+    total = len(repos_raw)
 
     html = [
         "<!DOCTYPE html><html lang='pt-br'><head><meta charset='utf-8'>",
@@ -57,66 +98,8 @@ def generate_portal(repos_list, output_file="index.html"):
         "</head><body><div class='container'>"
     ]
 
-    # Header
     html.append(f"""
     <div class='header'>
       <div>
         <h1>Dashboard Executivo de Engenharia</h1>
-        <p style='color:#64748b; margin:5px 0 0 0;'>Consolidado de performance • Fonte: Git Metrics</p>
-      </div>
-      <span class='status-tag'>● ATUALIZADO</span>
-    </div>
-    """)
-
-    # KPIs
-    html.append(f"""
-    <div class='kpi-grid'>
-      <div class='kpi-card'><span class='kpi-label'>Total de Projetos</span><span class='kpi-value'>{len(repos)}</span></div>
-      <div class='kpi-card'><span class='kpi-label'>Última Extração</span><span class='kpi-value' style='font-size:20px;'>{now.strftime('%d/%m/%Y')}</span></div>
-      <div class='kpi-card'><span class='kpi-label'>Hora da Geração</span><span class='kpi-value' style='font-size:20px;'>{now.strftime('%H:%M:%S')}</span></div>
-    </div>
-    """)
-
-    html.append("<div class='project-grid'>")
-
-    for repo in repos:
-        # Caminhos relativos para os arquivos HTML gerados pelo Git Metrics
-        # Assume-se que os arquivos estão na mesma pasta do index.html ou no gh-pages
-        executivo_href = f"{repo}.html"
-        tendencia_href = f"{repo}_90d.html"
-
-        html.append(f"""
-        <div class='project-card' onclick="window.location.href='{executivo_href}'">
-          <div>
-            <div class='project-name'>{repo}</div>
-            
-            <div style='background:#f1f5f9; padding:10px; border-radius:8px; border: 1px dashed #cbd5e1;'>
-                <span style='font-size:11px; font-weight:bold; color:#475569; text-transform:uppercase;'>Status de Relatório</span>
-                <p class='info-text' style='margin-top:5px;'>Dados consolidados de commits, pull requests e frequência de deploy.</p>
-            </div>
-
-            <div class='btn-group'>
-              <a href='{executivo_href}' class='btn btn-primary' onclick="event.stopPropagation();">Relatório Executivo</a>
-              <a href='{tendencia_href}' class='btn btn-secondary' onclick="event.stopPropagation();">Tendência de Atividade</a>
-            </div>
-          </div>
-        </div>
-        """)
-
-    html.append("</div>")
-    html.append(f"<div class='footer'>Atualizado via GitHub Actions em {now.strftime('%d/%m/%Y %H:%M:%S')}</div>")
-    html.append("</div></body></html>")
-
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(html))
-
-# Execução
-meus_repos = [
-    "-BoasNoticias", "android-marvel-app", "AndroidCoroutinesRetrofitMVVM",
-    "CoronaStatus", "DiariodeNoticias", "dogs", "First_app_flutter",
-    "git-metrics-reports", "julianoVinceCampos", "KotlinProjectJVDC",
-    "MemoryNotes", "MovieApp", "notas", "Projeto-Android-Santander",
-    "Projeto-Animals", "Projeto-IOS-telas-responsivas", "ReactHooksUniverseApp"
-]
-
-generate_portal(meus_repos)
+        <p style='color:#64748b; margin:5px 0
