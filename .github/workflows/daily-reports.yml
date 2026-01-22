@@ -25,11 +25,11 @@ jobs:
 
       - name: Generate reports
         env:
-          GH_TOKEN: ${{ secrets.GH_REPORTS_TOKEN }}
           GH_OWNER: "JulianoVinceCampos"
           GH_SCOPE: "user"
-          GH_GENERAL_DAYS: "365"
-          GH_DISPLAY_LIMIT: "500"
+          # usa o PAT se existir; senão o script faz fallback pro GITHUB_TOKEN
+          GH_TOKEN: ${{ secrets.GH_REPORTS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python git_report.py
           ls -la
@@ -40,5 +40,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: site   # <--- IMPORTANTE: agora publica a pasta site/
+          publish_dir: site
           force_orphan: true
