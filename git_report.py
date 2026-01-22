@@ -1,4 +1,3 @@
-cat > git_report.py <<'PY'
 import subprocess, sys, os
 from collections import defaultdict, Counter
 from datetime import datetime
