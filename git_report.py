@@ -1,145 +1,319 @@
 import os
-import datetime
+import json
+import math
+import datetime as dt
+import urllib.request
+import urllib.parse
 
-CSS_DASHBOARD = """
+API = "https://api.github.com"
+
+def gh_get(path, token, params=None, accept_preview_topics=False):
+    url = f"{API}{path}"
+    if params:
+        url += "?" + urllib.parse.urlencode(params)
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "User-Agent": "git-metrics-reports",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    # topics usam accept específico em alguns cenários
+    if accept_preview_topics:
+        headers["Accept"] = "application/vnd.github+json"
+
+    req = urllib.request.Request(url, headers=headers, method="GET")
+    with urllib.request.urlopen(req) as resp:
+        data = resp.read().decode("utf-8")
+        return json.loads(data), resp.headers
+
+def parse_link_header(link_header):
+    # Link: <...page=2>; rel="next", <...page=5>; rel="last"
+    if not link_header:
+        return {}
+    parts = [p.strip() for p in link_header.split(",")]
+    out = {}
+    for p in parts:
+        if "; " in p:
+            url_part, rel_part = p.split("; ", 1)
+            url = url_part.strip("<>")
+            rel = rel_part.split("=", 1)[1].strip('"')
+            out[rel] = url
+    return out
+
+def paginate(path, token, params=None, per_page=100):
+    page = 1
+    all_items = []
+    while True:
+        p = dict(params or {})
+        p["per_page"] = per_page
+        p["page"] = page
+        data, headers = gh_get(path, token, p)
+        if not isinstance(data, list):
+            raise RuntimeError(f"Expected list, got: {type(data)} for {path}")
+        all_items.extend(data)
+        links = parse_link_header(headers.get("Link"))
+        if "next" in links:
+            page += 1
+        else:
+            break
+    return all_items
+
+def iso(dt_obj):
+    return dt_obj.replace(microsecond=0).isoformat() + "Z"
+
+def ensure_dir(p):
+    os.makedirs(p, exist_ok=True)
+
+def sanitize_repo_name(name: str) -> str:
+    return name.strip().lstrip("-").strip()
+
+def fetch_repos(owner, scope, token):
+    # scope = "user" ou "org"
+    if scope == "org":
+        path = f"/orgs/{owner}/repos"
+        params = {"type": "all", "sort": "updated", "direction": "desc"}
+    else:
+        path = f"/users/{owner}/repos"
+        params = {"type": "all", "sort": "updated", "direction": "desc"}
+
+    repos = paginate(path, token, params=params)
+    return repos
+
+def fetch_repo_topics(owner, repo, token):
+    data, _ = gh_get(f"/repos/{owner}/{repo}/topics", token, accept_preview_topics=True)
+    return data.get("names", [])
+
+def fetch_repo_languages(owner, repo, token):
+    data, _ = gh_get(f"/repos/{owner}/{repo}/languages", token)
+    return data  # dict {lang: bytes}
+
+def fetch_commits(owner, repo, token, since=None):
+    params = {}
+    if since:
+        params["since"] = since
+    commits = paginate(f"/repos/{owner}/{repo}/commits", token, params=params, per_page=100)
+    # simplifica campos
+    out = []
+    for c in commits:
+        commit = c.get("commit", {}) or {}
+        author = commit.get("author", {}) or {}
+        committer = commit.get("committer", {}) or {}
+        out.append({
+            "sha": c.get("sha"),
+            "message": (commit.get("message") or "").split("\n")[0],
+            "author_name": author.get("name"),
+            "author_email": author.get("email"),
+            "author_date": author.get("date"),
+            "committer_name": committer.get("name"),
+            "committer_date": committer.get("date"),
+            "html_url": c.get("html_url"),
+        })
+    return out
+
+def html_escape(s):
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+CSS = """
 <style>
-  :root { --primary:#0f172a; --accent:#3b82f6; --success:#10b981; --bg:#f8fafc; --card:#ffffff; }
-  body { font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--primary); margin:0; padding:40px; }
+  :root { --primary:#0f172a; --accent:#3b82f6; --bg:#f8fafc; --card:#ffffff; --muted:#64748b; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--primary); margin:0; padding:32px; }
   .container { max-width:1200px; margin:0 auto; }
-
-  .header { display:flex; justify-content:space-between; align-items:center; margin-bottom:40px; border-bottom:2px solid #e2e8f0; padding-bottom:20px; }
-  .header h1 { margin:0; font-size:28px; font-weight:800; letter-spacing:-0.5px; }
-  .status-tag { background:#dcfce7; color:#166534; padding:6px 12px; border-radius:20px; font-size:12px; font-weight:700; }
-
-  .kpi-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:20px; margin-bottom:40px; }
-  .kpi-card { background:var(--card); padding:24px; border-radius:16px; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1); border:1px solid #e2e8f0; }
-  .kpi-label { font-size:13px; font-weight:600; color:#64748b; text-transform:uppercase; margin-bottom:8px; display:block; }
-  .kpi-value { font-size:32px; font-weight:800; color:var(--primary); }
-
-  .project-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:25px; }
-  .project-card {
-    background:var(--card); border-radius:16px; border:1px solid #e2e8f0; padding:24px;
-    transition:all .3s ease; display:flex; flex-direction:column; justify-content:space-between;
-  }
-  .project-card:hover { transform:translateY(-5px); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); border-color:var(--accent); }
-  .project-name { font-size:18px; font-weight:700; margin-bottom:15px; color:var(--primary); }
-
-  .btn-group { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:20px; }
-  .btn { padding:10px; border-radius:8px; font-size:13px; font-weight:600; text-align:center; text-decoration:none; transition:background .2s, opacity .2s; }
-  .btn-primary { background:#eff6ff; color:#2563eb; border:1px solid #bfdbfe; }
-  .btn-primary:hover { background:#dbeafe; }
-  .btn-secondary { background:#f0fdf4; color:#166534; border:1px solid #bbf7d0; }
-  .btn-secondary:hover { background:#dcfce7; }
-
-  .btn-disabled { opacity:.45; pointer-events:none; cursor:not-allowed; }
-  .footer { text-align:center; margin-top:60px; color:#94a3b8; font-size:13px; }
+  .header { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; border-bottom:1px solid #e2e8f0; padding-bottom:16px; margin-bottom:24px; }
+  h1 { margin:0; font-size:22px; }
+  .muted { color:var(--muted); font-size:13px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:14px; padding:16px; }
+  .kpi { display:flex; gap:16px; flex-wrap:wrap; margin:16px 0 24px; }
+  .kpi .box { background:var(--card); border:1px solid #e2e8f0; border-radius:14px; padding:14px 16px; min-width:220px; }
+  .kpi .label { font-size:12px; color:var(--muted); text-transform:uppercase; }
+  .kpi .value { font-size:22px; font-weight:800; margin-top:6px; }
+  a.btn { display:inline-block; padding:8px 10px; border-radius:10px; text-decoration:none; font-weight:650; font-size:13px; border:1px solid #bfdbfe; background:#eff6ff; color:#2563eb; }
+  a.btn2 { border:1px solid #bbf7d0; background:#f0fdf4; color:#166534; }
+  table { width:100%; border-collapse:collapse; margin-top:10px; }
+  th, td { text-align:left; border-bottom:1px solid #e2e8f0; padding:8px; font-size:13px; vertical-align:top; }
+  th { color:var(--muted); font-weight:700; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:12px; }
 </style>
 """
 
-def sanitize_repo_name(name: str) -> str:
-    # remove hífen/espacos do começo (ex: "-BoasNoticias" -> "BoasNoticias")
-    return name.strip().lstrip("-").strip()
+def write_repo_page(site_dir, owner, repo_name, repo_meta, commits_all, commits_90d):
+    repo_file = os.path.join(site_dir, f"{repo_name}.html")
+    repo90_file = os.path.join(site_dir, f"{repo_name}_90d.html")
 
-def detect_reports_dir() -> str:
-    """
-    Se existir pasta 'site' com htmls, usa ela.
-    Caso contrário, assume que está tudo na raiz (mesma pasta do index.html).
-    """
-    if os.path.isdir("site"):
-        htmls = [f for f in os.listdir("site") if f.endswith(".html")]
-        if htmls:
-            return "site"
-    return "."
+    def page(title, commits):
+        topics = repo_meta.get("topics", [])
+        langs = repo_meta.get("languages", {})
+        total_lang_bytes = sum(langs.values()) or 1
+        langs_top = sorted(langs.items(), key=lambda x: x[1], reverse=True)[:8]
 
-def file_exists(rel_path: str) -> bool:
-    return os.path.isfile(rel_path)
+        rows = []
+        for c in commits[:500]:  # evita páginas gigantes
+            rows.append(
+                "<tr>"
+                f"<td><code>{html_escape(c['sha'][:8])}</code></td>"
+                f"<td>{html_escape(c['message'])}</td>"
+                f"<td>{html_escape(c.get('author_name') or '')}</td>"
+                f"<td>{html_escape(c.get('author_date') or '')}</td>"
+                f"<td><a href='{html_escape(c.get('html_url') or '#')}' target='_blank'>ver</a></td>"
+                "</tr>"
+            )
 
-def make_href(reports_dir: str, filename: str) -> str:
-    # href relativo ao index.html
-    if reports_dir == ".":
-        return filename
-    return f"{reports_dir}/{filename}"
+        topics_html = ", ".join(html_escape(t) for t in topics) if topics else "-"
+        langs_html = ", ".join(
+            f"{html_escape(k)} ({math.floor((v/total_lang_bytes)*100)}%)"
+            for k, v in langs_top
+        ) if langs else "-"
 
-def generate_portal(repos_list, output_file="index.html"):
-    now = datetime.datetime.now()
-    reports_dir = detect_reports_dir()
-
-    repos = [sanitize_repo_name(r) for r in repos_list]
-    repos = [r for r in repos if r]  # remove vazios
-
-    html = [
-        "<!DOCTYPE html><html lang='pt-br'><head><meta charset='utf-8'>",
-        "<meta name='viewport' content='width=device-width, initial-scale=1'>",
-        "<title>Engenharia | Dashboard Executivo</title>",
-        CSS_DASHBOARD,
-        "</head><body><div class='container'>"
-    ]
-
-    html.append(f"""
-    <div class='header'>
-      <div>
-        <h1>Dashboard Executivo de Engenharia</h1>
-        <p style='color:#64748b; margin:5px 0 0 0;'>
-          Consolidado de performance • Fonte: Git Metrics • Diretório: <b>{reports_dir}</b>
-        </p>
-      </div>
-      <span class='status-tag'>● ATUALIZADO</span>
+        return f"""<!doctype html>
+<html lang="pt-br">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html_escape(title)}</title>{CSS}</head>
+<body><div class="container">
+  <div class="header">
+    <div>
+      <h1>{html_escape(title)}</h1>
+      <div class="muted">{html_escape(owner)}/{html_escape(repo_name)} • Default branch: <b>{html_escape(repo_meta.get('default_branch',''))}</b></div>
     </div>
-    """)
+    <div><a class="btn" href="index.html">Voltar</a></div>
+  </div>
 
-    html.append(f"""
-    <div class='kpi-grid'>
-      <div class='kpi-card'><span class='kpi-label'>Total de Projetos</span><span class='kpi-value'>{len(repos)}</span></div>
-      <div class='kpi-card'><span class='kpi-label'>Última Extração</span><span class='kpi-value' style='font-size:20px;'>{now.strftime('%d/%m/%Y')}</span></div>
-      <div class='kpi-card'><span class='kpi-label'>Hora da Geração</span><span class='kpi-value' style='font-size:20px;'>{now.strftime('%H:%M:%S')}</span></div>
-    </div>
-    """)
+  <div class="kpi">
+    <div class="box"><div class="label">Commits listados</div><div class="value">{len(commits)}</div></div>
+    <div class="box"><div class="label">Stars / Forks</div><div class="value">{repo_meta.get('stargazers_count',0)} / {repo_meta.get('forks_count',0)}</div></div>
+    <div class="box"><div class="label">Issues abertas</div><div class="value">{repo_meta.get('open_issues_count',0)}</div></div>
+  </div>
 
-    html.append("<div class='project-grid'>")
+  <div class="card">
+    <div class="muted"><b>Descrição:</b> {html_escape(repo_meta.get("description") or "-")}</div>
+    <div class="muted" style="margin-top:8px;"><b>Topics:</b> {topics_html}</div>
+    <div class="muted" style="margin-top:8px;"><b>Linguagens (top):</b> {langs_html}</div>
+    <div class="muted" style="margin-top:8px;"><b>Criado em:</b> {html_escape(repo_meta.get("created_at",""))} • <b>Atualizado em:</b> {html_escape(repo_meta.get("updated_at",""))}</div>
+    <div class="muted" style="margin-top:8px;"><b>URL:</b> <a href="{html_escape(repo_meta.get("html_url",""))}" target="_blank">abrir no GitHub</a></div>
+  </div>
 
-    for repo in repos:
-        geral_file = f"{repo}.html"
-        d90_file = f"{repo}_90d.html"
+  <div class="card" style="margin-top:16px;">
+    <b>Commits (limite de exibição: 500)</b>
+    <table>
+      <thead><tr><th>SHA</th><th>Mensagem</th><th>Autor</th><th>Data</th><th>Link</th></tr></thead>
+      <tbody>
+        {''.join(rows) if rows else '<tr><td colspan="5">Sem commits no período.</td></tr>'}
+      </tbody>
+    </table>
+  </div>
 
-        geral_path = os.path.join(reports_dir, geral_file) if reports_dir != "." else geral_file
-        d90_path = os.path.join(reports_dir, d90_file) if reports_dir != "." else d90_file
+  <div class="muted" style="margin-top:18px;">Gerado em {dt.datetime.utcnow().strftime('%d/%m/%Y %H:%M:%S')} UTC</div>
+</div></body></html>"""
 
-        geral_ok = file_exists(geral_path)
-        d90_ok = file_exists(d90_path)
+    with open(repo_file, "w", encoding="utf-8") as f:
+        f.write(page(f"Relatório Geral • {owner}/{repo_name}", commits_all))
 
-        geral_href = make_href(reports_dir, geral_file) if geral_ok else "#"
-        d90_href = make_href(reports_dir, d90_file) if d90_ok else "#"
+    with open(repo90_file, "w", encoding="utf-8") as f:
+        f.write(page(f"Últimos 90 dias • {owner}/{repo_name}", commits_90d))
 
-        geral_cls = "btn btn-primary" + ("" if geral_ok else " btn-disabled")
-        d90_cls = "btn btn-secondary" + ("" if d90_ok else " btn-disabled")
-
-        html.append(f"""
-        <div class='project-card'>
-          <div class='project-name'>{repo}</div>
-          <div style='font-size:12px; color:#64748b;'>
-            Métricas de commits, linhas alteradas e cadência de entrega.
+def write_index(site_dir, owner, repos_compiled):
+    now = dt.datetime.utcnow()
+    cards = []
+    for r in repos_compiled:
+        name = r["name"]
+        ok = True
+        cards.append(f"""
+        <div class="card">
+          <div style="font-weight:800; font-size:16px; margin-bottom:6px;">{html_escape(name)}</div>
+          <div class="muted">{html_escape(r.get("description") or "-")}</div>
+          <div class="muted" style="margin-top:8px;">
+            Commits (90d): <b>{r["commits_90d"]}</b> • Total listados: <b>{r["commits_all"]}</b>
           </div>
-          <div class='btn-group'>
-            <a href='{geral_href}' class='{geral_cls}'>Relatório Geral</a>
-            <a href='{d90_href}' class='{d90_cls}'>Últimos 90 Dias</a>
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn" href="{html_escape(name)}.html">Relatório Geral</a>
+            <a class="btn btn2" href="{html_escape(name)}_90d.html">Últimos 90 Dias</a>
+            <a class="btn" href="{html_escape(r.get("html_url",""))}" target="_blank">Repo</a>
           </div>
         </div>
         """)
 
-    html.append("</div>")
-    html.append(f"<div class='footer'>Atualizado automaticamente via GitHub Actions em {now.strftime('%d/%m/%Y %H:%M:%S')}</div>")
-    html.append("</div></body></html>")
+    html = f"""<!doctype html>
+<html lang="pt-br">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engenharia | Dashboard Executivo</title>{CSS}</head>
+<body><div class="container">
+  <div class="header">
+    <div>
+      <h1>Dashboard Executivo de Engenharia</h1>
+      <div class="muted">Fonte: GitHub API • Owner: <b>{html_escape(owner)}</b></div>
+    </div>
+    <div class="muted">Atualizado: <b>{now.strftime('%d/%m/%Y %H:%M:%S')} UTC</b></div>
+  </div>
 
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(html))
+  <div class="kpi">
+    <div class="box"><div class="label">Total de Projetos</div><div class="value">{len(repos_compiled)}</div></div>
+  </div>
 
-# Lista (mantive, mas agora o código remove o '-' do começo automaticamente)
-meus_repos = [
-    "-BoasNoticias", "android-marvel-app", "AndroidCoroutinesRetrofitMVVM",
-    "CoronaStatus", "DiariodeNoticias", "dogs", "First_app_flutter",
-    "git-metrics-reports", "julianoVinceCampos", "KotlinProjectJVDC",
-    "MemoryNotes", "MovieApp", "notas", "Projeto-Android-Santander",
-    "Projeto-Animals", "Projeto-IOS-telas-responsivas", "ReactHooksUniverseApp"
-]
+  <div class="grid">
+    {''.join(cards) if cards else '<div class="card">Nenhum repositório encontrado.</div>'}
+  </div>
 
-generate_portal(meus_repos)
+  <div class="muted" style="margin-top:18px;">Gerado automaticamente via GitHub Actions.</div>
+</div></body></html>"""
+
+    with open(os.path.join(site_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+
+def main():
+    token = os.getenv("GH_TOKEN", "").strip()
+    owner = os.getenv("GH_OWNER", "").strip()
+    scope = os.getenv("GH_SCOPE", "user").strip().lower()
+
+    if not token or not owner:
+        raise SystemExit("Defina GH_TOKEN e GH_OWNER no workflow/env.")
+
+    # Saída em /site (facilita publish_dir)
+    site_dir = "site"
+    ensure_dir(site_dir)
+    ensure_dir(os.path.join(site_dir, "data"))
+
+    repos = fetch_repos(owner, scope, token)
+
+    ninety_days_ago = dt.datetime.utcnow() - dt.timedelta(days=90)
+    since_90d = iso(ninety_days_ago)
+
+    compiled = []
+    for r in repos:
+        repo_name = sanitize_repo_name(r["name"])
+
+        topics = fetch_repo_topics(owner, repo_name, token)
+        languages = fetch_repo_languages(owner, repo_name, token)
+
+        # commits gerais (cuidado: pode ser MUITO grande em repos antigos)
+        # estratégia: pegar só 12 meses ou limitar; aqui vou pegar tudo que a API retornar (pode demorar).
+        commits_all = fetch_commits(owner, repo_name, token, since=None)
+        commits_90d = fetch_commits(owner, repo_name, token, since=since_90d)
+
+        repo_meta = dict(r)
+        repo_meta["topics"] = topics
+        repo_meta["languages"] = languages
+
+        # salva JSON “auditável”
+        payload = {
+            "repo": repo_meta,
+            "commits_all": commits_all,
+            "commits_90d": commits_90d,
+            "generated_at_utc": iso(dt.datetime.utcnow()),
+        }
+        with open(os.path.join(site_dir, "data", f"{repo_name}.json"), "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+
+        write_repo_page(site_dir, owner, repo_name, repo_meta, commits_all, commits_90d)
+
+        compiled.append({
+            "name": repo_name,
+            "description": repo_meta.get("description"),
+            "html_url": repo_meta.get("html_url"),
+            "commits_all": len(commits_all),
+            "commits_90d": len(commits_90d),
+        })
+
+    write_index(site_dir, owner, compiled)
+
+if __name__ == "__main__":
+    main()
