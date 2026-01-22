@@ -1,192 +1,153 @@
 import os
 import json
-import datetime as dt
 import urllib.request
-import urllib.parse
 import urllib.error
+from datetime import datetime
 
 API = "https://api.github.com"
-PER_PAGE = 100
 
-def gh_get(path, token, params=None, accept_topics=False):
-    url = f"{API}{path}"
-    if params:
-        url += "?" + urllib.parse.urlencode(params)
+def esc(s: str) -> str:
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+def ensure_dir(p: str):
+    os.makedirs(p, exist_ok=True)
+
+def gh_get_json(url: str, token: str):
     headers = {
-        "Authorization": f"Bearer {token}",
+        "Authorization": "Bearer {}".format(token),
         "User-Agent": "simple-git-report",
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
     }
-    if accept_topics:
-        headers["Accept"] = "application/vnd.github+json"
-
     req = urllib.request.Request(url, headers=headers, method="GET")
     try:
         with urllib.request.urlopen(req) as resp:
-            data = resp.read().decode("utf-8")
-            return json.loads(data), resp.headers
+            return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body = ""
         try:
             body = e.read().decode("utf-8")
         except Exception:
             pass
-        raise RuntimeError(f"HTTP {e.code} em {path} | {body[:300]}") from e
+        raise RuntimeError("HTTP {} | {} | {}".format(e.code, url, body[:300])) from e
 
-def parse_link_header(link_header):
-    if not link_header:
-        return {}
-    parts = [p.strip() for p in link_header.split(",")]
-    out = {}
-    for p in parts:
-        if "; " in p:
-            url_part, rel_part = p.split("; ", 1)
-            url = url_part.strip("<>")
-            rel = rel_part.split("=", 1)[1].strip('"')
-            out[rel] = url
-    return out
-
-def paginate(path, token, params=None):
-    page = 1
-    all_items = []
-    while True:
-        p = dict(params or {})
-        p["per_page"] = PER_PAGE
-        p["page"] = page
-        data, headers = gh_get(path, token, p)
-
-        if not isinstance(data, list):
-            raise RuntimeError(f"Esperava lista, veio {type(data)} em {path}")
-
-        all_items.extend(data)
-        links = parse_link_header(headers.get("Link"))
-        if "next" in links:
-            page += 1
-        else:
-            break
-    return all_items
-
-def esc(s):
-    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-def ensure_dir(p):
-    os.makedirs(p, exist_ok=True)
-
-def fetch_repos(owner, scope, token):
+def fetch_repos(owner: str, scope: str, token: str):
     scope = (scope or "user").lower()
     if scope == "org":
-        return paginate(f"/orgs/{owner}/repos", token, {"type": "all", "sort": "updated", "direction": "desc"})
-    return paginate(f"/users/{owner}/repos", token, {"type": "all", "sort": "updated", "direction": "desc"})
+        url = "{}/orgs/{}/repos?per_page=100&type=all&sort=updated&direction=desc".format(API, owner)
+    else:
+        url = "{}/users/{}/repos?per_page=100&type=all&sort=updated&direction=desc".format(API, owner)
 
-def fetch_topics(owner, repo, token):
-    data, _ = gh_get(f"/repos/{owner}/{repo}/topics", token, accept_topics=True)
-    return data.get("names", [])
-
-def fetch_languages(owner, repo, token):
-    data, _ = gh_get(f"/repos/{owner}/{repo}/languages", token)
+    data = gh_get_json(url, token)
+    if not isinstance(data, list):
+        raise RuntimeError("Resposta inesperada ao listar repositórios.")
     return data
 
-def write_repo_detail(site_dir, owner, repo):
-    repo_name = repo["name"]
-    topics = []
-    langs = {}
-    try:
-        topics = fetch_topics(owner, repo_name, os.environ["GH_TOKEN"])
-    except Exception:
-        topics = []
-    try:
-        langs = fetch_languages(owner, repo_name, os.environ["GH_TOKEN"])
-    except Exception:
-        langs = {}
+def html_head(title: str):
+    return [
+        "<!doctype html>",
+        "<html lang='pt-br'>",
+        "<head>",
+        "<meta charset='utf-8'>",
+        "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+        "<title>{}</title>".format(esc(title)),
+        "</head>",
+        "<body>",
+    ]
 
-    file_name = f"repo-{repo_name}.html"
-    path = os.path.join(site_dir, file_name)
+def html_tail():
+    return ["</body>", "</html>"]
 
-    topics_txt = ", ".join(topics) if topics else "-"
-    langs_txt = ", ".join([f"{k}: {v}" for k, v in langs.items()]) if langs else "-"
+def write_repo_page(site_dir: str, owner: str, repo: dict):
+    name = repo.get("name") or "repo"
+    path = os.path.join(site_dir, "{}.html".format(name))
 
-    html = f"""<!doctype html>
-<html lang="pt-br">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(repo_name)}</title></head>
-<body>
-  <p><a href="index.html">Voltar</a></p>
-  <h1>{esc(repo_name)}</h1>
+    html_url = repo.get("html_url") or ""
+    desc = repo.get("description") or "-"
+    default_branch = repo.get("default_branch") or "-"
+    language = repo.get("language") or "-"
+    private = repo.get("private")
+    stars = repo.get("stargazers_count", 0)
+    forks = repo.get("forks_count", 0)
+    issues = repo.get("open_issues_count", 0)
+    created = repo.get("created_at") or "-"
+    updated = repo.get("updated_at") or "-"
 
-  <ul>
-    <li><b>GitHub:</b> <a href="{esc(repo.get("html_url",""))}" target="_blank">{esc(repo.get("html_url",""))}</a></li>
-    <li><b>Descrição:</b> {esc(repo.get("description") or "-")}</li>
-    <li><b>Privado:</b> {repo.get("private")}</li>
-    <li><b>Default branch:</b> {esc(repo.get("default_branch") or "-")}</li>
-    <li><b>Linguagem principal:</b> {esc(repo.get("language") or "-")}</li>
-    <li><b>Stars:</b> {repo.get("stargazers_count", 0)}</li>
-    <li><b>Forks:</b> {repo.get("forks_count", 0)}</li>
-    <li><b>Issues abertas:</b> {repo.get("open_issues_count", 0)}</li>
-    <li><b>Criado em:</b> {esc(repo.get("created_at") or "-")}</li>
-    <li><b>Atualizado em:</b> {esc(repo.get("updated_at") or "-")}</li>
-    <li><b>Topics:</b> {esc(topics_txt)}</li>
-    <li><b>Linguagens (bytes):</b> {esc(langs_txt)}</li>
-  </ul>
-</body>
-</html>
-"""
+    lines = []
+    lines += html_head(name)
+    lines.append("<p><a href='index.html'>Voltar</a></p>")
+    lines.append("<h1>{}</h1>".format(esc(name)))
+    lines.append("<ul>")
+    lines.append("<li><b>Owner:</b> {}</li>".format(esc(owner)))
+    lines.append("<li><b>GitHub:</b> <a href='{0}' target='_blank'>{0}</a></li>".format(esc(html_url)))
+    lines.append("<li><b>Descrição:</b> {}</li>".format(esc(desc)))
+    lines.append("<li><b>Privado:</b> {}</li>".format(private))
+    lines.append("<li><b>Branch padrão:</b> {}</li>".format(esc(default_branch)))
+    lines.append("<li><b>Linguagem principal:</b> {}</li>".format(esc(language)))
+    lines.append("<li><b>Stars:</b> {}</li>".format(stars))
+    lines.append("<li><b>Forks:</b> {}</li>".format(forks))
+    lines.append("<li><b>Issues abertas:</b> {}</li>".format(issues))
+    lines.append("<li><b>Criado em:</b> {}</li>".format(esc(created)))
+    lines.append("<li><b>Atualizado em:</b> {}</li>".format(esc(updated)))
+    lines.append("</ul>")
+    lines += html_tail()
+
     with open(path, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write("\n".join(lines))
 
-    return file_name
+def write_index(site_dir: str, owner: str, repos: list):
+    now = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-def write_index(site_dir, owner, repos):
-    now = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-    items = []
-    for repo in repos:
-        repo_name = repo.get("name", "")
-        if not repo_name:
+    lines = []
+    lines += html_head("Repos — {}".format(owner))
+    lines.append("<h1>Repositórios — {}</h1>".format(esc(owner)))
+    lines.append("<p>Gerado em: {}</p>".format(esc(now)))
+    lines.append("<ul>")
+
+    count = 0
+    for r in repos:
+        name = r.get("name")
+        if not name:
             continue
-        detail_file = f"repo-{repo_name}.html"
-        items.append(
-            f"<li><a href='{esc(detail_file)}'>{esc(repo_name)}</a> — "
-            f"<a href='{esc(repo.get('html_url',''))}' target='_blank'>GitHub</a></li>"
+        html_url = r.get("html_url") or ""
+        lines.append(
+            "<li><a href='{0}.html'>{0}</a> — <a href='{1}' target='_blank'>GitHub</a></li>".format(
+                esc(name),
+                esc(html_url),
+            )
         )
+        count += 1
 
-    html = f"""<!doctype html>
-<html lang="pt-br">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Repos — {esc(owner)}</title></head>
-<body>
-  <h1>Repositórios — {esc(owner)}</h1>
-  <p>Gerado em: {esc(now)}</p>
-  <ul>
-    {''.join(items) if items else '<li>Nenhum repositório encontrado.</li>'}
-  </ul>
-</body>
-</html>
-"""
+    if count == 0:
+        lines.append("<li>Nenhum repositório encontrado.</li>")
+
+    lines.append("</ul>")
+    lines += html_tail()
+
     with open(os.path.join(site_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write("\n".join(lines))
 
 def main():
-    token = os.getenv("GH_TOKEN", "").strip()
+    token = (os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN") or "").strip()
     owner = os.getenv("GH_OWNER", "").strip()
-    scope = os.getenv("GH_SCOPE", "user").strip().lower()
+    scope = (os.getenv("GH_SCOPE") or "user").strip().lower()
 
-    if not token or not owner:
-        raise SystemExit("Defina GH_TOKEN e GH_OWNER no workflow/env.")
+    if not token:
+        raise SystemExit("Token não encontrado. Defina GH_TOKEN ou use GITHUB_TOKEN.")
+    if not owner:
+        raise SystemExit("Owner não encontrado. Defina GH_OWNER.")
 
     site_dir = "site"
     ensure_dir(site_dir)
 
     repos = fetch_repos(owner, scope, token)
 
-    # gera páginas de detalhe
     for repo in repos:
-        write_repo_detail(site_dir, owner, repo)
+        write_repo_page(site_dir, owner, repo)
 
-    # gera index por último
     write_index(site_dir, owner, repos)
 
-    print(f"[OK] Gerado: {site_dir}/index.html com {len(repos)} repositórios.")
+    print("[OK] Gerado: {}/index.html ({} repos, até 100).".format(site_dir, len(repos)))
 
 if __name__ == "__main__":
     main()
