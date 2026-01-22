@@ -32,14 +32,13 @@ CSS_DASHBOARD = """
   .btn-secondary { background:#f0fdf4; color:#166534; border:1px solid #bbf7d0; }
   .btn-secondary:hover { background:#dcfce7; }
 
-  .btn-disabled { opacity:.45; pointer-events:none; cursor:not-allowed; }
   .footer { text-align:center; margin-top:60px; color:#94a3b8; font-size:13px; }
 
   /* Card clicável */
-  .card-clickable { cursor: pointer; }
-  .card-clickable:focus { outline: 3px solid rgba(59,130,246,.25); outline-offset: 2px; }
+  .card-clickable { cursor:pointer; }
+  .card-clickable:focus { outline:3px solid rgba(59,130,246,.25); outline-offset:2px; }
 
-  /* Selo executivo por repo */
+  /* Selo executivo (fixo, mas “bom pra C-level”) */
   .exec-badge {
     margin-top: 6px;
     padding: 10px 12px;
@@ -48,9 +47,7 @@ CSS_DASHBOARD = """
     background: #f8fafc;
   }
   .exec-badge-title {
-    display:flex;
-    align-items:center;
-    gap:8px;
+    display:block;
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
@@ -58,14 +55,6 @@ CSS_DASHBOARD = """
     color: #0f172a;
     margin-bottom: 4px;
   }
-  .dot {
-    width:8px; height:8px; border-radius:999px; display:inline-block;
-    background:#94a3b8;
-  }
-  .dot.green { background:#22c55e; }
-  .dot.amber { background:#f59e0b; }
-  .dot.red { background:#ef4444; }
-
   .exec-badge-desc {
     display:block;
     font-size: 12px;
@@ -79,27 +68,15 @@ def sanitize_repo_name(name: str) -> str:
     return name.strip().lstrip("-").strip()
 
 def detect_reports_dir() -> str:
+    # Se você usa pasta "site" no build, mantém.
     if os.path.isdir("site"):
         htmls = [f for f in os.listdir("site") if f.endswith(".html")]
         if htmls:
             return "site"
     return "."
 
-def file_exists(rel_path: str) -> bool:
-    return os.path.isfile(rel_path)
-
 def make_href(reports_dir: str, filename: str) -> str:
     return filename if reports_dir == "." else f"{reports_dir}/{filename}"
-
-def repo_exec_badge(geral_ok: bool, trend_ok: bool):
-    """
-    Texto executivo por repo (varia conforme disponibilidade real dos arquivos).
-    """
-    if geral_ok and trend_ok:
-        return ("green", "Status Operacional", "Relatório executivo e tendência disponíveis para decisão e acompanhamento.")
-    if geral_ok and not trend_ok:
-        return ("amber", "Cobertura Parcial", "Relatório executivo disponível. Tendência ainda não foi gerada/publicada.")
-    return ("red", "Sem Evidência Publicada", "Relatórios não encontrados no Pages. Verifique geração e deploy no gh-pages.")
 
 def generate_portal(repos_list, output_file="index.html"):
     now = datetime.datetime.now()
@@ -139,38 +116,21 @@ def generate_portal(repos_list, output_file="index.html"):
     html.append("<div class='project-grid'>")
 
     for repo in repos:
-        geral_file = f"{repo}.html"
-        trend_file = f"{repo}_90d.html"  # mantém o arquivo; só renomeamos o rótulo do botão
+        # Links SEM depender de file_exists (sempre aparecem)
+        executivo_file = f"{repo}.html"
+        tendencia_file = f"{repo}_90d.html"  # mantém o nome do arquivo, só muda o label do botão
 
-        geral_path = os.path.join(reports_dir, geral_file) if reports_dir != "." else geral_file
-        trend_path = os.path.join(reports_dir, trend_file) if reports_dir != "." else trend_file
-
-        geral_ok = file_exists(geral_path)
-        trend_ok = file_exists(trend_path)
-
-        geral_href = make_href(reports_dir, geral_file) if geral_ok else ""
-        trend_href = make_href(reports_dir, trend_file) if trend_ok else "#"
-
-        geral_cls = "btn btn-primary" + ("" if geral_ok else " btn-disabled")
-        trend_cls = "btn btn-secondary" + ("" if trend_ok else " btn-disabled")
-
-        dot_color, badge_title, badge_desc = repo_exec_badge(geral_ok, trend_ok)
-
-        # Card clicável via JS (sem <a> wrapper)
-        data_href_attr = f"data-href='{geral_href}'" if geral_ok else ""
-        clickable_class = "card-clickable" if geral_ok else ""
-        tabindex = "tabindex='0' role='link'" if geral_ok else ""
+        executivo_href = make_href(reports_dir, executivo_file)
+        tendencia_href = make_href(reports_dir, tendencia_file)
 
         html.append(f"""
-        <div class='project-card {clickable_class}' {data_href_attr} {tabindex}>
+        <div class='project-card card-clickable' data-href='{executivo_href}' tabindex='0' role='link'>
           <div>
             <div class='project-name'>{repo}</div>
 
             <div class='exec-badge'>
-              <span class='exec-badge-title'>
-                <span class='dot {dot_color}'></span>{badge_title}
-              </span>
-              <span class='exec-badge-desc'>{badge_desc}</span>
+              <span class='exec-badge-title'>Visão Executiva</span>
+              <span class='exec-badge-desc'>Acompanhe ritmo de entrega, volume de mudanças e tendência de atividade.</span>
             </div>
 
             <div style='font-size:12px; color:#64748b; margin-top:10px;'>
@@ -178,8 +138,8 @@ def generate_portal(repos_list, output_file="index.html"):
             </div>
 
             <div class='btn-group'>
-              <a href='{geral_href if geral_ok else "#"}' class='{geral_cls}' onclick="event.stopPropagation();">Relatório Executivo</a>
-              <a href='{trend_href}' class='{trend_cls}' onclick="event.stopPropagation();">Tendência de Atividade</a>
+              <a href='{executivo_href}' class='btn btn-primary' onclick="event.stopPropagation();">Relatório Executivo</a>
+              <a href='{tendencia_href}' class='btn btn-secondary' onclick="event.stopPropagation();">Tendência de Atividade</a>
             </div>
           </div>
         </div>
@@ -187,7 +147,7 @@ def generate_portal(repos_list, output_file="index.html"):
 
     html.append("</div>")
 
-    # JS para tornar o card clicável (mouse + teclado)
+    # JS para navegação do card (mouse + teclado)
     html.append("""
     <script>
       document.querySelectorAll('.card-clickable[data-href]').forEach(card => {
@@ -199,7 +159,6 @@ def generate_portal(repos_list, output_file="index.html"):
         card.addEventListener('keydown', (e) => {
           const href = card.getAttribute('data-href');
           if (!href) return;
-
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
             window.location.href = href;
