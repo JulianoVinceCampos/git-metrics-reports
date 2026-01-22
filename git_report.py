@@ -51,7 +51,7 @@ CSS_DASHBOARD = """
 """
 
 def sanitize_display_name(name: str) -> str:
-    # só para exibição (não mexe no filename real)
+    # Só para exibição (não mexe no filename real)
     return name.strip().lstrip("-").strip()
 
 def detect_reports_dir() -> str:
@@ -60,9 +60,8 @@ def detect_reports_dir() -> str:
     - se existir ./site com HTMLs, usa 'site'
     - senão usa '.'
     """
-    if os.path.isdir("site"):
-        if any(f.endswith(".html") for f in os.listdir("site")):
-            return "site"
+    if os.path.isdir("site") and any(f.endswith(".html") for f in os.listdir("site")):
+        return "site"
     return "."
 
 def list_html_files(reports_dir: str) -> set[str]:
@@ -79,7 +78,6 @@ def choose_existing(files: set[str], candidates: list[str]) -> Optional[str]:
     return None
 
 def make_href(reports_dir: str, filename: str) -> str:
-    # href relativo ao index.html
     return filename if reports_dir == "." else f"{reports_dir}/{filename}"
 
 def generate_portal(repos_list, output_file="index.html"):
@@ -98,8 +96,138 @@ def generate_portal(repos_list, output_file="index.html"):
         "</head><body><div class='container'>"
     ]
 
-    html.append(f"""
+    # Header
+    html.append("""
     <div class='header'>
       <div>
         <h1>Dashboard Executivo de Engenharia</h1>
-        <p style='color:#64748b; margin:5px 0
+        <p style='color:#64748b; margin:5px 0 0 0;'>
+          Consolidado de performance • Fonte: Git Metrics
+        </p>
+      </div>
+      <span class='status-tag'>● ATUALIZADO</span>
+    </div>
+    """)
+
+    # KPIs
+    html.append("""
+    <div class='kpi-grid'>
+      <div class='kpi-card'>
+        <span class='kpi-label'>Total de Projetos</span>
+        <span class='kpi-value'>{total}</span>
+      </div>
+      <div class='kpi-card'>
+        <span class='kpi-label'>Última Extração</span>
+        <span class='kpi-value' style='font-size:20px;'>{date}</span>
+      </div>
+      <div class='kpi-card'>
+        <span class='kpi-label'>Hora da Geração</span>
+        <span class='kpi-value' style='font-size:20px;'>{time}</span>
+      </div>
+    </div>
+    """.format(
+        total=total,
+        date=now.strftime('%d/%m/%Y'),
+        time=now.strftime('%H:%M:%S')
+    ))
+
+    html.append("<div class='project-grid'>")
+
+    for repo_raw in repos_raw:
+        display = sanitize_display_name(repo_raw)
+
+        # Tentativas de nomes de arquivo (porque pode existir com e sem '-' no começo)
+        exec_candidates = [
+            f"{repo_raw}.html",
+            f"{display}.html",
+            f"{repo_raw}_(geral).html",
+            f"{display}_(geral).html",
+            f"{repo_raw}_geral.html",
+            f"{display}_geral.html",
+        ]
+        trend_candidates = [
+            f"{repo_raw}_90d.html",
+            f"{display}_90d.html",
+            f"{repo_raw}_90dias.html",
+            f"{display}_90dias.html",
+        ]
+
+        exec_file = choose_existing(files, exec_candidates)
+        trend_file = choose_existing(files, trend_candidates)
+
+        exec_ok = exec_file is not None
+        trend_ok = trend_file is not None
+
+        exec_href = make_href(reports_dir, exec_file) if exec_ok else "#"
+        trend_href = make_href(reports_dir, trend_file) if trend_ok else "#"
+
+        card_cls = "project-card clickable" if exec_ok else "project-card"
+        card_onclick = f"onclick=\"window.location.href='{exec_href}'\"" if exec_ok else ""
+
+        if exec_ok or trend_ok:
+            dot_class = "dot"
+            status_title = "EVIDÊNCIA PUBLICADA"
+            status_msg = "Visão executiva de ritmo de entrega, estabilidade e volume de mudanças."
+        else:
+            dot_class = "dot danger"
+            status_title = "SEM EVIDÊNCIA PUBLICADA"
+            status_msg = "Relatórios não encontrados no Pages. Verifique geração e deploy no gh-pages."
+
+        exec_btn_cls = "btn btn-primary" + ("" if exec_ok else " btn-disabled")
+        trend_btn_cls = "btn btn-secondary" + ("" if trend_ok else " btn-disabled")
+
+        # CARD (SEM f-string de triple quote)
+        card_html = """
+        <div class='{card_cls}' {card_onclick}>
+          <div>
+            <div class='project-name'>{display}</div>
+
+            <div class='status-box'>
+              <div class='status-title'><span class='{dot_class}'></span>{status_title}</div>
+              <p class='info-text'>{status_msg}</p>
+            </div>
+
+            <div class='info-text' style='margin-top:6px;'>
+              Indicadores derivados de histórico de commits e alterações.
+            </div>
+
+            <div class='btn-group'>
+              <a href='{exec_href}' class='{exec_btn_cls}' onclick="event.stopPropagation();">Relatório Executivo</a>
+              <a href='{trend_href}' class='{trend_btn_cls}' onclick="event.stopPropagation();">Tendência de Atividade</a>
+            </div>
+          </div>
+        </div>
+        """.format(
+            card_cls=card_cls,
+            card_onclick=card_onclick,
+            display=display,
+            dot_class=dot_class,
+            status_title=status_title,
+            status_msg=status_msg,
+            exec_href=exec_href,
+            trend_href=trend_href,
+            exec_btn_cls=exec_btn_cls,
+            trend_btn_cls=trend_btn_cls
+        )
+
+        html.append(card_html)
+
+    html.append("</div>")
+    html.append("<div class='footer'>Atualizado via GitHub Actions em {dt}</div>".format(
+        dt=now.strftime('%d/%m/%Y %H:%M:%S')
+    ))
+    html.append("</div></body></html>")
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write("\n".join(html))
+
+# Execução
+meus_repos = [
+    "-BoasNoticias", "android-marvel-app", "AndroidCoroutinesRetrofitMVVM",
+    "CoronaStatus", "DiariodeNoticias", "dogs", "First_app_flutter",
+    "git-metrics-reports", "julianoVinceCampos", "KotlinProjectJVDC",
+    "MemoryNotes", "MovieApp", "notas", "Projeto-Android-Santander",
+    "Projeto-Animals", "Projeto-IOS-telas-responsivas", "ReactHooksUniverseApp"
+]
+
+generate_portal(meus_repos, output_file="index.html")
