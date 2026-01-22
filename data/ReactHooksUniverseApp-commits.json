@@ -1,0 +1,44 @@
+[
+  {
+    "sha": "fc7e962543237c8c226a845c1e1adfa7d935f7ab",
+    "date": "2024-04-13T23:39:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Parada na programação",
+    "html_url": "https://github.com/JulianoVinceCampos/ReactHooksUniverseApp/commit/fc7e962543237c8c226a845c1e1adfa7d935f7ab"
+  },
+  {
+    "sha": "98b3252cdb57938edb220c841a5cc4407c95dc3e",
+    "date": "2024-04-13T23:38:27Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionar componente CharacterListItem para renderizar um item da lista de personagens com informações como nome, espécie e status.",
+    "html_url": "https://github.com/JulianoVinceCampos/ReactHooksUniverseApp/commit/98b3252cdb57938edb220c841a5cc4407c95dc3e"
+  },
+  {
+    "sha": "c4407b3fd2f2401b76057d57616af0cef3f89b76",
+    "date": "2024-04-13T23:38:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionar componente HomeScreen para exibir a tela principal do aplicativo com o título e a lista de personagens.",
+    "html_url": "https://github.com/JulianoVinceCampos/ReactHooksUniverseApp/commit/c4407b3fd2f2401b76057d57616af0cef3f89b76"
+  },
+  {
+    "sha": "30baa91a7d078d72a1c88253d589ed35c6b9b57e",
+    "date": "2024-04-13T23:38:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionar componente SplashScreen para exibir uma tela de carregamento inicial.",
+    "html_url": "https://github.com/JulianoVinceCampos/ReactHooksUniverseApp/commit/30baa91a7d078d72a1c88253d589ed35c6b9b57e"
+  },
+  {
+    "sha": "c95d67bf060ec6c41ab3cc2818b1cfc54c7ecb32",
+    "date": "2024-04-13T23:37:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionar componente CharacterList para renderizar uma lista de personagens com paginação e indicador de carregamento.",
+    "html_url": "https://github.com/JulianoVinceCampos/ReactHooksUniverseApp/commit/c95d67bf060ec6c41ab3cc2818b1cfc54c7ecb32"
+  },
+  {
+    "sha": "24788dcc11da7383acfd35eb6a5128d69fbe431c",
+    "date": "2024-04-13T11:20:24Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Initial commit",
+    "html_url": "https://github.com/JulianoVinceCampos/ReactHooksUniverseApp/commit/24788dcc11da7383acfd35eb6a5128d69fbe431c"
+  }
+]
