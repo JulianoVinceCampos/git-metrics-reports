@@ -6,7 +6,34 @@ import urllib.error
 from datetime import datetime
 
 API = "https://api.github.com"
-PER_PAGE = 100  # máximo permitido pela API
+PER_PAGE = 100  # máximo da API
+
+CSS = (
+    "body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;"
+    "background:#f8fafc;color:#0f172a;margin:0;padding:24px;}"
+    ".container{max-width:1200px;margin:0 auto;}"
+    ".top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;"
+    "border-bottom:1px solid #e2e8f0;padding-bottom:12px;margin-bottom:18px;}"
+    "h1{font-size:22px;margin:0;letter-spacing:-.2px;}"
+    "h2{font-size:16px;margin:18px 0 10px 0;}"
+    ".muted{color:#64748b;font-size:13px;}"
+    ".card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:14px 16px;margin:12px 0;}"
+    ".kpi{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 6px 0;}"
+    ".pill{background:#0ea5e9;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700;}"
+    ".pill2{background:#10b981;}"
+    ".btn{display:inline-block;text-decoration:none;font-weight:700;font-size:13px;"
+    "padding:8px 10px;border-radius:10px;border:1px solid #bfdbfe;background:#eff6ff;color:#2563eb;}"
+    ".btn:hover{background:#dbeafe;}"
+    ".btn2{border:1px solid #bbf7d0;background:#f0fdf4;color:#166534;}"
+    ".btn2:hover{background:#dcfce7;}"
+    "a{color:#2563eb;}"
+    "ul{margin:10px 0 0 18px;}"
+    "li{margin:6px 0;}"
+    "ol{margin:10px 0 0 18px;}"
+    "code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px;}"
+    ".row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}"
+    ".spacer{height:8px;}"
+)
 
 def esc(s: str) -> str:
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -68,11 +95,7 @@ def fetch_all_commits(owner: str, repo: str, token: str, default_branch: str):
     page = 1
 
     while True:
-        params = {
-            "per_page": PER_PAGE,
-            "page": page,
-            "sha": default_branch
-        }
+        params = {"per_page": PER_PAGE, "page": page, "sha": default_branch}
         url = "{}/repos/{}/{}/commits?{}".format(API, owner, repo, urllib.parse.urlencode(params))
         data, headers = gh_get_json(url, token)
 
@@ -109,12 +132,14 @@ def html_head(title: str):
         "<meta charset='utf-8'>",
         "<meta name='viewport' content='width=device-width, initial-scale=1'>",
         "<title>{}</title>".format(esc(title)),
+        "<style>{}</style>".format(CSS),
         "</head>",
         "<body>",
+        "<div class='container'>",
     ]
 
 def html_tail():
-    return ["</body>", "</html>"]
+    return ["</div>", "</body>", "</html>"]
 
 def write_repo_page(site_dir: str, owner: str, repo: dict, commits: list):
     name = repo.get("name") or "repo"
@@ -140,39 +165,58 @@ def write_repo_page(site_dir: str, owner: str, repo: dict, commits: list):
 
     lines = []
     lines += html_head(name)
-    lines.append("<p><a href='index.html'>Voltar</a></p>")
+
+    lines.append("<div class='top'>")
+    lines.append("<div>")
     lines.append("<h1>{}</h1>".format(esc(name)))
+    lines.append("<div class='muted'>{}/{} • branch padrão: <b>{}</b></div>".format(esc(owner), esc(name), esc(default_branch)))
+    lines.append("</div>")
+    lines.append("<div class='row'>")
+    lines.append("<a class='btn' href='index.html'>Voltar</a>")
+    lines.append("<a class='btn btn2' href='{}' target='_blank'>Abrir no GitHub</a>".format(esc(html_url)))
+    lines.append("</div>")
+    lines.append("</div>")
+
+    lines.append("<div class='kpi'>")
+    lines.append("<span class='pill'>Commits: {}</span>".format(len(commits)))
+    lines.append("<span class='pill pill2'>Stars: {}</span>".format(stars))
+    lines.append("<span class='pill pill2'>Forks: {}</span>".format(forks))
+    lines.append("<span class='pill pill2'>Issues: {}</span>".format(issues))
+    lines.append("</div>")
+
+    lines.append("<div class='card'>")
+    lines.append("<div class='muted'><b>Descrição:</b> {}</div>".format(esc(desc)))
+    lines.append("<div class='spacer'></div>")
     lines.append("<ul>")
-    lines.append("<li><b>Owner:</b> {}</li>".format(esc(owner)))
-    lines.append("<li><b>GitHub:</b> <a href='{0}' target='_blank'>{0}</a></li>".format(esc(html_url)))
-    lines.append("<li><b>Descrição:</b> {}</li>".format(esc(desc)))
     lines.append("<li><b>Privado:</b> {}</li>".format(private))
-    lines.append("<li><b>Branch padrão:</b> {}</li>".format(esc(default_branch)))
     lines.append("<li><b>Linguagem principal:</b> {}</li>".format(esc(language)))
-    lines.append("<li><b>Stars:</b> {}</li>".format(stars))
-    lines.append("<li><b>Forks:</b> {}</li>".format(forks))
-    lines.append("<li><b>Issues abertas:</b> {}</li>".format(issues))
     lines.append("<li><b>Criado em:</b> {}</li>".format(esc(created)))
     lines.append("<li><b>Atualizado em:</b> {}</li>".format(esc(updated)))
+    lines.append("<li><b>Download commits (JSON):</b> <a href='data/{0}' target='_blank'>{0}</a></li>".format(esc(commits_json_name)))
     lines.append("</ul>")
+    lines.append("</div>")
 
-    lines.append("<p><b>Total de commits:</b> {}</p>".format(len(commits)))
-    lines.append("<p><b>Download commits (JSON):</b> <a href='data/{0}' target='_blank'>{0}</a></p>".format(esc(commits_json_name)))
-
-    # Lista completa (pode ficar grande, mas você pediu sem limitação)
+    lines.append("<div class='card'>")
     lines.append("<h2>Commits (todos)</h2>")
     lines.append("<ol>")
     for c in commits:
-        sha = esc((c.get("sha") or "")[:8])
+        sha8 = esc((c.get("sha") or "")[:8])
         date = esc(c.get("date") or "-")
         author = esc(c.get("author") or "-")
         msg = esc(c.get("message") or "-")
         urlc = esc(c.get("html_url") or "")
         if urlc:
-            lines.append("<li><b>{}</b> • {} • {} — <a href='{}' target='_blank'>{}</a></li>".format(sha, date, author, urlc, msg))
+            lines.append(
+                "<li><code>{}</code> • {} • {} — <a href='{}' target='_blank'>{}</a></li>".format(
+                    sha8, date, author, urlc, msg
+                )
+            )
         else:
-            lines.append("<li><b>{}</b> • {} • {} — {}</li>".format(sha, date, author, msg))
+            lines.append("<li><code>{}</code> • {} • {} — {}</li>".format(sha8, date, author, msg))
     lines.append("</ol>")
+    lines.append("</div>")
+
+    lines.append("<div class='muted'>Gerado em: {} UTC</div>".format(esc(datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"))))
 
     lines += html_tail()
 
@@ -184,8 +228,19 @@ def write_index(site_dir: str, owner: str, repos: list, repo_commit_counts: dict
 
     lines = []
     lines += html_head("Repos — {}".format(owner))
-    lines.append("<h1>Repositórios — {}</h1>".format(esc(owner)))
-    lines.append("<p>Gerado em: {}</p>".format(esc(now)))
+
+    lines.append("<div class='top'>")
+    lines.append("<div>")
+    lines.append("<h1>Dashboard Executivo — Repositórios</h1>")
+    lines.append("<div class='muted'>Owner: <b>{}</b> • Gerado em: <b>{}</b></div>".format(esc(owner), esc(now)))
+    lines.append("</div>")
+    lines.append("<div class='kpi'>")
+    lines.append("<span class='pill'>Total de repos: {}</span>".format(len(repos)))
+    lines.append("</div>")
+    lines.append("</div>")
+
+    lines.append("<div class='card'>")
+    lines.append("<h2>Lista de repositórios</h2>")
     lines.append("<ul>")
 
     count = 0
@@ -197,10 +252,10 @@ def write_index(site_dir: str, owner: str, repos: list, repo_commit_counts: dict
         commits_total = repo_commit_counts.get(name, 0)
 
         lines.append(
-            "<li><a href='{0}.html'>{0}</a> — commits: <b>{2}</b> — <a href='{1}' target='_blank'>GitHub</a></li>".format(
-                esc(name),
-                esc(html_url),
-                commits_total
+            "<li><a class='btn' href='{0}.html'>{0}</a> "
+            "<span class='muted'>commits:</span> <b>{2}</b> "
+            "<span class='muted'>•</span> <a href='{1}' target='_blank'>GitHub</a></li>".format(
+                esc(name), esc(html_url), commits_total
             )
         )
         count += 1
@@ -209,6 +264,8 @@ def write_index(site_dir: str, owner: str, repos: list, repo_commit_counts: dict
         lines.append("<li>Nenhum repositório encontrado.</li>")
 
     lines.append("</ul>")
+    lines.append("</div>")
+
     lines += html_tail()
 
     with open(os.path.join(site_dir, "index.html"), "w", encoding="utf-8") as f:
