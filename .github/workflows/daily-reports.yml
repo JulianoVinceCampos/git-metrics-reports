@@ -28,10 +28,8 @@ jobs:
           set -e
           mkdir -p work site
 
-          # garante git "ok" no runner
           git config --global advice.detachedHead false
 
-          # lista repos publicos do usuario
           python - <<'PY'
           import json, urllib.request, os
           user = os.environ["GH_USER"]
@@ -42,7 +40,6 @@ jobs:
           print("Repos:", len(repos))
           PY
 
-          # index
           echo "<html><head><meta charset='utf-8'><title>Git Reports</title></head><body><h1>Relatórios Git - $GH_USER</h1><ul>" > site/index.html
 
           while read -r REPO; do
@@ -53,9 +50,8 @@ jobs:
             rm -rf "work/$NAME"
             git clone --quiet --no-tags --depth 1 "$REPO" "work/$NAME" || continue
 
-            # chama o script SEM depender do path relativo
-            python "$GITHUB_WORKSPACE/git_report.py" --out "$GITHUB_WORKSPACE/site/${NAME}.html" --repo "$GITHUB_WORKSPACE/work/${NAME}" || true
-            python "$GITHUB_WORKSPACE/git_report.py" --since "90 days ago" --out "$GITHUB_WORKSPACE/site/${NAME}_90d.html" --repo "$GITHUB_WORKSPACE/work/${NAME}" || true
+            python "$GITHUB_WORKSPACE/git_report.py" --repo "$GITHUB_WORKSPACE/work/${NAME}" --out "$GITHUB_WORKSPACE/site/${NAME}.html"
+            python "$GITHUB_WORKSPACE/git_report.py" --repo "$GITHUB_WORKSPACE/work/${NAME}" --since "90 days ago" --out "$GITHUB_WORKSPACE/site/${NAME}_90d.html"
 
             echo "<li><a href='${NAME}.html'>${NAME} (geral)</a> | <a href='${NAME}_90d.html'>90 dias</a></li>" >> site/index.html
           done < repos.txt
