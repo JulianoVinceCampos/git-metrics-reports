@@ -1,0 +1,247 @@
+[
+  {
+    "sha": "05e354a0a7ef4c9e22ad97f574f0cca4dbd966ed",
+    "date": "2026-01-22T17:54:29Z",
+    "author": "Juliano Vince",
+    "message": "Update git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/05e354a0a7ef4c9e22ad97f574f0cca4dbd966ed"
+  },
+  {
+    "sha": "f57e440a18d18dfbc61131005931765aaadff0af",
+    "date": "2026-01-22T17:49:02Z",
+    "author": "Juliano Vince",
+    "message": "Update git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/f57e440a18d18dfbc61131005931765aaadff0af"
+  },
+  {
+    "sha": "9d4650137f15a8c357a1c5092aff1cb53c4a0d1b",
+    "date": "2026-01-22T17:43:38Z",
+    "author": "Juliano Vince",
+    "message": "Update git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/9d4650137f15a8c357a1c5092aff1cb53c4a0d1b"
+  },
+  {
+    "sha": "38ff49539d4fe6dd94215ecf5edd4a7564439d92",
+    "date": "2026-01-22T17:37:20Z",
+    "author": "Juliano Vince",
+    "message": "Update daily-reports.yml",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/38ff49539d4fe6dd94215ecf5edd4a7564439d92"
+  },
+  {
+    "sha": "034df0262d1851f224f4572c43cfa116820825b4",
+    "date": "2026-01-22T17:32:21Z",
+    "author": "Juliano Vince",
+    "message": "Update git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/034df0262d1851f224f4572c43cfa116820825b4"
+  },
+  {
+    "sha": "4fd8ebc2d949b51dbf70f51e43d350b262c14a39",
+    "date": "2026-01-22T17:25:25Z",
+    "author": "Juliano Vince",
+    "message": "Update git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/4fd8ebc2d949b51dbf70f51e43d350b262c14a39"
+  },
+  {
+    "sha": "64d2eef942b82710a221c3329ec42708e22fd70f",
+    "date": "2026-01-22T17:19:02Z",
+    "author": "Juliano Vince",
+    "message": "Modify daily-reports workflow for report generation",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/64d2eef942b82710a221c3329ec42708e22fd70f"
+  },
+  {
+    "sha": "6686d0fb2247a41544030ef005c2988c107806df",
+    "date": "2026-01-22T17:16:59Z",
+    "author": "Juliano Vince",
+    "message": "Enhance git_report.py with config and error handling",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/6686d0fb2247a41544030ef005c2988c107806df"
+  },
+  {
+    "sha": "2f2ae298ef7b91b65b99a372f54406435b409361",
+    "date": "2026-01-22T17:07:02Z",
+    "author": "Juliano Vince",
+    "message": "Refactor git_report.py for improved API handling",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/2f2ae298ef7b91b65b99a372f54406435b409361"
+  },
+  {
+    "sha": "a33114e2c8f7619a76215c5b0e05dc64c958572b",
+    "date": "2026-01-22T16:54:55Z",
+    "author": "Juliano Vince",
+    "message": "Refactor git_report.py for improved readability",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/a33114e2c8f7619a76215c5b0e05dc64c958572b"
+  },
+  {
+    "sha": "53a631fb500343ce2b000de4a70b1ee7551a6c64",
+    "date": "2026-01-22T16:46:43Z",
+    "author": "Juliano Vince",
+    "message": "Update git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/53a631fb500343ce2b000de4a70b1ee7551a6c64"
+  },
+  {
+    "sha": "eedfce105cbfd65659ae7e9aab7d3e2f4f11f96a",
+    "date": "2026-01-22T16:25:45Z",
+    "author": "Juliano Vince",
+    "message": "Update CSS styles and refactor functions in git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/eedfce105cbfd65659ae7e9aab7d3e2f4f11f96a"
+  },
+  {
+    "sha": "676554e2cb07a275eb49e3e9bd5f4e67999026aa",
+    "date": "2026-01-22T16:15:25Z",
+    "author": "Juliano Vince",
+    "message": "Update project card styles and clean up code",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/676554e2cb07a275eb49e3e9bd5f4e67999026aa"
+  },
+  {
+    "sha": "19f8048cf56898aba6dcc9a4779e0f5691dcf851",
+    "date": "2026-01-22T16:05:00Z",
+    "author": "Juliano Vince",
+    "message": "Refactor project card styles and HTML structure",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/19f8048cf56898aba6dcc9a4779e0f5691dcf851"
+  },
+  {
+    "sha": "d211bf8928ff720fe5929d2cca3589425b903550",
+    "date": "2026-01-22T15:57:15Z",
+    "author": "Juliano Vince",
+    "message": "Refactor card links and add clickable functionality",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/d211bf8928ff720fe5929d2cca3589425b903550"
+  },
+  {
+    "sha": "ca93d11e72a4f511afab2aca987d62b5f4da8532",
+    "date": "2026-01-22T15:52:24Z",
+    "author": "Juliano Vince",
+    "message": "Refactor HTML and CSS for project report layout",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/ca93d11e72a4f511afab2aca987d62b5f4da8532"
+  },
+  {
+    "sha": "8da2a2497e52aa871d968c50e523cda114c4015a",
+    "date": "2026-01-22T15:45:34Z",
+    "author": "Juliano Vince",
+    "message": "Update daily report workflow schedule and steps",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/8da2a2497e52aa871d968c50e523cda114c4015a"
+  },
+  {
+    "sha": "88403d01bb4af7fdedb5f563ee9818dcb59a0358",
+    "date": "2026-01-22T15:37:53Z",
+    "author": "Juliano Vince",
+    "message": "Refactor CSS and update dashboard generation logic",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/88403d01bb4af7fdedb5f563ee9818dcb59a0358"
+  },
+  {
+    "sha": "1719c42288d54dd6c94dfd6ca7793920dfce7279",
+    "date": "2026-01-22T15:31:23Z",
+    "author": "Juliano Vince",
+    "message": "Refactor dashboard styles and update repo handling",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/1719c42288d54dd6c94dfd6ca7793920dfce7279"
+  },
+  {
+    "sha": "2512122f66cd9c19fc1a3837da59f83e659df850",
+    "date": "2026-01-22T15:27:51Z",
+    "author": "Juliano Vince",
+    "message": "Refactor git_report.py to add executive dashboard styles",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/2512122f66cd9c19fc1a3837da59f83e659df850"
+  },
+  {
+    "sha": "2cc92569028281dfb5232784f58e58d150555d00",
+    "date": "2026-01-22T15:22:47Z",
+    "author": "Juliano Vince",
+    "message": "Refactor git_report.py for improved output and styling",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/2cc92569028281dfb5232784f58e58d150555d00"
+  },
+  {
+    "sha": "fec82e8ceb6436231fe3cd98170d3a45b52efa15",
+    "date": "2026-01-22T15:20:42Z",
+    "author": "Juliano Vince",
+    "message": "Refactor git_report.py for better structure and clarity",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/fec82e8ceb6436231fe3cd98170d3a45b52efa15"
+  },
+  {
+    "sha": "b9bc536cbe8d26495a51154227017afb9fb68f0d",
+    "date": "2026-01-22T15:16:12Z",
+    "author": "Juliano Vince",
+    "message": "Refactor comments in git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/b9bc536cbe8d26495a51154227017afb9fb68f0d"
+  },
+  {
+    "sha": "e606bb4503ca01de8dc4e161fdfb0f77b1b428ec",
+    "date": "2026-01-22T15:08:49Z",
+    "author": "Juliano Vince",
+    "message": "Refactor git_report.py for improved readability",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/e606bb4503ca01de8dc4e161fdfb0f77b1b428ec"
+  },
+  {
+    "sha": "a9868b9a01b7866d9bb67ad21e55e33d045708d7",
+    "date": "2026-01-22T14:37:52Z",
+    "author": "Juliano Vince",
+    "message": "Refactor daily reports workflow to simplify script calls",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/a9868b9a01b7866d9bb67ad21e55e33d045708d7"
+  },
+  {
+    "sha": "d00c4da5361184fcee7db98fe8cc9e94a35633ac",
+    "date": "2026-01-22T14:32:27Z",
+    "author": "Juliano Vince",
+    "message": "Refactor run_git to accept custom working directory",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/d00c4da5361184fcee7db98fe8cc9e94a35633ac"
+  },
+  {
+    "sha": "0646e5259e46abcdeb39c2fd257e2d01636fba25",
+    "date": "2026-01-22T14:28:51Z",
+    "author": "Juliano Vince",
+    "message": "Refactor script calls to use absolute paths",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/0646e5259e46abcdeb39c2fd257e2d01636fba25"
+  },
+  {
+    "sha": "dbd7a9b519e84083e1dba880f7e4bd3a9220dd4d",
+    "date": "2026-01-22T14:25:10Z",
+    "author": "Juliano Vince",
+    "message": "Remove unnecessary cat command from git_report.py",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/dbd7a9b519e84083e1dba880f7e4bd3a9220dd4d"
+  },
+  {
+    "sha": "2f1e1ddc21bd310816e4b5e9f437dee18d1785ba",
+    "date": "2026-01-22T14:11:44Z",
+    "author": "Juliano Vince",
+    "message": "Delete site/.github/workflows directory",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/2f1e1ddc21bd310816e4b5e9f437dee18d1785ba"
+  },
+  {
+    "sha": "58c612e845854c3ccffc2cacfc726d048fa4e66f",
+    "date": "2026-01-22T14:11:06Z",
+    "author": "Juliano Vince",
+    "message": "Add daily Git reports workflow",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/58c612e845854c3ccffc2cacfc726d048fa4e66f"
+  },
+  {
+    "sha": "8d88aa9cb383ab00b227c9f111686262d86823b7",
+    "date": "2026-01-22T14:08:36Z",
+    "author": "Juliano Vince",
+    "message": "Update and rename daily-reports to daily-reports.yml",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/8d88aa9cb383ab00b227c9f111686262d86823b7"
+  },
+  {
+    "sha": "cc5f42493c88118ae24b78231ddba2eaba0bc58c",
+    "date": "2026-01-22T14:08:10Z",
+    "author": "Juliano Vince",
+    "message": "Add daily-reports workflow file",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/cc5f42493c88118ae24b78231ddba2eaba0bc58c"
+  },
+  {
+    "sha": "0e8d00dcd4637faa59c4509242555a04922400d0",
+    "date": "2026-01-22T14:07:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "file",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/0e8d00dcd4637faa59c4509242555a04922400d0"
+  },
+  {
+    "sha": "d5002f4888d87a1c8fd4cd583369fce57f77d22d",
+    "date": "2026-01-22T13:59:59Z",
+    "author": "Juliano Vince",
+    "message": "Add git_report.py for generating Git activity reports",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/d5002f4888d87a1c8fd4cd583369fce57f77d22d"
+  },
+  {
+    "sha": "83b54ca6461e386398c19c70a700433aa1a96da9",
+    "date": "2026-01-22T13:50:43Z",
+    "author": "Juliano Vince",
+    "message": "Initial commit",
+    "html_url": "https://github.com/JulianoVinceCampos/git-metrics-reports/commit/83b54ca6461e386398c19c70a700433aa1a96da9"
+  }
+]

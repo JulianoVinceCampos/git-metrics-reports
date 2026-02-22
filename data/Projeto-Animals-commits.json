@@ -1,0 +1,86 @@
+[
+  {
+    "sha": "88c3de052c46c920b36dd94342cce8ba6c80bcd2",
+    "date": "2021-01-19T13:47:27Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementando Mockito e testes unitatios",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/88c3de052c46c920b36dd94342cce8ba6c80bcd2"
+  },
+  {
+    "sha": "b0b5f2df1580bac2efe3ef2055c97e9b0e1857cb",
+    "date": "2021-01-18T14:56:29Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementando Dagger",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/b0b5f2df1580bac2efe3ef2055c97e9b0e1857cb"
+  },
+  {
+    "sha": "ba16b9d76f31e217a8643d819779544ee82da476",
+    "date": "2021-01-14T21:49:15Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Adicionado dataBinding",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/ba16b9d76f31e217a8643d819779544ee82da476"
+  },
+  {
+    "sha": "313bb439a87962806d754f4b40a59e72625be838",
+    "date": "2021-01-14T21:49:07Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Adicionado dataBinding",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/313bb439a87962806d754f4b40a59e72625be838"
+  },
+  {
+    "sha": "facc71bb59c609b74bfd99a34cf34cf869104aa4",
+    "date": "2021-01-13T19:16:46Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementando Material Palette, implementando Detail fragment, Ajustando adapter, ajustando layout",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/facc71bb59c609b74bfd99a34cf34cf869104aa4"
+  },
+  {
+    "sha": "20d8d29fd63f7ee6a8cd01412f06e98ac85a569b",
+    "date": "2021-01-13T14:26:45Z",
+    "author": "Juliano Vince De Campos",
+    "message": "atributos detail",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/20d8d29fd63f7ee6a8cd01412f06e98ac85a569b"
+  },
+  {
+    "sha": "53894fe324418324e3b6124dc202b741a7ecb36b",
+    "date": "2021-01-12T19:33:23Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Refactory Animal, Service. Criando Preferences, classe util, criando glide e hardRefresh",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/53894fe324418324e3b6124dc202b741a7ecb36b"
+  },
+  {
+    "sha": "aca27c623d0c5241d7af6af6f1a0f91cbc3f695d",
+    "date": "2021-01-12T14:37:32Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementando Model, Services para uso do retrofit, tirando os dados mocados do viewModel e obtendo do endPoint",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/aca27c623d0c5241d7af6af6f1a0f91cbc3f695d"
+  },
+  {
+    "sha": "fbcd80b67eb2433eeb33f2d3b995bdfdc3de905a",
+    "date": "2021-01-11T22:09:10Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Ligando ViewModel a Fragment e adapter",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/fbcd80b67eb2433eeb33f2d3b995bdfdc3de905a"
+  },
+  {
+    "sha": "d8fc432b931bb6e4fd3073f6518d1875aa8d69e5",
+    "date": "2021-01-11T21:17:36Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implmentando adapter, layout item, viewModel",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/d8fc432b931bb6e4fd3073f6518d1875aa8d69e5"
+  },
+  {
+    "sha": "3397beef9a037f061db2b2fe49ab12539b530bf1",
+    "date": "2021-01-11T16:51:44Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando a navegação, criando detail fragment, e criando button back em MainActivity",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/3397beef9a037f061db2b2fe49ab12539b530bf1"
+  },
+  {
+    "sha": "a2c291016f1f0bbfe551d44e002990dfc3852465",
+    "date": "2021-01-11T15:57:58Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando projeto, navigation e fragments",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Animals/commit/a2c291016f1f0bbfe551d44e002990dfc3852465"
+  }
+]

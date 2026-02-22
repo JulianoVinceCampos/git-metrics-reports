@@ -1,0 +1,23 @@
+[
+  {
+    "sha": "b5f26f2090e3aef038af368b2c442cf31015d517",
+    "date": "2026-02-21T21:40:55Z",
+    "author": "Juliano Vince",
+    "message": "Remove CI badge from README",
+    "html_url": "https://github.com/JulianoVinceCampos/netaudit/commit/b5f26f2090e3aef038af368b2c442cf31015d517"
+  },
+  {
+    "sha": "31151469996068a98b4ad0eb05b44f5c6997a150",
+    "date": "2026-02-21T21:40:22Z",
+    "author": "Juliano Vince",
+    "message": "Fix formatting and grammar in README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/netaudit/commit/31151469996068a98b4ad0eb05b44f5c6997a150"
+  },
+  {
+    "sha": "e81884303567bd599fe59d131ac4a5c45aff6418",
+    "date": "2026-02-21T19:22:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: initial implementation of audit-oriented TCP port scanner",
+    "html_url": "https://github.com/JulianoVinceCampos/netaudit/commit/e81884303567bd599fe59d131ac4a5c45aff6418"
+  }
+]

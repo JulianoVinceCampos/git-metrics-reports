@@ -1,0 +1,520 @@
+[
+  {
+    "sha": "f77ac8f2b74ea5dc5b3554c0f384d602df62c3b5",
+    "date": "2025-08-20T00:23:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Melhorando README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f77ac8f2b74ea5dc5b3554c0f384d602df62c3b5"
+  },
+  {
+    "sha": "fcd97b752918ad7ee0c807389f9235d4887a71af",
+    "date": "2025-08-20T00:15:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/fcd97b752918ad7ee0c807389f9235d4887a71af"
+  },
+  {
+    "sha": "f7c15badf414aaf727f7cf5ee0c3e48f17818d64",
+    "date": "2025-08-20T00:14:43Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionando fonts urbanist.",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f7c15badf414aaf727f7cf5ee0c3e48f17818d64"
+  },
+  {
+    "sha": "2048eedb5f022473dceecd6998e40c291450f0d1",
+    "date": "2025-08-20T00:14:32Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona módulo de ViewModels com Koin",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/2048eedb5f022473dceecd6998e40c291450f0d1"
+  },
+  {
+    "sha": "0504070bf40e9aac7bae6750a69d69e588d3619e",
+    "date": "2025-08-20T00:13:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Define tipografia customizada com fonte Urbanist",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/0504070bf40e9aac7bae6750a69d69e588d3619e"
+  },
+  {
+    "sha": "f9de38463b576dccf8beb042563645772ad4ed5b",
+    "date": "2025-08-20T00:13:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Cria tema customizado MoviesAppTheme para o app",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f9de38463b576dccf8beb042563645772ad4ed5b"
+  },
+  {
+    "sha": "5a5a6bc8c5d51633193fcb5fdc2b043f811f1521",
+    "date": "2025-08-20T00:12:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona e organiza strings de interface do usuário",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/5a5a6bc8c5d51633193fcb5fdc2b043f811f1521"
+  },
+  {
+    "sha": "426a3d7910df502e0ebbbfec57d7642541851dda",
+    "date": "2025-08-20T00:11:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: Add english string resources",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/426a3d7910df502e0ebbbfec57d7642541851dda"
+  },
+  {
+    "sha": "f1afac3e7c5b4e7a89fbb9cfceac603b87105df8",
+    "date": "2025-08-20T00:11:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Define espaçamentos e formas padrão para o tema do app",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f1afac3e7c5b4e7a89fbb9cfceac603b87105df8"
+  },
+  {
+    "sha": "4a09868809d8d6dab914679a74e126537b4251e5",
+    "date": "2025-08-20T00:10:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona módulo de injeção de dependências para rede",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/4a09868809d8d6dab914679a74e126537b4251e5"
+  },
+  {
+    "sha": "8e3ae42e77758414285cc9d22fa7a27155ae3533",
+    "date": "2025-08-20T00:10:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Cria componente MovieInfoItem para exibir informações do filme",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/8e3ae42e77758414285cc9d22fa7a27155ae3533"
+  },
+  {
+    "sha": "5270991861fa3b7126e2ab13874c9b8053549714",
+    "date": "2025-08-20T00:09:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Cria componente MoviesSection para exibir seção horizontal de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/5270991861fa3b7126e2ab13874c9b8053549714"
+  },
+  {
+    "sha": "e773fb6a8d27f5c1bf1e8f399057d7cdfc884d15",
+    "date": "2025-08-20T00:08:27Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa MoviesRepository para buscar seções e detalhes de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/e773fb6a8d27f5c1bf1e8f399057d7cdfc884d15"
+  },
+  {
+    "sha": "ecf8a63429d0286c66f871b2bfa28b41b5759853",
+    "date": "2025-08-20T00:07:45Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona modelos de resposta para filmes da API",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/ecf8a63429d0286c66f871b2bfa28b41b5759853"
+  },
+  {
+    "sha": "c0b5bf549fb44abbc57d3eb40584706bf2c46844",
+    "date": "2025-08-20T00:07:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona previews de componentes e telas de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/c0b5bf549fb44abbc57d3eb40584706bf2c46844"
+  },
+  {
+    "sha": "471fd69a8c9f2b6fdce48812e9f8e1a72c76b004",
+    "date": "2025-08-20T00:06:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa MoviesListScreen com listagem de seções de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/471fd69a8c9f2b6fdce48812e9f8e1a72c76b004"
+  },
+  {
+    "sha": "9d25ee48b9bbb02af8a34fffe488cd55b92dc281",
+    "date": "2025-08-20T00:05:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona componente MoviePoster para exibição de pôster de filme",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/9d25ee48b9bbb02af8a34fffe488cd55b92dc281"
+  },
+  {
+    "sha": "24a18d627dc32d74e8559dcee640462f0c4b9de5",
+    "date": "2025-08-20T00:04:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: implementa MovieMapper.kt para conversão de MovieResponse em Movie",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/24a18d627dc32d74e8559dcee640462f0c4b9de5"
+  },
+  {
+    "sha": "98581f50e83e65acf8e94b90e828e58398e08945",
+    "date": "2025-08-20T00:04:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona componente MovieGenreChip para exibir gêneros de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/98581f50e83e65acf8e94b90e828e58398e08945"
+  },
+  {
+    "sha": "1b6712a672f109687143c8e4757d813d027b9e43",
+    "date": "2025-08-20T00:03:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa MovieDetailViewModel com estados e integração ao repositório",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/1b6712a672f109687143c8e4757d813d027b9e43"
+  },
+  {
+    "sha": "7179627d16fd612808d086cd1c8cd97420af8255",
+    "date": "2025-08-20T00:02:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa MovieDetailScreen com exibição detalhada de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/7179627d16fd612808d086cd1c8cd97420af8255"
+  },
+  {
+    "sha": "cd97664d35a312c54a7fb99f7e3df05150d65460",
+    "date": "2025-08-20T00:01:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona modelo Movie com propriedades e objetos fake",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/cd97664d35a312c54a7fb99f7e3df05150d65460"
+  },
+  {
+    "sha": "3ce93146d12dfe76b17677c8a66dbd896db34c2d",
+    "date": "2025-08-20T00:00:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa MainActivity com suporte a edge-to-edge e status bar escura",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/3ce93146d12dfe76b17677c8a66dbd896db34c2d"
+  },
+  {
+    "sha": "08acc4e2567c8a158e1008b4ad2007c44a9c5d27",
+    "date": "2025-08-19T23:59:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualiza e organiza dependências em libs.versions.toml",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/08acc4e2567c8a158e1008b4ad2007c44a9c5d27"
+  },
+  {
+    "sha": "ad17230eea64b71fdf4137393721bd9c4433ecf7",
+    "date": "2025-08-19T23:58:27Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona configuração do KtorClient para requisições HTTP",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/ad17230eea64b71fdf4137393721bd9c4433ecf7"
+  },
+  {
+    "sha": "36e1f7c0be8d9a10c9d42241eebab359b341a7af",
+    "date": "2025-08-19T23:57:45Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona modelo ImageSize para representação de tamanhos de imagem",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/36e1f7c0be8d9a10c9d42241eebab359b341a7af"
+  },
+  {
+    "sha": "7282a02db3a3bf1b54d950638d1a88cacf77d101",
+    "date": "2025-08-19T23:57:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa GenreMapper para conversão de dados de gênero",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/7282a02db3a3bf1b54d950638d1a88cacf77d101"
+  },
+  {
+    "sha": "9371b4bcd903587812c1d415b5e4b6a8d29c0367",
+    "date": "2025-08-19T23:56:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona modelo Genre para representação de gêneros",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/9371b4bcd903587812c1d415b5e4b6a8d29c0367"
+  },
+  {
+    "sha": "a6fcc11844fb4447d776cb4527f44f9e88f94b14",
+    "date": "2025-08-19T23:55:45Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa estrutura inicial de MainActivity",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/a6fcc11844fb4447d776cb4527f44f9e88f94b14"
+  },
+  {
+    "sha": "1c1fd877b0b08380a44937ccfa6f3f7977e132fd",
+    "date": "2025-08-19T23:55:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona utilitários de formatação em FormatUtils.ios.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/1c1fd877b0b08380a44937ccfa6f3f7977e132fd"
+  },
+  {
+    "sha": "df2fe7fd2c2b706bd662fba4a07342752293d4bd",
+    "date": "2025-08-19T23:54:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona utilitários de formatação em FormatUtils.android.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/df2fe7fd2c2b706bd662fba4a07342752293d4bd"
+  },
+  {
+    "sha": "728641bfdfe08d5bd0dbb133cc68e7e4351a5894",
+    "date": "2025-08-19T23:53:17Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona módulo de injeção de dependência para MoviesRepository",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/728641bfdfe08d5bd0dbb133cc68e7e4351a5894"
+  },
+  {
+    "sha": "a981ce7e7e7afbf8493ddd0385896f2b0a0518d5",
+    "date": "2025-08-19T23:52:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona modelo CreditsResponse para resposta de créditos",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/a981ce7e7e7afbf8493ddd0385896f2b0a0518d5"
+  },
+  {
+    "sha": "f49486f08e5d9b0aecee9ce05aa7fc07d9fd45c6",
+    "date": "2025-08-19T23:51:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Define paleta de cores e esquema escuro em Color.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f49486f08e5d9b0aecee9ce05aa7fc07d9fd45c6"
+  },
+  {
+    "sha": "fae7c0f7b7c56b53bf24290e278a4936990c0012",
+    "date": "2025-08-19T23:50:42Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Define paleta de cores e esquema escuro em Color.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/fae7c0f7b7c56b53bf24290e278a4936990c0012"
+  },
+  {
+    "sha": "2b92adcec0ccc1e273d968b1bb81f6dea4dca155",
+    "date": "2025-08-19T23:49:55Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa CastMemberMapper para conversão de modelos",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/2b92adcec0ccc1e273d968b1bb81f6dea4dca155"
+  },
+  {
+    "sha": "9bd42b28a1978c0b308e25204bfa211839a4bacc",
+    "date": "2025-08-19T23:48:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona componente CastMemberItem com Compose",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/9bd42b28a1978c0b308e25204bfa211839a4bacc"
+  },
+  {
+    "sha": "eb00fccf8bce7dd68ef000869fa8b904f7684c90",
+    "date": "2025-08-19T23:47:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona modelo CastMember e exemplos de instância",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/eb00fccf8bce7dd68ef000869fa8b904f7684c90"
+  },
+  {
+    "sha": "535dd85b8a087be164d3a467e166a720b6f9efe5",
+    "date": "2025-08-19T23:45:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona rotas de navegação com serialização em AppRoutes.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/535dd85b8a087be164d3a467e166a720b6f9efe5"
+  },
+  {
+    "sha": "9900d9931713ad615c125e8bf050a583b8a58fca",
+    "date": "2025-08-19T23:44:03Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: implementa navegação principal e DI no App.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/9900d9931713ad615c125e8bf050a583b8a58fca"
+  },
+  {
+    "sha": "0ccdd2bbd5ca2dfbf12453bd2697d3a607834343",
+    "date": "2025-08-19T23:42:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: atualiza dependências e configurações do build.gradle.kts",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/0ccdd2bbd5ca2dfbf12453bd2697d3a607834343"
+  },
+  {
+    "sha": "45c570c765af20939fa70c35a2a1a56cc671cb94",
+    "date": "2025-08-13T14:56:06Z",
+    "author": "Juliano Vince",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/45c570c765af20939fa70c35a2a1a56cc671cb94"
+  },
+  {
+    "sha": "19990c4a1901b2870d1ff5f09507e79eb5854200",
+    "date": "2025-08-12T14:08:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Corrigindo projeto, keys, libs que estavam com problemas.",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/19990c4a1901b2870d1ff5f09507e79eb5854200"
+  },
+  {
+    "sha": "bac3682e6f7556cee3d48e52c9411267106aaab2",
+    "date": "2025-08-08T23:24:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Ajustando MoviesPreview.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/bac3682e6f7556cee3d48e52c9411267106aaab2"
+  },
+  {
+    "sha": "5adf4930c54692d24641d404996ce3e1a743644e",
+    "date": "2025-08-08T23:23:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Ajustando MoviesListViewModel.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/5adf4930c54692d24641d404996ce3e1a743644e"
+  },
+  {
+    "sha": "efe2bfb917127bd3d0a9413c0d8dfdd3585e4429",
+    "date": "2025-08-08T23:23:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Ajustando MoviesListScreen.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/efe2bfb917127bd3d0a9413c0d8dfdd3585e4429"
+  },
+  {
+    "sha": "5f26551f663b1ad472d26de34f7ac48ca6f93ca2",
+    "date": "2025-08-08T23:23:13Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configurando libs.versions.toml viewmodel",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/5f26551f663b1ad472d26de34f7ac48ca6f93ca2"
+  },
+  {
+    "sha": "3793aaea5f6b5594c7e92a24129007f168e79424",
+    "date": "2025-08-08T23:22:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Ajustando accessToken.",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/3793aaea5f6b5594c7e92a24129007f168e79424"
+  },
+  {
+    "sha": "2ac4deb8b216920365cebf2862e97be92badaff0",
+    "date": "2025-08-08T23:22:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configurando build.gradle.kts viewmodel",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/2ac4deb8b216920365cebf2862e97be92badaff0"
+  },
+  {
+    "sha": "af1691327d0dfccf67e758afa95d9614310e8522",
+    "date": "2025-08-08T17:31:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe Platform.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/af1691327d0dfccf67e758afa95d9614310e8522"
+  },
+  {
+    "sha": "18ed9c52a538981cca696c660993021262fc1241",
+    "date": "2025-08-08T17:31:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe IOSPlatform.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/18ed9c52a538981cca696c660993021262fc1241"
+  },
+  {
+    "sha": "8c2502515a336e0a83fad3bc09a23305a021a657",
+    "date": "2025-08-08T17:30:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe AndroidPlatform.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/8c2502515a336e0a83fad3bc09a23305a021a657"
+  },
+  {
+    "sha": "f3e0247d22916ec79c4d3b6ec5902fcdcf9ea93f",
+    "date": "2025-08-08T17:30:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe MovieResponse.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f3e0247d22916ec79c4d3b6ec5902fcdcf9ea93f"
+  },
+  {
+    "sha": "448501effc296b4db35b903445f50c2d46deee8e",
+    "date": "2025-08-08T17:30:02Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação file MovieListScreenPreview.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/448501effc296b4db35b903445f50c2d46deee8e"
+  },
+  {
+    "sha": "3b4b49eb4128599b14c7cf149d2635000fdfde76",
+    "date": "2025-08-08T17:29:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe MoviesListRoute.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/3b4b49eb4128599b14c7cf149d2635000fdfde76"
+  },
+  {
+    "sha": "5996d8f9a5fefc1b24a23398664604ec90f43c5e",
+    "date": "2025-08-08T17:29:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe MovieSection.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/5996d8f9a5fefc1b24a23398664604ec90f43c5e"
+  },
+  {
+    "sha": "9d2bf378f00a8e4376a9cdeb9e2ce669f0b5a1c1",
+    "date": "2025-08-08T17:29:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe MoviePoster.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/9d2bf378f00a8e4376a9cdeb9e2ce669f0b5a1c1"
+  },
+  {
+    "sha": "c6aba620ec3972884c776c81d714ec905f48335d",
+    "date": "2025-08-08T17:29:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação classe Movie.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/c6aba620ec3972884c776c81d714ec905f48335d"
+  },
+  {
+    "sha": "78ce9f29c51c4cf55eabf8191f5f392032377f25",
+    "date": "2025-08-08T17:28:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração imageDefault",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/78ce9f29c51c4cf55eabf8191f5f392032377f25"
+  },
+  {
+    "sha": "565422dd7f25567b20046a91460cb27a54404a31",
+    "date": "2025-08-08T17:28:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração MainViewController.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/565422dd7f25567b20046a91460cb27a54404a31"
+  },
+  {
+    "sha": "6bec94e94e3ca8922a3a9bca3bfd7c879a22e43d",
+    "date": "2025-08-08T17:28:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração MainActivity.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/6bec94e94e3ca8922a3a9bca3bfd7c879a22e43d"
+  },
+  {
+    "sha": "85b0c957a9c7980a3b565358879e634029f0747a",
+    "date": "2025-08-08T17:28:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração KtorClient.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/85b0c957a9c7980a3b565358879e634029f0747a"
+  },
+  {
+    "sha": "74ef2513ec8af7d4439541c88ed8e26017adab98",
+    "date": "2025-08-08T17:28:03Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração iOSApp.swift",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/74ef2513ec8af7d4439541c88ed8e26017adab98"
+  },
+  {
+    "sha": "9e0e605a5127a7dc83eb5151c706ae4ce78eee61",
+    "date": "2025-08-08T17:27:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração Greeting.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/9e0e605a5127a7dc83eb5151c706ae4ce78eee61"
+  },
+  {
+    "sha": "8f61056d55065ac7bb6e743ec4b833fddab0ebf2",
+    "date": "2025-08-08T17:27:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "configuração do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/8f61056d55065ac7bb6e743ec4b833fddab0ebf2"
+  },
+  {
+    "sha": "0ce683de53eed8c4ec0a7afa15ff189683b1b604",
+    "date": "2025-08-08T17:27:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "configuração do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/0ce683de53eed8c4ec0a7afa15ff189683b1b604"
+  },
+  {
+    "sha": "98dd14075b15919021901a719d157c88aa4c9ce7",
+    "date": "2025-08-08T17:27:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação do AppRouters.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/98dd14075b15919021901a719d157c88aa4c9ce7"
+  },
+  {
+    "sha": "90c3434b45a0b64771ab2143a26e8280bb74aa79",
+    "date": "2025-08-08T17:26:55Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação do file App.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/90c3434b45a0b64771ab2143a26e8280bb74aa79"
+  },
+  {
+    "sha": "ed4a28a80715b05e7e5b84d93c3162a994607220",
+    "date": "2025-08-08T17:26:30Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração AndroidManifest.xml",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/ed4a28a80715b05e7e5b84d93c3162a994607220"
+  },
+  {
+    "sha": "971a3279d39d700bce499ee8058150486efa9e8e",
+    "date": "2025-08-08T17:26:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração do Projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/971a3279d39d700bce499ee8058150486efa9e8e"
+  },
+  {
+    "sha": "f9fea97852e755464173a2c4cc053f94e647400b",
+    "date": "2025-08-08T17:26:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração do Projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/f9fea97852e755464173a2c4cc053f94e647400b"
+  },
+  {
+    "sha": "140d18a814b8f06cc1ae5a2a18b06b9155c16f5e",
+    "date": "2025-08-08T17:25:35Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação MoviesSection.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/140d18a814b8f06cc1ae5a2a18b06b9155c16f5e"
+  },
+  {
+    "sha": "de2fe5f070a290b05bf3f259bd3b64c8afeda110",
+    "date": "2025-08-08T17:25:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criação MoviesRepository",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/de2fe5f070a290b05bf3f259bd3b64c8afeda110"
+  },
+  {
+    "sha": "3817bfce51c00fe94ec60bcfc34560e8de5cec09",
+    "date": "2025-08-08T17:24:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/KotlinProjectJVDC/commit/3817bfce51c00fe94ec60bcfc34560e8de5cec09"
+  }
+]
