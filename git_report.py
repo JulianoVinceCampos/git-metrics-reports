@@ -207,12 +207,12 @@ def write_repo_page(site_dir: str, owner: str, repo: dict, commits: list):
         urlc = esc(c.get("html_url") or "")
         if urlc:
             lines.append(
-                "<li><code>{}</code> • {} • {} — <a href='{}' target='_blank'>{}</a></li>".format(
+                "<li><code>{}</code> • {} • {} - <a href='{}' target='_blank'>{}</a></li>".format(
                     sha8, date, author, urlc, msg
                 )
             )
         else:
-            lines.append("<li><code>{}</code> • {} • {} — {}</li>".format(sha8, date, author, msg))
+            lines.append("<li><code>{}</code> • {} • {} - {}</li>".format(sha8, date, author, msg))
     lines.append("</ol>")
     lines.append("</div>")
 
@@ -227,11 +227,11 @@ def write_index(site_dir: str, owner: str, repos: list, repo_commit_counts: dict
     now = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
     lines = []
-    lines += html_head("Repos — {}".format(owner))
+    lines += html_head("Repos: {}".format(owner))
 
     lines.append("<div class='top'>")
     lines.append("<div>")
-    lines.append("<h1>Dashboard Executivo — Repositórios</h1>")
+    lines.append("<h1>Dashboard Executivo: Repositórios</h1>")
     lines.append("<div class='muted'>Owner: <b>{}</b> • Gerado em: <b>{}</b></div>".format(esc(owner), esc(now)))
     lines.append("</div>")
     lines.append("<div class='kpi'>")
