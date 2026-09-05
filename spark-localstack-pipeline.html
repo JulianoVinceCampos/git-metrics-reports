@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang='pt-br'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>spark-localstack-pipeline</title>
+<style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#f8fafc;color:#0f172a;margin:0;padding:24px;}.container{max-width:1200px;margin:0 auto;}.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;border-bottom:1px solid #e2e8f0;padding-bottom:12px;margin-bottom:18px;}h1{font-size:22px;margin:0;letter-spacing:-.2px;}h2{font-size:16px;margin:18px 0 10px 0;}.muted{color:#64748b;font-size:13px;}.card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:14px 16px;margin:12px 0;}.kpi{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 6px 0;}.pill{background:#0ea5e9;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700;}.pill2{background:#10b981;}.btn{display:inline-block;text-decoration:none;font-weight:700;font-size:13px;padding:8px 10px;border-radius:10px;border:1px solid #bfdbfe;background:#eff6ff;color:#2563eb;}.btn:hover{background:#dbeafe;}.btn2{border:1px solid #bbf7d0;background:#f0fdf4;color:#166534;}.btn2:hover{background:#dcfce7;}a{color:#2563eb;}ul{margin:10px 0 0 18px;}li{margin:6px 0;}ol{margin:10px 0 0 18px;}code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px;}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}.spacer{height:8px;}</style>
+</head>
+<body>
+<div class='container'>
+<div class='top'>
+<div>
+<h1>spark-localstack-pipeline</h1>
+<div class='muted'>JulianoVinceCampos/spark-localstack-pipeline • branch padrão: <b>main</b></div>
+</div>
+<div class='row'>
+<a class='btn' href='index.html'>Voltar</a>
+<a class='btn btn2' href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline' target='_blank'>Abrir no GitHub</a>
+</div>
+</div>
+<div class='kpi'>
+<span class='pill'>Commits: 36</span>
+<span class='pill pill2'>Stars: 0</span>
+<span class='pill pill2'>Forks: 0</span>
+<span class='pill pill2'>Issues: 0</span>
+</div>
+<div class='card'>
+<div class='muted'><b>Descrição:</b> Pipeline de dados end-to-end com PySpark + LocalStack (S3) usando arquitetura Medallion (Bronze→Silver→Gold), orquestrado via Docker Compose e validado por CI/CD no GitHub Actions.</div>
+<div class='spacer'></div>
+<ul>
+<li><b>Privado:</b> False</li>
+<li><b>Linguagem principal:</b> Python</li>
+<li><b>Criado em:</b> 2026-02-22T16:21:12Z</li>
+<li><b>Atualizado em:</b> 2026-08-03T02:17:54Z</li>
+<li><b>Download commits (JSON):</b> <a href='data/spark-localstack-pipeline-commits.json' target='_blank'>spark-localstack-pipeline-commits.json</a></li>
+</ul>
+</div>
+<div class='card'>
+<h2>Commits (todos)</h2>
+<ol>
+<li><code>0761cee8</code> • 2026-08-03T02:17:49Z • Juliano Vince De Campos - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/0761cee8982eeda2a402f882d799b476f94dddff' target='_blank'>Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup</a></li>
+<li><code>bd34db45</code> • 2026-08-03T01:52:42Z • Juliano Vince De Campos - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/bd34db453b2c3f8e9b9467691221d78e44bb4b62' target='_blank'>fix: restaura o job de ingestão, que tinha sido sobrescrito pelo job de load</a></li>
+<li><code>0eab3879</code> • 2026-02-22T17:46:20Z • github-actions[bot] - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/0eab38792a4e916a22d29fd2c05843147f27942f' target='_blank'>chore: autoformat with ruff</a></li>
+<li><code>1def0f37</code> • 2026-02-22T17:45:29Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/1def0f37d874e047079e54e6dc248b7557ed3131' target='_blank'>Add GitHub Actions workflow for autoformatting with Ruff</a></li>
+<li><code>df4da2fe</code> • 2026-02-22T17:43:45Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/df4da2fe7c8d7a6d5082e5e0bd001f0ac512d619' target='_blank'>Refactor import statements in transformation.py</a></li>
+<li><code>f57fcb25</code> • 2026-02-22T17:42:33Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f57fcb2597d6d6b1fd92af3fa402c5fd32be3ea0' target='_blank'>Refactor load.py and enhance logging</a></li>
+<li><code>cdd836d2</code> • 2026-02-22T17:41:06Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/cdd836d271dedd9a4ef3a11e822e32a72c925955' target='_blank'>Refactor ingestion job to load Gold layer from Silver</a></li>
+<li><code>6325975a</code> • 2026-02-22T17:38:56Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/6325975aecb8d268676b7d889798c86eaba8eecb' target='_blank'>Update ingestion.py</a></li>
+<li><code>cac4ce07</code> • 2026-02-22T17:37:43Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/cac4ce07ecaad2bac96e43e8c8d9c845fb8c24fa' target='_blank'>Update load.py</a></li>
+<li><code>e1326626</code> • 2026-02-22T17:36:47Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/e132662672509f25409bcaf2f29924756c4bb5d3' target='_blank'>Refactor ingestion.py for improved readability</a></li>
+<li><code>d523d089</code> • 2026-02-22T17:36:04Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/d523d08931ceabeddbd60e5a75e754894f8058d4' target='_blank'>Refactor transformation.py for improved readability</a></li>
+<li><code>1b801232</code> • 2026-02-22T17:34:28Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/1b801232d2c739f9464eef20984d2da25f58a797' target='_blank'>Refactor upload option and update main function signature</a></li>
+<li><code>f92fa125</code> • 2026-02-22T17:32:41Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f92fa12568cec0cb00c7c1ecfb4ee242466bb9e0' target='_blank'>Refactor test_transformation.py for readability</a></li>
+<li><code>8a051090</code> • 2026-02-22T17:31:15Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/8a051090c9c82b8c666ca5ea88b1f28f0fe5e3cc' target='_blank'>Fix formatting and add newline in test_ingestion.py</a></li>
+<li><code>1e7528ab</code> • 2026-02-22T17:29:27Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/1e7528abcf15dbe5b645d80e29aa3d770850f837' target='_blank'>Refactor test_ingestion.py for improved clarity</a></li>
+<li><code>3207a7f8</code> • 2026-02-22T17:27:37Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/3207a7f8004de14505cecc6177e7ee78916db9fe' target='_blank'>Refactor get_spark_session to use optional master type</a></li>
+<li><code>3517eb3c</code> • 2026-02-22T17:26:02Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/3517eb3cab764b1e4c06c4b5da8f20fbbc9578ef' target='_blank'>Update type hints for optional parameters in aws_helpers</a></li>
+<li><code>e93e4c3f</code> • 2026-02-22T17:24:45Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/e93e4c3fcf6f3cccdc6b8fff627a9d113fb964f1' target='_blank'>Update get_s3_client parameter type hint</a></li>
+<li><code>80a94bf6</code> • 2026-02-22T17:23:51Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/80a94bf62609092b09ef32fa8e7b408e9e766760' target='_blank'>Remove unused imports in aws_helpers.py</a></li>
+<li><code>243ee18c</code> • 2026-02-22T17:23:10Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/243ee18cfd4cd3060822593d13a614e95538a549' target='_blank'>Change List type to built-in list in run_pipeline</a></li>
+<li><code>861949ad</code> • 2026-02-22T17:21:30Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/861949ad5e9c54abb365f146320fdf7953a92ed6' target='_blank'>Remove unused LongType import from ingestion.py</a></li>
+<li><code>ef7d8b5f</code> • 2026-02-22T17:14:35Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/ef7d8b5f190fc6246ccc921924cba22e0aa563a1' target='_blank'>Refactor imports and remove unused sys module</a></li>
+<li><code>6a3bee61</code> • 2026-02-22T17:12:08Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/6a3bee6167a994db2ecbfd130900e417ec2c6795' target='_blank'>Add N812 to ignored lint rules in pyproject.toml</a></li>
+<li><code>72b8618f</code> • 2026-02-22T17:08:49Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/72b8618ffc87dff8934cde3ae48f4c77f325b886' target='_blank'>Revise architecture section in README</a></li>
+<li><code>261bad0a</code> • 2026-02-22T16:40:41Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/261bad0a1084040dd1e47c4876ce827a4ae52169' target='_blank'>Update architecture section in README</a></li>
+<li><code>e13a0da8</code> • 2026-02-22T16:37:25Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/e13a0da8325edf702698a063b28c27673881bbae' target='_blank'>Add files via upload</a></li>
+<li><code>994fcbd4</code> • 2026-02-22T16:34:57Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/994fcbd4a6ed1377f4a7b6ab23348fe86a1b09f6' target='_blank'>Add architecture diagram for Docker Compose stack</a></li>
+<li><code>268a1882</code> • 2026-02-22T16:29:43Z • Juliano Vince - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/268a1882f16b45713af86bb40f42c6425efd89bc' target='_blank'>Remove CI/CD badge from README</a></li>
+<li><code>2406d4df</code> • 2026-02-22T16:25:36Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/2406d4df9aaaa28812722b89e60d9d527f7eca18' target='_blank'>docs: add readme</a></li>
+<li><code>aa54a456</code> • 2026-02-22T16:25:31Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/aa54a456e94e648da52dabd5666f716300c49e9a' target='_blank'>chore: add make targets</a></li>
+<li><code>bbfe3e17</code> • 2026-02-22T16:25:26Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/bbfe3e179e070701b1b8f5240c427b54eae9b367' target='_blank'>chore: add docker stack (localstack and services)</a></li>
+<li><code>f4d54505</code> • 2026-02-22T16:25:05Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f4d5450595b351d414f69fd1d88fa898c65afdc4' target='_blank'>ci: add github actions workflows</a></li>
+<li><code>cf68262b</code> • 2026-02-22T16:23:12Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/cf68262b191d916188b52935f5c94e8ed26bb0c4' target='_blank'>test: add automated tests</a></li>
+<li><code>8fa90078</code> • 2026-02-22T16:23:07Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/8fa900780015f3e8ebaee9d054f3121ecc6e2e93' target='_blank'>chore: add helper scripts</a></li>
+<li><code>0616f285</code> • 2026-02-22T16:22:59Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/0616f285566faf7966752f0e6f6f19b478f9c9e4' target='_blank'>feat: add pipeline source code</a></li>
+<li><code>f1237267</code> • 2026-02-22T16:22:51Z • JULIANOCAMPOS\julia - <a href='https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f1237267f139857ff997f36a6e3480db67ec4b97' target='_blank'>chore: add docker stack (localstack, services)</a></li>
+</ol>
+</div>
+<div class='muted'>Gerado em: 2026-09-05 07:30:30 UTC</div>
+</div>
+</body>
+</html>

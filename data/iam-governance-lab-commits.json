@@ -1,0 +1,212 @@
+[
+  {
+    "sha": "613cd7e19def1817a1617286461a45241f2f2641",
+    "date": "2026-08-03T02:20:28Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/613cd7e19def1817a1617286461a45241f2f2641"
+  },
+  {
+    "sha": "7221cdac51dfd298db967569af8d3f5ca8e87d83",
+    "date": "2026-08-03T01:51:46Z",
+    "author": "Juliano Vince De Campos",
+    "message": "fix: repo nunca teve CI verde, e a causa era o build-backend",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/7221cdac51dfd298db967569af8d3f5ca8e87d83"
+  },
+  {
+    "sha": "f3d3ab20d1f5b1b991f41282572c04fa24d66d57",
+    "date": "2026-03-02T16:07:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": " data/sod_matrix.json",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/f3d3ab20d1f5b1b991f41282572c04fa24d66d57"
+  },
+  {
+    "sha": "ee2f5a74f109c0ce2a9f5b4ee0fa9aace7251cc9",
+    "date": "2026-03-02T16:07:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "docs: add README with architecture, commands, security and roadmap",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/ee2f5a74f109c0ce2a9f5b4ee0fa9aace7251cc9"
+  },
+  {
+    "sha": "4a13b53d5949edb7625bcc86d3b8827fca0a51ae",
+    "date": "2026-03-02T16:07:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore(reports): add reports dir with .gitkeep",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/4a13b53d5949edb7625bcc86d3b8827fca0a51ae"
+  },
+  {
+    "sha": "e8c7d316fdb419ded56c73a85a52db353eaaf606",
+    "date": "2026-03-02T16:06:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test(access_review): add campaign lifecycle and persistence tests",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/e8c7d316fdb419ded56c73a85a52db353eaaf606"
+  },
+  {
+    "sha": "f92ddf64fab836ff4271ed9aef7d40d7975a08e9",
+    "date": "2026-03-02T16:06:52Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test(rbac+abac): add RBAC permission and ABAC attribute policy tests",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/f92ddf64fab836ff4271ed9aef7d40d7975a08e9"
+  },
+  {
+    "sha": "e925ec07daf0d60e4b7ae7d384edb1e4619ee419",
+    "date": "2026-03-02T16:06:45Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test(sod): add SoD violation detection tests",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/e925ec07daf0d60e4b7ae7d384edb1e4619ee419"
+  },
+  {
+    "sha": "fb0e7b4c40db7594c4fe84e0603c32806aaf9bc6",
+    "date": "2026-03-02T16:06:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test(jml): add joiner, mover and leaver lifecycle tests",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/fb0e7b4c40db7594c4fe84e0603c32806aaf9bc6"
+  },
+  {
+    "sha": "42259977e630c08a18e35b696c9b65d6e4c5c206",
+    "date": "2026-03-02T16:06:35Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test(config): add conftest.py with isolated_state fixture",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/42259977e630c08a18e35b696c9b65d6e4c5c206"
+  },
+  {
+    "sha": "43bf52987f1bc5bbc5918d5bfcbb8d6334bcff97",
+    "date": "2026-03-02T16:06:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(cli): add CLI commands (joiner, mover, leaver, check-sod, access-review, export-evidence)",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/43bf52987f1bc5bbc5918d5bfcbb8d6334bcff97"
+  },
+  {
+    "sha": "90bdc6d4b2fdf395d1e21db24a856ed108631db9",
+    "date": "2026-03-02T16:06:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add reports.py - CSV and Markdown evidence export",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/90bdc6d4b2fdf395d1e21db24a856ed108631db9"
+  },
+  {
+    "sha": "3285a8677c597112748abd64644db7f08d66e21c",
+    "date": "2026-03-02T16:06:17Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add access_review.py - campaign management engine",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/3285a8677c597112748abd64644db7f08d66e21c"
+  },
+  {
+    "sha": "a49852c7e1b6c25f8aeb357a95c3fe888d38d496",
+    "date": "2026-03-02T16:06:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add sod.py - segregation of duties violation checker",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/a49852c7e1b6c25f8aeb357a95c3fe888d38d496"
+  },
+  {
+    "sha": "3262a5f101895f403e5001e9fa5c5bf006ae0d41",
+    "date": "2026-03-02T16:06:06Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add jml.py - joiner/mover/leaver lifecycle logic",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/3262a5f101895f403e5001e9fa5c5bf006ae0d41"
+  },
+  {
+    "sha": "49457bbecf89e0e9dd051b776e631735ab8de7a6",
+    "date": "2026-03-02T16:06:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add abac.py - attribute-based policy evaluator",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/49457bbecf89e0e9dd051b776e631735ab8de7a6"
+  },
+  {
+    "sha": "cd65570d034a91fd32f1d14d806acaa283500147",
+    "date": "2026-03-02T16:05:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add rbac.py - role-to-permission resolution engine",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/cd65570d034a91fd32f1d14d806acaa283500147"
+  },
+  {
+    "sha": "78ca1eaf0e519599a05939fdfa1177c925f86dff",
+    "date": "2026-03-02T16:05:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(core): add state.py - entitlement persistence layer",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/78ca1eaf0e519599a05939fdfa1177c925f86dff"
+  },
+  {
+    "sha": "10433430671328a6500083ceb072c66f9f6ae29f",
+    "date": "2026-03-02T16:05:42Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore(core): add package __init__ and __main__ entrypoints",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/10433430671328a6500083ceb072c66f9f6ae29f"
+  },
+  {
+    "sha": "59955a389a9021956d1926d822dae75287496674",
+    "date": "2026-03-02T16:05:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(state): add initial entitlements.json with baseline user access",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/59955a389a9021956d1926d822dae75287496674"
+  },
+  {
+    "sha": "7ee11dc3fa8ab5ea77413398b71d544cef159557",
+    "date": "2026-03-02T16:05:27Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(data): add jml_events.json with sample HR lifecycle events",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/7ee11dc3fa8ab5ea77413398b71d544cef159557"
+  },
+  {
+    "sha": "bcec73862143db3bc52ea6f4e0c668aac808f0a2",
+    "date": "2026-03-02T16:05:20Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(data): add applications.json with ABAC policies per app",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/bcec73862143db3bc52ea6f4e0c668aac808f0a2"
+  },
+  {
+    "sha": "5643c929bee6a5a6d4d886c331a00d206b48b304",
+    "date": "2026-03-02T16:05:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(data): add roles.json with RBAC role-to-permission mapping",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/5643c929bee6a5a6d4d886c331a00d206b48b304"
+  },
+  {
+    "sha": "8c232e697a0ec159cc051dd909ee49e678ea8f03",
+    "date": "2026-03-02T16:05:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat(data): add users.json with 5 sample users and ABAC attributes",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/8c232e697a0ec159cc051dd909ee49e678ea8f03"
+  },
+  {
+    "sha": "88909e0f5b48a641c1949d811f01d78043b1697c",
+    "date": "2026-03-02T16:04:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore(ci): add GitHub Actions for pytest and ruff lint",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/88909e0f5b48a641c1949d811f01d78043b1697c"
+  },
+  {
+    "sha": "690489118ca3b61b8d3097f665c27be22247d4ac",
+    "date": "2026-03-02T16:04:42Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore(config): add Makefile with setup, test, lint, run targets",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/690489118ca3b61b8d3097f665c27be22247d4ac"
+  },
+  {
+    "sha": "41d4c6d55d8a37ad687c89589e8c7438f07d2ff0",
+    "date": "2026-03-02T16:04:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore(config): add pyproject.toml with dependencies and ruff config",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/41d4c6d55d8a37ad687c89589e8c7438f07d2ff0"
+  },
+  {
+    "sha": "767e7b3bf173dd8b57151d5c5cd99ff3ea812d74",
+    "date": "2026-03-02T16:04:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "docs: add CODE_OF_CONDUCT.md",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/767e7b3bf173dd8b57151d5c5cd99ff3ea812d74"
+  },
+  {
+    "sha": "b469e90caafccc50164b248bb7f1f7f6a81754cf",
+    "date": "2026-03-02T16:04:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "docs: add LICENSE MIT",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/b469e90caafccc50164b248bb7f1f7f6a81754cf"
+  },
+  {
+    "sha": "685a2ecb7e4683f2a8bc53b8c6785937b8d60431",
+    "date": "2026-03-02T16:04:06Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: add .gitignore",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab/commit/685a2ecb7e4683f2a8bc53b8c6785937b8d60431"
+  }
+]

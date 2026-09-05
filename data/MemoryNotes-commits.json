@@ -1,0 +1,135 @@
+[
+  {
+    "sha": "8c3330bfd2f4200653098be4ea6f73d17f62dc9b",
+    "date": "2021-01-07T21:27:42Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Correção dialog",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/8c3330bfd2f4200653098be4ea6f73d17f62dc9b"
+  },
+  {
+    "sha": "a8a82e7f6076e4ad310dbe6b76bdff0edc9ed152",
+    "date": "2021-01-07T21:15:05Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementando funcinalidade de contagem de palavras",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/a8a82e7f6076e4ad310dbe6b76bdff0edc9ed152"
+  },
+  {
+    "sha": "adcb8db9c62aad500b5dfc8528b52a8838166268",
+    "date": "2021-01-07T20:39:43Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Refactorando para usar dagger",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/adcb8db9c62aad500b5dfc8528b52a8838166268"
+  },
+  {
+    "sha": "ebf35301104bc9f4e027329e5d02912ecde5c80e",
+    "date": "2021-01-07T19:44:58Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementando Dagger",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/ebf35301104bc9f4e027329e5d02912ecde5c80e"
+  },
+  {
+    "sha": "9af2918c274b80a26bc781b67f19cff49406b0da",
+    "date": "2021-01-07T19:28:37Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando Opção de exclusão e menu excluir NotesFrament",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/9af2918c274b80a26bc781b67f19cff49406b0da"
+  },
+  {
+    "sha": "3553ab05621ce09087a8e2c0de744d88307e6864",
+    "date": "2021-01-07T17:15:00Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Funcionalidade ListView",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/3553ab05621ce09087a8e2c0de744d88307e6864"
+  },
+  {
+    "sha": "9ce5658f26bf92a05adcc83910d572f662255da6",
+    "date": "2021-01-07T16:55:59Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Crate item note, adapter, ListViewModel",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/9ce5658f26bf92a05adcc83910d572f662255da6"
+  },
+  {
+    "sha": "acca8893bfcb47ea9b7f62de96fb32c0888055e0",
+    "date": "2021-01-06T19:50:07Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando a implementação do ViewModel NoteFrament",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/acca8893bfcb47ea9b7f62de96fb32c0888055e0"
+  },
+  {
+    "sha": "e83f0aa5fcab6dc8b0effe91081251c60f4692f3",
+    "date": "2021-01-06T17:48:57Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando viewModel",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/e83f0aa5fcab6dc8b0effe91081251c60f4692f3"
+  },
+  {
+    "sha": "985ce34c75675f1ba081c3033c7768c98a965d5d",
+    "date": "2021-01-06T17:21:40Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando a classe UseCases",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/985ce34c75675f1ba081c3033c7768c98a965d5d"
+  },
+  {
+    "sha": "d6e4906e8db5f706a6689b73b8330c968db094f7",
+    "date": "2021-01-06T17:14:46Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Ajudando gradle, configurando DataSource, DatabaseService, e Entity",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/d6e4906e8db5f706a6689b73b8330c968db094f7"
+  },
+  {
+    "sha": "ae6d0dd9dcb33a5c041fb561661ba655726b6a48",
+    "date": "2021-01-06T15:18:54Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando a interface Dao",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/ae6d0dd9dcb33a5c041fb561661ba655726b6a48"
+  },
+  {
+    "sha": "42140cb9f4ad8f981ad19f77e99d1447a4a718af",
+    "date": "2021-01-06T15:09:20Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação da navegação e criação da classe Entity",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/42140cb9f4ad8f981ad19f77e99d1447a4a718af"
+  },
+  {
+    "sha": "53ce4710973e57f5c4de43e2065646b7fd8ec952",
+    "date": "2021-01-06T12:33:18Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando fragment Note",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/53ce4710973e57f5c4de43e2065646b7fd8ec952"
+  },
+  {
+    "sha": "d73d929ff9ef942503488d6687e01c83d4276756",
+    "date": "2021-01-06T12:15:23Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando fragment Lista de notas",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/d73d929ff9ef942503488d6687e01c83d4276756"
+  },
+  {
+    "sha": "8de3718af9bdbb48d996b096b2fd2192a475d483",
+    "date": "2021-01-05T21:52:24Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Create use cases",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/8de3718af9bdbb48d996b096b2fd2192a475d483"
+  },
+  {
+    "sha": "2f3540fde805b733d3ce79e1e8dcfb46fcb122cd",
+    "date": "2021-01-05T18:57:29Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando as classes repository",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/2f3540fde805b733d3ce79e1e8dcfb46fcb122cd"
+  },
+  {
+    "sha": "618ed31a588de6c2f9692a7abd46fb9fc63554c9",
+    "date": "2021-01-05T18:39:53Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando data(Pojo Note)",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/618ed31a588de6c2f9692a7abd46fb9fc63554c9"
+  },
+  {
+    "sha": "66374b59cf619e393a18b16239c984e60e8d534a",
+    "date": "2021-01-05T18:35:21Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Configuração do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/MemoryNotes/commit/66374b59cf619e393a18b16239c984e60e8d534a"
+  }
+]

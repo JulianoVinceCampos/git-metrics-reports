@@ -1,0 +1,807 @@
+[
+  {
+    "sha": "b087d610e36364fee27402057414c5763c4d4798",
+    "date": "2022-10-07T14:22:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "correcting file name",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/b087d610e36364fee27402057414c5763c4d4798"
+  },
+  {
+    "sha": "8764a66b94d4c5ed8aa76992a84880adea8f8635",
+    "date": "2022-10-07T14:21:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add themes.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/8764a66b94d4c5ed8aa76992a84880adea8f8635"
+  },
+  {
+    "sha": "79f505ce566d45e59b4f32f0a5817f67494ed37e",
+    "date": "2022-10-07T14:20:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add themes.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/79f505ce566d45e59b4f32f0a5817f67494ed37e"
+  },
+  {
+    "sha": "e5a87f3aaa0f272e98a991f39844f8c6344acd45",
+    "date": "2022-10-07T14:19:43Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add color.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e5a87f3aaa0f272e98a991f39844f8c6344acd45"
+  },
+  {
+    "sha": "8605ebfc36cfb5f145479e627f56b06b88506952",
+    "date": "2022-10-07T14:19:10Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add new nigth\\themes.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/8605ebfc36cfb5f145479e627f56b06b88506952"
+  },
+  {
+    "sha": "88c00e1813e364fb7307f2c462230b1b542cff3a",
+    "date": "2022-10-07T14:17:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_launcher in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/88c00e1813e364fb7307f2c462230b1b542cff3a"
+  },
+  {
+    "sha": "f3a15226429933309dc2eb824329ac555e7d8399",
+    "date": "2022-10-07T14:17:14Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_launcher_round in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/f3a15226429933309dc2eb824329ac555e7d8399"
+  },
+  {
+    "sha": "c7cacf360fbbbb5961378f879d290ec125e685cc",
+    "date": "2022-10-07T14:16:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_launcher in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c7cacf360fbbbb5961378f879d290ec125e685cc"
+  },
+  {
+    "sha": "3ed14bca92a50c2c3ee7598b0520bd062a075683",
+    "date": "2022-10-07T14:16:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating layout of dog_list_item",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/3ed14bca92a50c2c3ee7598b0520bd062a075683"
+  },
+  {
+    "sha": "682b572320dbe2f541767570dc51fe737560fc1c",
+    "date": "2022-10-07T14:15:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating layout of activity_settings",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/682b572320dbe2f541767570dc51fe737560fc1c"
+  },
+  {
+    "sha": "992f571cb12830f123102f1dae6c65fd0a62cfd9",
+    "date": "2022-10-07T14:15:35Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating layout of activity_settings",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/992f571cb12830f123102f1dae6c65fd0a62cfd9"
+  },
+  {
+    "sha": "fd74dd1546d4e67d20600f80a83f7a0b9b4803d1",
+    "date": "2022-10-07T14:15:17Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating layout of activity_main",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/fd74dd1546d4e67d20600f80a83f7a0b9b4803d1"
+  },
+  {
+    "sha": "a18ece74a700133e720c03c35d4158bc2be83a38",
+    "date": "2022-10-07T14:14:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating layout of activity_dog_list",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/a18ece74a700133e720c03c35d4158bc2be83a38"
+  },
+  {
+    "sha": "ff504d8992d19c286f3d9a1bb7a1ec356f771ed0",
+    "date": "2022-10-07T14:14:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating layout of acitivy_dog_detail",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/ff504d8992d19c286f3d9a1bb7a1ec356f771ed0"
+  },
+  {
+    "sha": "7fd664f0addefb6393340a1a63ea6c9bbd69486a",
+    "date": "2022-10-07T14:13:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add red_circle.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/7fd664f0addefb6393340a1a63ea6c9bbd69486a"
+  },
+  {
+    "sha": "a0dbc334c1d889e7b5d80dc79a249efe2da4791f",
+    "date": "2022-10-07T14:13:14Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_launcher_background.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/a0dbc334c1d889e7b5d80dc79a249efe2da4791f"
+  },
+  {
+    "sha": "1c95e88bdc6ae1251a642f0c55df3b3fee6102a2",
+    "date": "2022-10-07T14:12:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_launcher_background.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/1c95e88bdc6ae1251a642f0c55df3b3fee6102a2"
+  },
+  {
+    "sha": "4983fa62fe0d692c5aa8c59007d1b299eb8ae08f",
+    "date": "2022-10-07T14:12:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_hearth_white.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/4983fa62fe0d692c5aa8c59007d1b299eb8ae08f"
+  },
+  {
+    "sha": "25d5b7e652e2d6f0e73a1fa44729470a1a637bc5",
+    "date": "2022-10-07T14:11:55Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_check_black.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/25d5b7e652e2d6f0e73a1fa44729470a1a637bc5"
+  },
+  {
+    "sha": "b1b2d6c862828b6a59efa8debef02be7f28f4e67",
+    "date": "2022-10-07T14:11:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_baseline_settings.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/b1b2d6c862828b6a59efa8debef02be7f28f4e67"
+  },
+  {
+    "sha": "45d41ab1c5f5c19a5e979525d003c05749c95dd8",
+    "date": "2022-10-07T14:11:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_baseline_photo_camera.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/45d41ab1c5f5c19a5e979525d003c05749c95dd8"
+  },
+  {
+    "sha": "d7bfc83bb3d16b25db5c946f01b8cb2390021138",
+    "date": "2022-10-07T14:10:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_baseline_listaccccc.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d7bfc83bb3d16b25db5c946f01b8cb2390021138"
+  },
+  {
+    "sha": "5133d7d5248efeae510def0212d852315d59e849",
+    "date": "2022-10-07T14:10:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add dog_list_item_null_backgroud.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/5133d7d5248efeae510def0212d852315d59e849"
+  },
+  {
+    "sha": "9b37922fb88c2bab0dc0b844fe686519d7406564",
+    "date": "2022-10-07T14:09:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add dog_list_item_background.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/9b37922fb88c2bab0dc0b844fe686519d7406564"
+  },
+  {
+    "sha": "2a0dfa3f6ac879a5c4da6e4a5f605eeba25c848b",
+    "date": "2022-10-07T14:08:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add detail_info_background.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/2a0dfa3f6ac879a5c4da6e4a5f605eeba25c848b"
+  },
+  {
+    "sha": "e5d4154126686b76684922a6715560ad9acdf84c",
+    "date": "2022-10-07T14:07:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add ic_launcher_foreground.xml in project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e5d4154126686b76684922a6715560ad9acdf84c"
+  },
+  {
+    "sha": "3d756e61039cf003c84282e95d2bb3a6d61b765c",
+    "date": "2022-10-07T14:05:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring of DogRepository to use apiService and CoroutineDispatcher through dependency injection facilitating testing and implementation less coupled to the project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/3d756e61039cf003c84282e95d2bb3a6d61b765c"
+  },
+  {
+    "sha": "c55018c526e8d4691ac14ca24c363b2be9dc5bfa",
+    "date": "2022-10-07T14:04:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring of DogRepository to use apiService and CoroutineDispatcher through dependency injection facilitating testing and implementation less coupled to the project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c55018c526e8d4691ac14ca24c363b2be9dc5bfa"
+  },
+  {
+    "sha": "293029a1b28e58979769ad4772e3beec504d89cb",
+    "date": "2022-10-07T14:03:04Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Interface responsible for the withdrawal of the DogRepository",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/293029a1b28e58979769ad4772e3beec504d89cb"
+  },
+  {
+    "sha": "c356f33bc309e5424660d47d378eeca08d21a7e1",
+    "date": "2022-10-07T14:01:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating viewmodel(DogListViewModel) responsible for the DogListActivity class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c356f33bc309e5424660d47d378eeca08d21a7e1"
+  },
+  {
+    "sha": "c616c76bead6ffc2c72bcb334078af50b24019c1",
+    "date": "2022-10-07T14:00:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating Class, activity responsible for displaying the dog list",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c616c76bead6ffc2c72bcb334078af50b24019c1"
+  },
+  {
+    "sha": "d8ea80ae21f8c4285a82c74ab709da92517df131",
+    "date": "2022-10-07T13:59:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Remove unused class after refactoring to jetpack compose",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d8ea80ae21f8c4285a82c74ab709da92517df131"
+  },
+  {
+    "sha": "d5ecbd42b753717dd19418d381aaa7f794f2f12c",
+    "date": "2022-10-07T13:57:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating specific Dispatcher Provides for test implementation",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d5ecbd42b753717dd19418d381aaa7f794f2f12c"
+  },
+  {
+    "sha": "d8387f380cda645c5f15712277a7c24c0318aa36",
+    "date": "2022-10-07T13:56:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Module responsible for creating the component of the ClassifierRepositoryModule project, so the use of @Binds",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d8387f380cda645c5f15712277a7c24c0318aa36"
+  },
+  {
+    "sha": "8bada09afb4b1ce284c89e8a0e13d160db5355df",
+    "date": "2022-10-07T13:55:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Module to access native android components using provides for component creation",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/8bada09afb4b1ce284c89e8a0e13d160db5355df"
+  },
+  {
+    "sha": "c4955fcfa8a0280d73d68247c6886dd3de0250fd",
+    "date": "2022-10-07T13:53:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Created module responsible for creating ApiService ApiServiceModule",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c4955fcfa8a0280d73d68247c6886dd3de0250fd"
+  },
+  {
+    "sha": "0f33b3ff8377be09e365e904dca45a9d29987ef1",
+    "date": "2022-10-07T13:52:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Component Loading created using benefits of jetpack compose to create standard component loading",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/0f33b3ff8377be09e365e904dca45a9d29987ef1"
+  },
+  {
+    "sha": "e5c97bc3ba00891069d08d6dfdc6dfb31defeac4",
+    "date": "2022-10-07T13:51:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Component ErrorDialog created using benefits of jetpack compose to create standard error component",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e5c97bc3ba00891069d08d6dfdc6dfb31defeac4"
+  },
+  {
+    "sha": "e414f15d0e10f4e1a5cd1a8def1e0ab4d79502cd",
+    "date": "2022-10-07T13:50:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Component BackNavigationIcon created using benefits of jetpack compose to create standard component fields",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e414f15d0e10f4e1a5cd1a8def1e0ab4d79502cd"
+  },
+  {
+    "sha": "9f30aefbc87c9feb6e266b987dddedb44577937c",
+    "date": "2022-10-07T13:50:20Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "using benefits of jetpack compose to create standard component fields",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/9f30aefbc87c9feb6e266b987dddedb44577937c"
+  },
+  {
+    "sha": "d62e5da8f65b2969fc07a00e760498ca9f172605",
+    "date": "2022-10-07T13:48:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Default test class created",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d62e5da8f65b2969fc07a00e760498ca9f172605"
+  },
+  {
+    "sha": "5a6dde3c4e7f23b562d509312950b422461b0bd7",
+    "date": "2022-10-07T13:46:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Interface created with jetpack compose LoginScreen",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/5a6dde3c4e7f23b562d509312950b422461b0bd7"
+  },
+  {
+    "sha": "5a61eacdb63b93ed7b7b27f5af6b22abb1527739",
+    "date": "2022-10-07T13:46:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "interface for abstraction and decoupling of business logins from the AuthTask project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/5a61eacdb63b93ed7b7b27f5af6b22abb1527739"
+  },
+  {
+    "sha": "ad1e09019908db647ffcb76604e9988762b2037b",
+    "date": "2022-10-07T13:45:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "class responsible for implements",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/ad1e09019908db647ffcb76604e9988762b2037b"
+  },
+  {
+    "sha": "88e771b2a7ae5ae57b20854009cf107335a7cd1a",
+    "date": "2022-10-07T13:43:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "creating class responsible for registration login request",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/88e771b2a7ae5ae57b20854009cf107335a7cd1a"
+  },
+  {
+    "sha": "c7f85ad5f27f5051e041d6f2db1a4fb437aff14a",
+    "date": "2022-10-07T13:42:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating object responsible for managing flow flags in AuthNavDestinations project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c7f85ad5f27f5051e041d6f2db1a4fb437aff14a"
+  },
+  {
+    "sha": "22866757146b8385dda816aa793902c9ffa00a79",
+    "date": "2022-10-07T13:40:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating an ApiServiceInterceptor authentication management interface that we will use to make the request with the backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/22866757146b8385dda816aa793902c9ffa00a79"
+  },
+  {
+    "sha": "f1451a31ef4470cc619f4faa05cdc5c3eddb2621",
+    "date": "2022-10-07T13:39:42Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating an API(ApiService) management interface that we are going to use to make the request with the backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/f1451a31ef4470cc619f4faa05cdc5c3eddb2621"
+  },
+  {
+    "sha": "312f3b0b8a8ba4d79be21f24ca61a0cfdac540ca",
+    "date": "2022-10-07T13:38:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DogResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/312f3b0b8a8ba4d79be21f24ca61a0cfdac540ca"
+  },
+  {
+    "sha": "26a3a92183fab559112062d12ea921cb18540eb6",
+    "date": "2022-10-07T13:37:55Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating UserResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/26a3a92183fab559112062d12ea921cb18540eb6"
+  },
+  {
+    "sha": "e1034e9f6f4bdd7278df5f5b135c67f6f32b03e5",
+    "date": "2022-10-07T13:37:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DogResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e1034e9f6f4bdd7278df5f5b135c67f6f32b03e5"
+  },
+  {
+    "sha": "09afc3e86c0d2438e52a83a2b3e25b2cb3b6de4c",
+    "date": "2022-10-07T13:37:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DogListResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/09afc3e86c0d2438e52a83a2b3e25b2cb3b6de4c"
+  },
+  {
+    "sha": "e3c7cb634a448771e84d1ee08d673ba01dcd980d",
+    "date": "2022-10-07T13:36:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DogListApiResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e3c7cb634a448771e84d1ee08d673ba01dcd980d"
+  },
+  {
+    "sha": "923aec19ff6049276f87f3addc5dfa52d9d26d55",
+    "date": "2022-10-07T13:36:27Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DogApiResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/923aec19ff6049276f87f3addc5dfa52d9d26d55"
+  },
+  {
+    "sha": "7c8ee73f15b60f87e7289793c8dcf9007d65b08b",
+    "date": "2022-10-07T13:35:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DefaultResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/7c8ee73f15b60f87e7289793c8dcf9007d65b08b"
+  },
+  {
+    "sha": "0ef22cf1287af4d65da9e8f96b8405ba82fb44af",
+    "date": "2022-10-07T13:35:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating AuthApiResponse.kt class responsible for receiving and linking request data with backend",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/0ef22cf1287af4d65da9e8f96b8405ba82fb44af"
+  },
+  {
+    "sha": "c5d60fe62c04db097fd5b479396dd23d05cce08a",
+    "date": "2022-10-07T13:19:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating viewmodel responsible for the project's main",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c5d60fe62c04db097fd5b479396dd23d05cce08a"
+  },
+  {
+    "sha": "988137e5342e34c22bc070de79976c358d6d2dae",
+    "date": "2022-10-07T12:00:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating viewmodel responsible for the project's main",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/988137e5342e34c22bc070de79976c358d6d2dae"
+  },
+  {
+    "sha": "82b789dd3bcb869fa9326f7ba21d43f6da13bda6",
+    "date": "2022-10-07T11:55:03Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class /Activity responsible for showing the details of dogs and loading their image",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/82b789dd3bcb869fa9326f7ba21d43f6da13bda6"
+  },
+  {
+    "sha": "8efd23e7ca5f6c2bfb01e798ed674848baaa8549",
+    "date": "2022-10-07T11:54:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Email validation function",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/8efd23e7ca5f6c2bfb01e798ed674848baaa8549"
+  },
+  {
+    "sha": "16bc88fc62452e02f21ffed4e7b16c447242230b",
+    "date": "2022-10-07T11:53:45Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the Application class, also responsible for managing and containing the hilt",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/16bc88fc62452e02f21ffed4e7b16c447242230b"
+  },
+  {
+    "sha": "48432f64241f210e9c711ee794b837d7544d93f7",
+    "date": "2022-10-07T11:53:03Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding project constants core class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/48432f64241f210e9c711ee794b837d7544d93f7"
+  },
+  {
+    "sha": "81961c8eb7009b9361edb3ad61f0f9938e5f899c",
+    "date": "2022-10-07T11:52:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class for adding a new dog if the user selects this option in the dog details screen",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/81961c8eb7009b9361edb3ad61f0f9938e5f899c"
+  },
+  {
+    "sha": "a45195cd749c1c5a98eaaf876bf75e3b04eb5108",
+    "date": "2022-10-07T11:51:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a User class in the project, the class also implements if the user has already been authenticated, it does not create a new user and is already logged into the application",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/a45195cd749c1c5a98eaaf876bf75e3b04eb5108"
+  },
+  {
+    "sha": "2ceefe1cd9b48d190a4cb54903badb1e07bfa072",
+    "date": "2022-10-07T11:50:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a Dog model class in the project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/2ceefe1cd9b48d190a4cb54903badb1e07bfa072"
+  },
+  {
+    "sha": "df98dbacdfa2678b4e72565652f7a2d45394d0c3",
+    "date": "2022-10-07T11:49:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating Project Settings Class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/df98dbacdfa2678b4e72565652f7a2d45394d0c3"
+  },
+  {
+    "sha": "044e2fd64b93c6fdb81872d36188caf022031237",
+    "date": "2022-10-07T11:47:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Responsae oncveersion assistant for objects used in the project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/044e2fd64b93c6fdb81872d36188caf022031237"
+  },
+  {
+    "sha": "70309736ddaefef00655b68b2fc520a6265fd5e9",
+    "date": "2022-10-07T11:47:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Create UserDTO model class(response)",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/70309736ddaefef00655b68b2fc520a6265fd5e9"
+  },
+  {
+    "sha": "31c102be9618fbf7c3f4c378823ffb8130da1cf4",
+    "date": "2022-10-07T11:46:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Create SignUpDTO model class(response)",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/31c102be9618fbf7c3f4c378823ffb8130da1cf4"
+  },
+  {
+    "sha": "87dba14e675fe6a08bfa52b2c695c5b46f099a77",
+    "date": "2022-10-07T11:46:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Create SignInDTO model class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/87dba14e675fe6a08bfa52b2c695c5b46f099a77"
+  },
+  {
+    "sha": "3dcfb219c869aa06adde36a2ff76bf012e3868f1",
+    "date": "2022-10-07T11:45:32Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Helper class for converting objects by converting DTO objects for list",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/3dcfb219c869aa06adde36a2ff76bf012e3868f1"
+  },
+  {
+    "sha": "1bef38dcd5a0992e8057888f928384c92ad95339",
+    "date": "2022-10-07T11:44:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for converting DogDTO objects responseData",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/1bef38dcd5a0992e8057888f928384c92ad95339"
+  },
+  {
+    "sha": "0b6ace129d85a2fd5ab4c6b1b6765f43103921f7",
+    "date": "2022-10-07T11:44:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for converting DTO objects",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/0b6ace129d85a2fd5ab4c6b1b6765f43103921f7"
+  },
+  {
+    "sha": "f62c493d2eb9fa56d6d819dce14657717965675e",
+    "date": "2022-10-07T11:43:06Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating seled class to facilitate and decouple and simplify and centralize request status information",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/f62c493d2eb9fa56d6d819dce14657717965675e"
+  },
+  {
+    "sha": "11e8d1bf91876390a290298bb135028896056c68",
+    "date": "2022-10-07T11:41:39Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "adding the default shapes of using the project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/11e8d1bf91876390a290298bb135028896056c68"
+  },
+  {
+    "sha": "67cecdbf11623d289f7428428cbb30b65b7a8fb2",
+    "date": "2022-10-07T11:40:52Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "adding the resetApiResponseStatus method to your implementation",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/67cecdbf11623d289f7428428cbb30b65b7a8fb2"
+  },
+  {
+    "sha": "fe5a800e567e9d5dc3449e9fd0ac03e7f9e1b541",
+    "date": "2022-10-07T11:40:02Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring and update for using jetpack cpompse in the DogDetailScreen class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/fe5a800e567e9d5dc3449e9fd0ac03e7f9e1b541"
+  },
+  {
+    "sha": "123e7856357e5bdd910e71ce84290ab093ea151e",
+    "date": "2022-10-07T11:39:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring and update for using jetpack cpompse in the DogDetailComposeActivity class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/123e7856357e5bdd910e71ce84290ab093ea151e"
+  },
+  {
+    "sha": "d0f56e821297bb1c5c33b314dd02b86cc8e2c5ba",
+    "date": "2022-10-07T11:38:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Removing unused update activity for jetpackcompose",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d0f56e821297bb1c5c33b314dd02b86cc8e2c5ba"
+  },
+  {
+    "sha": "b10746cc320111222e699b2ab0f896d0896a1eda",
+    "date": "2022-10-07T11:37:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for the typography of the project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/b10746cc320111222e699b2ab0f896d0896a1eda"
+  },
+  {
+    "sha": "0796ecdb6fd177c519d429e246b2d672fe96a49e",
+    "date": "2022-10-07T11:36:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for project themes",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/0796ecdb6fd177c519d429e246b2d672fe96a49e"
+  },
+  {
+    "sha": "38902c8a33f674a63c2b0be88604314b5089c758",
+    "date": "2022-10-07T11:36:13Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for project shapes jetpack compose",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/38902c8a33f674a63c2b0be88604314b5089c758"
+  },
+  {
+    "sha": "165390a3f209ea27b6afaea6c5885ba203da44ba",
+    "date": "2022-10-07T11:35:52Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for project colors jetpack compose",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/165390a3f209ea27b6afaea6c5885ba203da44ba"
+  },
+  {
+    "sha": "4fdb0818a2d6f84e089b345f29344120f8a25042",
+    "date": "2022-10-07T11:35:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for being the model of the DogRecognition project, keeping the id and confidence parameters for approximation calculation",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/4fdb0818a2d6f84e089b345f29344120f8a25042"
+  },
+  {
+    "sha": "f731239de5234d69d30d3532355ce69cd04b4a76",
+    "date": "2022-10-07T11:33:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Interface created to decouple the project and even facilitate testing",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/f731239de5234d69d30d3532355ce69cd04b4a76"
+  },
+  {
+    "sha": "30e38076ccd3855cba01dfba10c95ec4706fe9ed",
+    "date": "2022-10-07T11:32:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Base class responsible for obtaining and formatting the images of the dogs being mapped",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/30e38076ccd3855cba01dfba10c95ec4706fe9ed"
+  },
+  {
+    "sha": "20106b95dc220269d3d92b013b0463074badedc2",
+    "date": "2022-10-07T11:31:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Base class responsible for classifying the dogs being mapped",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/20106b95dc220269d3d92b013b0463074badedc2"
+  },
+  {
+    "sha": "751d5265cd9f1fc7820cc2df31a9e1fe254af51c",
+    "date": "2022-10-07T11:30:24Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "update gitignore",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/751d5265cd9f1fc7820cc2df31a9e1fe254af51c"
+  },
+  {
+    "sha": "d0b54ba13434fe5b6e51f5bf495d96259eb5aa65",
+    "date": "2022-10-07T11:29:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "update gitignore",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d0b54ba13434fe5b6e51f5bf495d96259eb5aa65"
+  },
+  {
+    "sha": "b9ed35ffd34ae12c3574d9fb004a0e0938d5c2f0",
+    "date": "2022-10-07T11:26:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Class responsible for creating a default behavior of Coroutine",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/b9ed35ffd34ae12c3574d9fb004a0e0938d5c2f0"
+  },
+  {
+    "sha": "affdb41a4a30c91ed0a91dee78fc69ad010584fe",
+    "date": "2022-10-07T11:25:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating test class responsible for DogListViewModelTest",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/affdb41a4a30c91ed0a91dee78fc69ad010584fe"
+  },
+  {
+    "sha": "15227c0a01e77e4a38aff58cc107bdbbb56167bd",
+    "date": "2022-10-07T11:25:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating test class responsible for AuthViewModelTest",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/15227c0a01e77e4a38aff58cc107bdbbb56167bd"
+  },
+  {
+    "sha": "53092c328a969f17f35716efadde62a1b6e82018",
+    "date": "2022-10-07T11:24:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuring gradle-wrapper.porperties",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/53092c328a969f17f35716efadde62a1b6e82018"
+  },
+  {
+    "sha": "7704bdaeb15b32ba8f14da39933bec33e96f89f5",
+    "date": "2022-10-07T11:22:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Create file for tersonflow to get and map the puppies",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/7704bdaeb15b32ba8f14da39933bec33e96f89f5"
+  },
+  {
+    "sha": "a066c034fa2e67d5558dc242cf2b233148b5ef46",
+    "date": "2022-10-07T11:20:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "import import com.julianovincecampos.dogedex.viewmodel.MainCoroutineRule",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/a066c034fa2e67d5558dc242cf2b233148b5ef46"
+  },
+  {
+    "sha": "50e29fc8892aeae80a0da0725c71bdd409ef54d9",
+    "date": "2022-10-07T11:20:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Update Exception",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/50e29fc8892aeae80a0da0725c71bdd409ef54d9"
+  },
+  {
+    "sha": "f86060a2aec3502dcfdb9741cdd271d460d1178e",
+    "date": "2022-10-07T11:14:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Testing the request(getDogByMlId) on success",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/f86060a2aec3502dcfdb9741cdd271d460d1178e"
+  },
+  {
+    "sha": "1a23bdb72b2675fc9bcf987448b12a5065ef4d6a",
+    "date": "2022-10-07T11:12:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the RepositoryInterface for the tests",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/1a23bdb72b2675fc9bcf987448b12a5065ef4d6a"
+  },
+  {
+    "sha": "e765b25508c3ab3077e95b0a2e59ac24144169bd",
+    "date": "2022-10-07T11:11:39Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the GoodRepository class for the tests",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e765b25508c3ab3077e95b0a2e59ac24144169bd"
+  },
+  {
+    "sha": "66c7d487d6c40dff29d3113edd80affa0c775295",
+    "date": "2022-10-07T11:11:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the FakeRepository class for the tests",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/66c7d487d6c40dff29d3113edd80affa0c775295"
+  },
+  {
+    "sha": "180aec7967f1ce523ed5037cc9e191d7dc1b8c4e",
+    "date": "2022-10-07T11:11:03Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the FakeRepository class for the tests",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/180aec7967f1ce523ed5037cc9e191d7dc1b8c4e"
+  },
+  {
+    "sha": "d9457e4467bcd0b184bdcbf964f6af1029bfd94c",
+    "date": "2022-10-07T11:10:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding password mask inside compose password jetpack compose",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/d9457e4467bcd0b184bdcbf964f6af1029bfd94c"
+  },
+  {
+    "sha": "a18b5e1f1f61b4381b53eec5cf159c145ecdea03",
+    "date": "2022-10-07T11:10:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding New Missing Strings to the Project",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/a18b5e1f1f61b4381b53eec5cf159c145ecdea03"
+  },
+  {
+    "sha": "15a09b55aa4561ffa2e07529207dd8c0858b76a6",
+    "date": "2022-10-07T11:09:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring and organizing the code, putting the missing Strings inside the .string file and also uncommenting the code to run the project in its entirety.",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/15a09b55aa4561ffa2e07529207dd8c0858b76a6"
+  },
+  {
+    "sha": "e359f5d809fee7055da84a0f16757dbaffff1f40",
+    "date": "2022-10-07T11:08:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "optimizing the LoginActivity class to facilitate testing",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/e359f5d809fee7055da84a0f16757dbaffff1f40"
+  },
+  {
+    "sha": "1c1f62df87d837788e0d6ea20e78603d16d27952",
+    "date": "2022-10-07T11:07:46Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating tag to get jetpackcompose screen tester component",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/1c1f62df87d837788e0d6ea20e78603d16d27952"
+  },
+  {
+    "sha": "2bdc59c14c164da96eca3ec364ccba0b535a9ef7",
+    "date": "2022-10-07T11:07:13Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a DogRepositoryTest test class and testing the DogRepository class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/2bdc59c14c164da96eca3ec364ccba0b535a9ef7"
+  },
+  {
+    "sha": "486ede265e4a2d97515612fe0b8044dfc1b17746",
+    "date": "2022-10-07T11:06:32Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a DogListScreenTest test class",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/486ede265e4a2d97515612fe0b8044dfc1b17746"
+  },
+  {
+    "sha": "77df04dd53aed46827c65b3fdb95531c30111527",
+    "date": "2022-10-07T11:06:06Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "REfactoring DogListScreen to add viewModedel",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/77df04dd53aed46827c65b3fdb95531c30111527"
+  },
+  {
+    "sha": "de35061d5653d002645fc8209a652ccb4c6fc050",
+    "date": "2022-10-07T11:04:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Removing line for code organization",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/de35061d5653d002645fc8209a652ccb4c6fc050"
+  },
+  {
+    "sha": "c1fcf30ed6edf19a28b6820c9765d013163a37ed",
+    "date": "2022-10-07T11:03:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring of the AuthScreen class to optimize the authentication screen behaviors and separation of responsibilities",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/c1fcf30ed6edf19a28b6820c9765d013163a37ed"
+  },
+  {
+    "sha": "bf0317920f7f6d67a7912fc0cddf9d74981a7b10",
+    "date": "2022-10-07T11:02:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring androidmanifest to use compose jetpack canvas",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/bf0317920f7f6d67a7912fc0cddf9d74981a7b10"
+  },
+  {
+    "sha": "43e4540de034d6a3485ee413c6e4ff5282f12af7",
+    "date": "2022-10-07T11:02:17Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring of name of abstract classes of Hilt module for better understanding",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/43e4540de034d6a3485ee413c6e4ff5282f12af7"
+  },
+  {
+    "sha": "a31e96902dca9d54ddccfd4b81caa567052138d6",
+    "date": "2022-09-28T15:27:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Projeto DogsDex",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/a31e96902dca9d54ddccfd4b81caa567052138d6"
+  },
+  {
+    "sha": "b9fda268aed181c65bd0b1d9266dbbbcc28e711a",
+    "date": "2022-09-28T15:26:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "adding files unversioned files",
+    "html_url": "https://github.com/JulianoVinceCampos/WhatIsThisDog/commit/b9fda268aed181c65bd0b1d9266dbbbcc28e711a"
+  }
+]
