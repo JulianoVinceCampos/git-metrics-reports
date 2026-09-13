@@ -1,0 +1,492 @@
+[
+  {
+    "sha": "f8ed5dc6e4dc97b840951f95ae06d1d2aef89290",
+    "date": "2024-04-22T19:48:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualização: Atualizado o módulo de ViewModels para refletir a nova estrutura de pacotes.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/f8ed5dc6e4dc97b840951f95ae06d1d2aef89290"
+  },
+  {
+    "sha": "cb122b54805ef8a6322f51d25b54b9756aa94dfd",
+    "date": "2024-04-22T19:48:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Remoção: Importação desnecessária do ViewModel de artigos removida da MainActivity.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/cb122b54805ef8a6322f51d25b54b9756aa94dfd"
+  },
+  {
+    "sha": "9c13be749734724143264b0703338a32c4eeaccc",
+    "date": "2024-04-22T19:48:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualização: Adicionado o módulo de banco de dados e ajustados os imports para refletir a nova estrutura.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/9c13be749734724143264b0703338a32c4eeaccc"
+  },
+  {
+    "sha": "03f89ae9cfb8dde61f349f19a3b4045d39cca95f",
+    "date": "2024-04-22T19:47:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adição: Adicionado o módulo de banco de dados para a plataforma compartilhada, configurando a criação do driver e o acesso ao banco de dados.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/03f89ae9cfb8dde61f349f19a3b4045d39cca95f"
+  },
+  {
+    "sha": "074821dd4fc3402ddfa0ee150f6701b91b9a1401",
+    "date": "2024-04-22T19:47:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado o módulo de banco de dados para o Android, configurando a criação do driver e o acesso ao banco de dados.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/074821dd4fc3402ddfa0ee150f6701b91b9a1401"
+  },
+  {
+    "sha": "6596d89225054eb30c1cf66cf4beea993d8d9957",
+    "date": "2024-04-22T19:46:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada a classe DatabaseDriverFactory para criar o driver do banco de dados no ambiente nativo.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/6596d89225054eb30c1cf66cf4beea993d8d9957"
+  },
+  {
+    "sha": "ba9c47e2e5fef8af0206b729fc17dc3703a0fe69",
+    "date": "2024-04-22T19:46:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada a classe DatabaseDriverFactory como expectativa para criação do driver do banco de dados.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/ba9c47e2e5fef8af0206b729fc17dc3703a0fe69"
+  },
+  {
+    "sha": "029feda788d201599eda492ef9d5532e74cf56ed",
+    "date": "2024-04-22T19:46:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adição: Adicionada a classe DatabaseDriverFactory para criar o driver do banco de dados.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/029feda788d201599eda492ef9d5532e74cf56ed"
+  },
+  {
+    "sha": "6ae526a8a399d9fb39d795c75e9fa9de1108c995",
+    "date": "2024-04-22T19:45:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adição: Adicionado o módulo de banco de dados ao Koin na classe DailyPulseApp.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/6ae526a8a399d9fb39d795c75e9fa9de1108c995"
+  },
+  {
+    "sha": "372da3639949949edea7e36e189c83ebac3664ce",
+    "date": "2024-04-22T19:45:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adição: Adicionada funcionalidade de atualização para a tela de artigos.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/372da3639949949edea7e36e189c83ebac3664ce"
+  },
+  {
+    "sha": "62e52aa097a5916dc7588486092c3bf2a616a65e",
+    "date": "2024-04-22T19:45:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Movida a classe ArticlesViewModel para o pacote de apresentação de artigos e atualizadas as importações necessárias.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/62e52aa097a5916dc7588486092c3bf2a616a65e"
+  },
+  {
+    "sha": "9f8d3bc4c14eca42c017267a39e54555c0dde71f",
+    "date": "2024-04-22T19:44:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refatoração: Movido a classe ArticlesUseCase para o pacote application e atualizada a dependência para ArticlesRepository.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/9f8d3bc4c14eca42c017267a39e54555c0dde71f"
+  },
+  {
+    "sha": "077b2efaa02040eac674cec75bf6b0c31a20b603",
+    "date": "2024-04-22T19:44:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Remoção: Removida a classe ArticlesState do pacote de artigos, pois não é mais necessária.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/077b2efaa02040eac674cec75bf6b0c31a20b603"
+  },
+  {
+    "sha": "6e17d5f2c5114cad56c0bcd3316bf4a7e2334166",
+    "date": "2024-04-22T19:43:39Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adição: Adicionada a classe ArticlesState para representar o estado da apresentação de artigos.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/6e17d5f2c5114cad56c0bcd3316bf4a7e2334166"
+  },
+  {
+    "sha": "9316c86766d75eb4a085e5f479b67e10be843bdf",
+    "date": "2024-04-22T19:43:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualização: Movido a classe ArticlesService para o pacote de dados de artigos e ajustado o país para \"us\".",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/9316c86766d75eb4a085e5f479b67e10be843bdf"
+  },
+  {
+    "sha": "6ee190c9d595bd773438213d732fcc1de7d35e58",
+    "date": "2024-04-22T19:42:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Movimento: Movida a classe ArticlesResponse para o pacote de dados de artigos.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/6ee190c9d595bd773438213d732fcc1de7d35e58"
+  },
+  {
+    "sha": "9cb118419830744c39e7991a7f6de6f90d5bb6ac",
+    "date": "2024-04-22T19:42:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Remoção: Removida a classe ArticlesRepository, pois foi substituída pela nova implementação.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/9cb118419830744c39e7991a7f6de6f90d5bb6ac"
+  },
+  {
+    "sha": "1dde8d8c9f0f13ead4f7b42dcd62ede6d5e47ada",
+    "date": "2024-04-22T19:42:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adição: Adicionada classe ArticlesRepository para gerenciamento de dados de artigos.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/1dde8d8c9f0f13ead4f7b42dcd62ede6d5e47ada"
+  },
+  {
+    "sha": "7a99f5182e7d7fc9115b53f9af6a3083c6100ff7",
+    "date": "2024-04-22T19:41:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualização: Atualizados imports e dependências do módulo de artigos para refletir a nova estrutura.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/7a99f5182e7d7fc9115b53f9af6a3083c6100ff7"
+  },
+  {
+    "sha": "dad9c5ec8f498b3a1da2e35288d47399631d1407",
+    "date": "2024-04-22T19:40:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualização: Movido ArticlesDataSource para o pacote correto e adicionado namespace 'data'.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/dad9c5ec8f498b3a1da2e35288d47399631d1407"
+  },
+  {
+    "sha": "db4b3c6d7671a568ee72b1d1ef455b8e3829114f",
+    "date": "2024-04-22T19:40:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refatoração: Importação da classe Article para o pacote correto.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/db4b3c6d7671a568ee72b1d1ef455b8e3829114f"
+  },
+  {
+    "sha": "9e8b17e60b616dae97f2f04020d47319067e4e0f",
+    "date": "2024-04-22T19:38:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "clean architecture",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/9e8b17e60b616dae97f2f04020d47319067e4e0f"
+  },
+  {
+    "sha": "c01050ba0f5e1dc1b8fc8182dff269ea27fdd630",
+    "date": "2024-04-22T19:38:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Organizando packages aplicando clean architecture",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/c01050ba0f5e1dc1b8fc8182dff269ea27fdd630"
+  },
+  {
+    "sha": "7636fd928c505b41e0c19eab4bec155e6c02a4af",
+    "date": "2024-04-20T20:28:43Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualiza versões e adiciona dependências para SQLDelight e SwipeRefresh",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/7636fd928c505b41e0c19eab4bec155e6c02a4af"
+  },
+  {
+    "sha": "5b68b21e486e3399aa88e1a41613adc490ef7b7f",
+    "date": "2024-04-20T20:28:04Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refatora inicialização do Koin e injeção de dependência",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/5b68b21e486e3399aa88e1a41613adc490ef7b7f"
+  },
+  {
+    "sha": "4ce067fa27a02bf5757fdde098f9ffe4c6e495dc",
+    "date": "2024-04-20T20:27:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Inicializa o Koin no iOSApp",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/4ce067fa27a02bf5757fdde098f9ffe4c6e495dc"
+  },
+  {
+    "sha": "924932b6e01bac8478d36d9a4e37d69bc853aaaa",
+    "date": "2024-04-20T20:26:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona definições SQL para a tabela Article",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/924932b6e01bac8478d36d9a4e37d69bc853aaaa"
+  },
+  {
+    "sha": "cde6a117cbb5dbc4ccf19996ae0684daca2cf7cf",
+    "date": "2024-04-20T20:25:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona plugin SQLDelight para consistência de versões",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/cde6a117cbb5dbc4ccf19996ae0684daca2cf7cf"
+  },
+  {
+    "sha": "2767f3363c9d43d051056a7560826936d1b71c35",
+    "date": "2024-04-20T20:24:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona SQLDelight e configuração de banco de dados",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/2767f3363c9d43d051056a7560826936d1b71c35"
+  },
+  {
+    "sha": "139beecaf7486da6c31fc20d810a3f04e30bb00f",
+    "date": "2024-04-20T20:23:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona SwipeRefresh ao projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/139beecaf7486da6c31fc20d810a3f04e30bb00f"
+  },
+  {
+    "sha": "7efca8dbefde2643061a2ddc11ff09ba120b20f6",
+    "date": "2024-04-20T20:23:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualiza ArticlesViewModelWrapper para injetar ArticlesViewModel com ArticlesInjector",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/7efca8dbefde2643061a2ddc11ff09ba120b20f6"
+  },
+  {
+    "sha": "047facb433702fc1d018dd711b8a76fa53cb64e6",
+    "date": "2024-04-20T20:22:14Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona ArticlesRepository para gerenciamento de operações relacionadas a artigos",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/047facb433702fc1d018dd711b8a76fa53cb64e6"
+  },
+  {
+    "sha": "2754d0d56969e346d9639379bea3847c03d8c6de",
+    "date": "2024-04-20T20:19:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona ArticlesDataSource para operações relacionadas a artigos",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/2754d0d56969e346d9639379bea3847c03d8c6de"
+  },
+  {
+    "sha": "8a2756ba43a01c4c8c65d343dfa953dadcdc17da",
+    "date": "2024-04-19T13:48:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configurar módulo de view models do Koin para Android",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/8a2756ba43a01c4c8c65d343dfa953dadcdc17da"
+  },
+  {
+    "sha": "38e9ae58b0e8ba85c04e3e30b6fe78164bfa4ba1",
+    "date": "2024-04-19T13:48:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configurar módulos compartilhados do Koin",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/38e9ae58b0e8ba85c04e3e30b6fe78164bfa4ba1"
+  },
+  {
+    "sha": "46ceaed60fd162a8e67ff9435c74be1485cf252c",
+    "date": "2024-04-19T13:47:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionar módulo de rede Koin",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/46ceaed60fd162a8e67ff9435c74be1485cf252c"
+  },
+  {
+    "sha": "d0846c54526c526dd2b72ca6906ff63cf9d589e2",
+    "date": "2024-04-19T13:47:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Inicializar Koin para injeção de dependência",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/d0846c54526c526dd2b72ca6906ff63cf9d589e2"
+  },
+  {
+    "sha": "ff52a315a21f99a406afd1fb8f4a9a1961212d83",
+    "date": "2024-04-19T13:46:49Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Inicializar Koin na aplicação",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/ff52a315a21f99a406afd1fb8f4a9a1961212d83"
+  },
+  {
+    "sha": "d8c1dfaa7267f01c1f3a71e3529bcff1d87db850",
+    "date": "2024-04-19T13:46:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionar módulo Koin para o recurso de artigos",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/d8c1dfaa7267f01c1f3a71e3529bcff1d87db850"
+  },
+  {
+    "sha": "1093597b589c1b326ed7abef01d5a8f4c85fc99f",
+    "date": "2024-04-19T13:45:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Fazendo Refactor no projeto, depois de implenetar o Koin.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/1093597b589c1b326ed7abef01d5a8f4c85fc99f"
+  },
+  {
+    "sha": "a10a6b5fe3b4e0fae0d1c7e179d73570bf507422",
+    "date": "2024-04-19T13:44:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configurando Koin no projeto .DailyPulseApp",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/a10a6b5fe3b4e0fae0d1c7e179d73570bf507422"
+  },
+  {
+    "sha": "f68b4eaaa6e6f10b9fd641564384259ced3477b9",
+    "date": "2024-04-19T10:37:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualizar enum Screens para corrigir os valores das rotas.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/f68b4eaaa6e6f10b9fd641564384259ced3477b9"
+  },
+  {
+    "sha": "888da686d03f30ddd222fbedcf83259efff08aa6",
+    "date": "2024-04-19T10:37:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualizar implementação para recuperar informações do sistema no iOS.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/888da686d03f30ddd222fbedcf83259efff08aa6"
+  },
+  {
+    "sha": "18baef4a52478f54549329d3edda1416e0b82178",
+    "date": "2024-04-19T10:36:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualizar dependências e refatorar MainActivity",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/18baef4a52478f54549329d3edda1416e0b82178"
+  },
+  {
+    "sha": "1a45f090b16691d9b837eae53e4fd6717c13448e",
+    "date": "2024-04-19T10:35:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualiza as versões das dependências e bibliotecas para refletir as últimas versões estáveis e adiciona novas dependências, como Ktor para comunicação de rede, Kotlinx Datetime para manipulação de datas e Koin para injeção de dependência. Assegura compatibilidade com as versões de plugin e biblioteca mais recentes.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/1a45f090b16691d9b837eae53e4fd6717c13448e"
+  },
+  {
+    "sha": "71bca1db0637358dad5bfb511817495270e87b36",
+    "date": "2024-04-19T10:35:04Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Substitui a exibição inicial da tela \"About\" por uma tela de exibição de artigos, com a capacidade de abrir a tela \"About\" em um popover.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/71bca1db0637358dad5bfb511817495270e87b36"
+  },
+  {
+    "sha": "af011185f79e741469903268789d3ba11a87c53a",
+    "date": "2024-04-19T10:34:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a serialização Kotlin ao plugin Kotlin, dependências do Ktor e Koin, tanto para Android quanto para iOS.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/af011185f79e741469903268789d3ba11a87c53a"
+  },
+  {
+    "sha": "352c9bb2eaaff95040e9aaaf4672295893f4c1b4",
+    "date": "2024-04-19T10:33:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona as dependências do Koin para injeção de dependência e navegação Jetpack Compose.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/352c9bb2eaaff95040e9aaaf4672295893f4c1b4"
+  },
+  {
+    "sha": "d13ca934fe02a3fe2a44927d1b2a0718ecae7371",
+    "date": "2024-04-19T10:33:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a classe ArticleUseCase para mapear artigos brutos e calcular a string de \"dias atrás\".",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/d13ca934fe02a3fe2a44927d1b2a0718ecae7371"
+  },
+  {
+    "sha": "2f46d7eca5dbb7ad55307e732beecd236dc212e4",
+    "date": "2024-04-19T10:32:32Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refatora ArticlesViewModel para utilizar ArticleUseCase para buscar artigos usando HttpClient com serialização JSON.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/2f46d7eca5dbb7ad55307e732beecd236dc212e4"
+  },
+  {
+    "sha": "ec7bffbefa6b4e03eccfb4ab30e7088ecafa1eeb",
+    "date": "2024-04-19T10:30:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a classe ArticlesService para lidar com a busca de artigos da API de notícias.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/ec7bffbefa6b4e03eccfb4ab30e7088ecafa1eeb"
+  },
+  {
+    "sha": "020ea04b231cacfa387ef81e2cc7a772d7dac91f",
+    "date": "2024-04-19T10:30:14Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a tela de exibição de artigos, incluindo ViewModel, barra de aplicativo, lista de artigos e componentes de carregamento e mensagem de erro.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/020ea04b231cacfa387ef81e2cc7a772d7dac91f"
+  },
+  {
+    "sha": "be754d71ad254470e01e8fe1a9343915767c6818",
+    "date": "2024-04-19T10:29:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a classe de dados ArticlesResponse para representar a resposta de uma solicitação de artigos.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/be754d71ad254470e01e8fe1a9343915767c6818"
+  },
+  {
+    "sha": "5f89fe458d2c7d2dd84df45ee174098922ca2f4b",
+    "date": "2024-04-19T10:29:24Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a funcionalidade de exibir a tela de artigos, incluindo a barra de aplicativo (AppBar) e a lista de artigos.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/5f89fe458d2c7d2dd84df45ee174098922ca2f4b"
+  },
+  {
+    "sha": "126b0ff953b7509293addea17784c1b48fc5c075",
+    "date": "2024-04-19T10:28:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a classe de dados ArticleRaw para representar informações básicas de um artigo.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/126b0ff953b7509293addea17784c1b48fc5c075"
+  },
+  {
+    "sha": "27869db7809012dc1f67a6bf7141d418f3370dd5",
+    "date": "2024-04-19T10:27:39Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": " Adiciona o fluxo de navegação para exibir a tela de artigos e a tela \"About Device\".",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/27869db7809012dc1f67a6bf7141d418f3370dd5"
+  },
+  {
+    "sha": "0c9624be33a876ce2c29d626f32bd3d0587c3065",
+    "date": "2024-04-19T10:27:13Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a tela \"AboutScreen\" que exibe informações do dispositivo e um botão \"Done\" para fechar.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/0c9624be33a876ce2c29d626f32bd3d0587c3065"
+  },
+  {
+    "sha": "e227137ab6414a27f49c0138599d582f72b20f9d",
+    "date": "2024-04-19T10:27:03Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a tela \"AboutScreen\" que exibe informações do dispositivo e um botão \"Done\" para fechar.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/e227137ab6414a27f49c0138599d582f72b20f9d"
+  },
+  {
+    "sha": "642bbc481e6dcfabc26984aca0f0a9af82a69cca",
+    "date": "2024-04-19T10:26:32Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a barra de ferramentas na tela \"About\" com um botão de voltar.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/642bbc481e6dcfabc26984aca0f0a9af82a69cca"
+  },
+  {
+    "sha": "a19c124fe0281c5a731cd01fd28f784781cbbf44",
+    "date": "2024-04-19T10:25:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a estrutura AboutListView, que exibe informações sobre o sistema operacional e o dispositivo.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/a19c124fe0281c5a731cd01fd28f784781cbbf44"
+  },
+  {
+    "sha": "6326f825203d3d4d3385b4f9c9958f6a592d20dc",
+    "date": "2024-04-18T12:08:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Classe Arquitetura base do Android onde temos o viewModelScope, conseguimos controlar as Coroutines vinculadas ao viewModel e seu ciclo de vida.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/6326f825203d3d4d3385b4f9c9958f6a592d20dc"
+  },
+  {
+    "sha": "be87229849a158558a9271b12fb0d09b8d14c5d2",
+    "date": "2024-04-18T12:07:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Classe gerada na criação do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/be87229849a158558a9271b12fb0d09b8d14c5d2"
+  },
+  {
+    "sha": "baf55def03c01defefd9ce3c0cfc574ead4b889e",
+    "date": "2024-04-18T12:06:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Arquitetura base, classe responsavel por fornecer o padrão de implementação do iOS e Android para criação das Coroutines",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/baf55def03c01defefd9ce3c0cfc574ead4b889e"
+  },
+  {
+    "sha": "fe15eee71f8253af5104f7718b5e09d28e416c5c",
+    "date": "2024-04-18T12:06:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Arquitetura base do projeto para manipular o ciclo de vida das Coroutines dentro do iOS",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/fe15eee71f8253af5104f7718b5e09d28e416c5c"
+  },
+  {
+    "sha": "dddb6e70d7f21a0b303b46266fa1d26244521fe4",
+    "date": "2024-04-18T12:05:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criando a tela de Lista de artigos/noticias.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/dddb6e70d7f21a0b303b46266fa1d26244521fe4"
+  },
+  {
+    "sha": "7a2b02837ad44485b19f4275120c0a559ed4d7de",
+    "date": "2024-04-18T12:04:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Classe model onde temos as informações setadas da configurações, classe compartilhada entre iOS e Android",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/7a2b02837ad44485b19f4275120c0a559ed4d7de"
+  },
+  {
+    "sha": "0267f3b634b0ddec378def40d8179840257fd3a9",
+    "date": "2024-04-18T12:03:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração do AndroidManifest.xml para requisições com backend",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/0267f3b634b0ddec378def40d8179840257fd3a9"
+  },
+  {
+    "sha": "cc48c80ec8ac069e950b90a94bd616d93dc17d46",
+    "date": "2024-04-18T12:03:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criando a classe em comum de Platform onde consta as informações de configurações do dispositivo.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/cc48c80ec8ac069e950b90a94bd616d93dc17d46"
+  },
+  {
+    "sha": "2b4d3feafa2cad8291049edfb514a82453cf7aa3",
+    "date": "2024-04-18T12:02:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criando a tela de Abount, essa tela é uma lista de informações do dispositivo, utilizando compose no Android e swiftUI no iOS.",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/2b4d3feafa2cad8291049edfb514a82453cf7aa3"
+  },
+  {
+    "sha": "630279f0da3dce0afa9a3e922a6f39fad8464805",
+    "date": "2024-04-18T12:00:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Criando projeto KMP de noticias",
+    "html_url": "https://github.com/JulianoVinceCampos/DiariodeNoticias/commit/630279f0da3dce0afa9a3e922a6f39fad8464805"
+  }
+]

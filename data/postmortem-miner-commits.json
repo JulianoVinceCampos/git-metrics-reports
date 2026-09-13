@@ -1,0 +1,170 @@
+[
+  {
+    "sha": "0d0db89b5d2ed860b7bf379d04408c7505144334",
+    "date": "2026-08-02T22:27:12Z",
+    "author": "github-actions[bot]",
+    "message": "chore(main): release 0.2.0 (#4)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/0d0db89b5d2ed860b7bf379d04408c7505144334"
+  },
+  {
+    "sha": "ba0a73dd7fbb94b9548413d101de3eb5218f052e",
+    "date": "2026-08-02T22:01:34Z",
+    "author": "Juliano Vince",
+    "message": "build(docker): pina a imagem base por digest e delega a atualizacao ao Renovate (#11)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/ba0a73dd7fbb94b9548413d101de3eb5218f052e"
+  },
+  {
+    "sha": "49a16f73da508a4578f98f3ab46495e3f023ea1e",
+    "date": "2026-08-02T19:09:55Z",
+    "author": "Juliano Vince",
+    "message": "fix(web): implementa HEAD e pede revalidacao nos estaticos (#9)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/49a16f73da508a4578f98f3ab46495e3f023ea1e"
+  },
+  {
+    "sha": "810445b68740a60da39bbbb987acedfb2a0654b9",
+    "date": "2026-08-02T18:38:47Z",
+    "author": "Juliano Vince",
+    "message": "fix(web): corrige o login invisivel, troca a credencial e aplica a nova paleta (#8)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/810445b68740a60da39bbbb987acedfb2a0654b9"
+  },
+  {
+    "sha": "df8f61c0cc7e2ff29fea8c90bae1dbba6edc6e0f",
+    "date": "2026-08-02T18:17:33Z",
+    "author": "Juliano Vince",
+    "message": "fix(web): HTTP/1.1 e drenagem de corpo, para não dessincronizar a conexão (#7)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/df8f61c0cc7e2ff29fea8c90bae1dbba6edc6e0f"
+  },
+  {
+    "sha": "23af0c555c374814e0d95d9ea5a0859d62ad671c",
+    "date": "2026-08-02T17:56:29Z",
+    "author": "Juliano Vince",
+    "message": "docs(readme): link the live demo instance (#6)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/23af0c555c374814e0d95d9ea5a0859d62ad671c"
+  },
+  {
+    "sha": "125c0ecaa8169806f844f3e0f5f45a836534c096",
+    "date": "2026-08-02T17:28:52Z",
+    "author": "Juliano Vince",
+    "message": "feat(web): dashboard, container e deploy, ainda sem dependência de runtime (#5)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/125c0ecaa8169806f844f3e0f5f45a836534c096"
+  },
+  {
+    "sha": "d959ead8f9287f5db91db50796f48a2e6fc64450",
+    "date": "2026-07-29T20:07:26Z",
+    "author": "Juliano Vince",
+    "message": "docs: traduz README para PT-BR preservando termos tecnicos (#3)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/d959ead8f9287f5db91db50796f48a2e6fc64450"
+  },
+  {
+    "sha": "39b5b5c40f324ea8681fde6a4bcfacdc2b8d1e7a",
+    "date": "2026-07-26T15:06:50Z",
+    "author": "Juliano Vince",
+    "message": "ci: move renovate config to json5 so the waiver can live next to the rule",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/39b5b5c40f324ea8681fde6a4bcfacdc2b8d1e7a"
+  },
+  {
+    "sha": "5524beedd523b87bc9e14496cfb412a3db257129",
+    "date": "2026-07-26T15:00:27Z",
+    "author": "Juliano Vince",
+    "message": "ci: set minimumReleaseAge on every renovate package rule",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/5524beedd523b87bc9e14496cfb412a3db257129"
+  },
+  {
+    "sha": "5d8e74b7ee36911b8cd6320e44faa010c43a727a",
+    "date": "2026-07-26T14:52:16Z",
+    "author": "Juliano Vince",
+    "message": "ci: drop dependency automerge instead of tuning the renovate waiver",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/5d8e74b7ee36911b8cd6320e44faa010c43a727a"
+  },
+  {
+    "sha": "0e3a467f692b9945ff5f78c4d890405e39b132b7",
+    "date": "2026-07-26T14:46:49Z",
+    "author": "Juliano Vince",
+    "message": "ci: fix pip-audit on self, place nosemgrep waivers correctly, harden renovate automerge",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/0e3a467f692b9945ff5f78c4d890405e39b132b7"
+  },
+  {
+    "sha": "437772018f7028e309ef7a329ff3ac05671321c4",
+    "date": "2026-07-26T14:33:13Z",
+    "author": "Juliano Vince",
+    "message": "ci: declare SONAR_TOKEN in the reusable workflow that receives it",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/437772018f7028e309ef7a329ff3ac05671321c4"
+  },
+  {
+    "sha": "278fe11da4d23ad2bf52f7e3a0675f9e8f6a1ea8",
+    "date": "2026-07-26T14:27:43Z",
+    "author": "Juliano Vince",
+    "message": "ci: pin every action by commit sha, scope sonar secret, fix pip-audit on editable install",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/278fe11da4d23ad2bf52f7e3a0675f9e8f6a1ea8"
+  },
+  {
+    "sha": "dfb7a9f646bbbbc48372fa8dbc6eb7874c6aef14",
+    "date": "2026-07-26T02:15:05Z",
+    "author": "github-actions[bot]",
+    "message": "chore(main): release 0.1.0 (#1)",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/dfb7a9f646bbbbc48372fa8dbc6eb7874c6aef14"
+  },
+  {
+    "sha": "121ff4a634e759b96039c368099025f2885ef8bf",
+    "date": "2026-07-26T02:14:22Z",
+    "author": "Juliano Vince",
+    "message": "ci: run semgrep from pip and exempt the allowlist file from the leak rules",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/121ff4a634e759b96039c368099025f2885ef8bf"
+  },
+  {
+    "sha": "ea9072880c322588c6626676903770d6889d9fb8",
+    "date": "2026-07-26T02:09:29Z",
+    "author": "Juliano Vince",
+    "message": "ci: fix workflow permission ceiling, pin resolved action versions, guard missing SONAR_TOKEN",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/ea9072880c322588c6626676903770d6889d9fb8"
+  },
+  {
+    "sha": "5138e65db1c3928f2a1a73eb16331eaceeacfda2",
+    "date": "2026-07-26T01:33:59Z",
+    "author": "Juliano Vince",
+    "message": "docs: readme with measured results, ADRs, contributing and security policy",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/5138e65db1c3928f2a1a73eb16331eaceeacfda2"
+  },
+  {
+    "sha": "ef3cc8486f45c8968c91940c090d17f0c0fe0af7",
+    "date": "2026-07-26T01:33:59Z",
+    "author": "Juliano Vince",
+    "message": "ci: ten-layer pipeline with sanitize as the first gate",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/ef3cc8486f45c8968c91940c090d17f0c0fe0af7"
+  },
+  {
+    "sha": "01123677fecd02a04417e7de3bf5f33d5b814639",
+    "date": "2026-07-26T01:33:59Z",
+    "author": "Juliano Vince",
+    "message": "test: suite with property-based fuzzing and gate coverage",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/01123677fecd02a04417e7de3bf5f33d5b814639"
+  },
+  {
+    "sha": "5d2f8b79ea75b605de2f1e526b8acf2a7eb14f4b",
+    "date": "2026-07-26T01:33:59Z",
+    "author": "Juliano Vince",
+    "message": "feat: sanitize gate, coverage ratchet and deterministic corpus generator",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/5d2f8b79ea75b605de2f1e526b8acf2a7eb14f4b"
+  },
+  {
+    "sha": "adbdd6cdff42fbf4257a5e3369225bdcd3652607",
+    "date": "2026-07-26T01:33:59Z",
+    "author": "Juliano Vince",
+    "message": "feat: pattern discovery, triage decision tree, reports and CLI",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/adbdd6cdff42fbf4257a5e3369225bdcd3652607"
+  },
+  {
+    "sha": "1f0685a55bc860d2937678f4e6b4b9e967f32f91",
+    "date": "2026-07-26T01:33:59Z",
+    "author": "Juliano Vince",
+    "message": "feat: domain model, forgiving parser and bilingual signal extraction",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/1f0685a55bc860d2937678f4e6b4b9e967f32f91"
+  },
+  {
+    "sha": "573fc07181f8c5bbe01b7dc2e3ccc7b6a0294dcc",
+    "date": "2026-07-26T01:33:58Z",
+    "author": "Juliano Vince",
+    "message": "chore: project scaffold, license and tooling config",
+    "html_url": "https://github.com/JulianoVinceCampos/postmortem-miner/commit/573fc07181f8c5bbe01b7dc2e3ccc7b6a0294dcc"
+  }
+]

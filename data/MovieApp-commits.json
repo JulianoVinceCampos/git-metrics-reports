@@ -1,0 +1,345 @@
+[
+  {
+    "sha": "f5cb87302a346d648e7dac9a3e665177fe1b7f3b",
+    "date": "2024-05-10T14:25:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a função de mapeamento para converter resultados de pesquisa em modelos de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/f5cb87302a346d648e7dac9a3e665177fe1b7f3b"
+  },
+  {
+    "sha": "8d1fa9cf037aabf7be8a0a3602da3567d7570b63",
+    "date": "2024-05-10T14:24:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa o repositório para buscar filmes com suporte a paginação",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/8d1fa9cf037aabf7be8a0a3602da3567d7570b63"
+  },
+  {
+    "sha": "494c60e61f6bd5f07eb07cb4a6959a6626c428ec",
+    "date": "2024-05-10T14:24:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Define o repositório para buscar filmes com suporte a paginação",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/494c60e61f6bd5f07eb07cb4a6959a6626c428ec"
+  },
+  {
+    "sha": "3dfb1c0a122daf0c0f34eaece04da58fddf70e5b",
+    "date": "2024-05-10T14:24:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implementa a fonte de dados remota para a busca de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/3dfb1c0a122daf0c0f34eaece04da58fddf70e5b"
+  },
+  {
+    "sha": "5d869ecb312e6968283f04d6f537060394d54957",
+    "date": "2024-05-10T14:23:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": " Define a interface para o acesso aos dados remotos de busca de filmes",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/5d869ecb312e6968283f04d6f537060394d54957"
+  },
+  {
+    "sha": "933f1e07c8cd352e4372efa60e83094f0682ea4a",
+    "date": "2024-05-10T14:23:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona a lógica para obter a chave de atualização para paginação",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/933f1e07c8cd352e4372efa60e83094f0682ea4a"
+  },
+  {
+    "sha": "a5937fe5ed3b5754ad24a1fe526ed1c62e1547b9",
+    "date": "2024-05-10T13:21:30Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Atualiza MovieContent para incluir tratamento de estado de carregamento e erro",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/a5937fe5ed3b5754ad24a1fe526ed1c62e1547b9"
+  },
+  {
+    "sha": "87b6f44ba0edcf4d8ca894b24d4172d1f7781241",
+    "date": "2024-05-10T13:20:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona composable LoadingView para exibição de indicador de carregamento circular",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/87b6f44ba0edcf4d8ca894b24d4172d1f7781241"
+  },
+  {
+    "sha": "8f09db26641b7379528df5b7fc76314541de3100",
+    "date": "2024-05-10T13:20:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adiciona composable ErrorScreen para exibição de tela de erro com mensagem e botão de recarregar",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/8f09db26641b7379528df5b7fc76314541de3100"
+  },
+  {
+    "sha": "eb271105bf82f6670da39207673a3c32bd06f68a",
+    "date": "2024-05-09T17:03:39Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "delete file",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/eb271105bf82f6670da39207673a3c32bd06f68a"
+  },
+  {
+    "sha": "32c8f166e1e6d4b4bda66e705d4f318f56cbaca5",
+    "date": "2024-05-09T16:59:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada a classe UtilFunctions com métodos para registrar mensagens de erro e informações usando Timber.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/32c8f166e1e6d4b4bda66e705d4f318f56cbaca5"
+  },
+  {
+    "sha": "da76e6565a0bc16fd562962b2e4a2a389129b82f",
+    "date": "2024-05-09T16:58:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada a classe SpokenLanguage que representa um idioma falado em um filme. Ela contém o nome em inglês, o código ISO 639-1 e o nome completo do idioma.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/da76e6565a0bc16fd562962b2e4a2a389129b82f"
+  },
+  {
+    "sha": "ba82692fd1ef5191bb22505026cffd94aadb37cb",
+    "date": "2024-05-09T16:58:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada a classe SearchResult que representa um resultado de pesquisa. Ela contém informações sobre um item pesquisado, incluindo seu título, data de lançamento, popularidade, avaliação, entre outros.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/ba82692fd1ef5191bb22505026cffd94aadb37cb"
+  },
+  {
+    "sha": "19e735a37ee912806eefc29fb05e2f1a34abc994",
+    "date": "2024-05-09T16:57:43Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada a classe SearchResponse que representa a resposta da API de pesquisa. Ela contém informações como a página atual, os resultados da pesquisa, o número total de páginas e o número total de resultados.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/19e735a37ee912806eefc29fb05e2f1a34abc994"
+  },
+  {
+    "sha": "cf26537d3632720ed2dbfbdefdf134f3848fe02f",
+    "date": "2024-05-09T16:57:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe utilitária ResultData, que representa o resultado de uma operação assíncrona. Ela é selada (sealed class) e possui três subclasses: Loading para indicar que a operação está em andamento, Success para indicar que a operação foi bem-sucedida e contém os dados resultantes, e Failure para indicar que ocorreu uma exceção durante a operação. As subclasses Success e Failure podem conter dados genéricos ou uma exceção, respectivamente.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/cf26537d3632720ed2dbfbdefdf134f3848fe02f"
+  },
+  {
+    "sha": "dc76ae96af7b1879b861234d31ac21ddbd01c5a1",
+    "date": "2024-05-09T16:56:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe de modelo ProductionCountry, que representa um país de produção de filmes. Esta classe possui propriedades para o código ISO 3166-1 do país e seu nome. As anotações SerializedName são usadas para fazer o mapeamento correto dos campos ao converter o JSON.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/dc76ae96af7b1879b861234d31ac21ddbd01c5a1"
+  },
+  {
+    "sha": "950d77091d3bf24f1da87ca6afb5a285c563a30c",
+    "date": "2024-05-09T16:55:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe de modelo ProductionCompany, que representa uma empresa de produção de filmes. Esta classe possui propriedades para o ID da empresa, o caminho do logo, o nome e o país de origem. As anotações SerializedName são usadas para fazer o mapeamento correto dos campos ao converter o JSON.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/950d77091d3bf24f1da87ca6afb5a285c563a30c"
+  },
+  {
+    "sha": "054bd3b51aa6ebefa9273c36995a5222f3084de0",
+    "date": "2024-05-09T16:54:43Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe ParamsInterceptor, que implementa a interface Interceptor do OkHttp. Esta classe intercepta todas as solicitações HTTP e adiciona parâmetros necessários, como a chave da API e o idioma, aos URLs das solicitações. Os valores dos parâmetros são obtidos das constantes definidas na classe Constants e de BuildConfig.API_KEY.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/054bd3b51aa6ebefa9273c36995a5222f3084de0"
+  },
+  {
+    "sha": "fa6bb399e4fd009be718fc4a0e0f59f2df4435b4",
+    "date": "2024-05-09T16:53:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado módulo NetWorkModule para fornecer dependências relacionadas à rede. Este módulo inclui métodos de fornecimento para interceptadores de parâmetros e de registro HTTP, cliente OkHttpClient, fábrica de conversão GsonConverterFactory e serviço MovieService. O cliente OkHttpClient é configurado com interceptadores para adicionar parâmetros às solicitações e para registrar as solicitações e respostas HTTP. O serviço MovieService é criado usando Retrofit, com a base URL definida em BuildConfig.BASE_URL.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/fa6bb399e4fd009be718fc4a0e0f59f2df4435b4"
+  },
+  {
+    "sha": "d8571c58b3dd678337c5d01fd1b6f0bc8ed1bb1a",
+    "date": "2024-05-09T16:53:13Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada função NavigationGraph para definir a navegação dentro do aplicativo. Esta função utiliza o Jetpack Navigation Compose para configurar as diferentes telas do aplicativo. Cada tela é representada por um composable correspondente a um item do Bottom Navigation. No exemplo, apenas a tela MoviePopular está implementada, onde o viewModel é obtido usando hiltViewModel e passado para a tela MoviePopularScreen. As outras telas (MovieSearch e MovieFavorite) ainda estão vazias.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/d8571c58b3dd678337c5d01fd1b6f0bc8ed1bb1a"
+  },
+  {
+    "sha": "599d1d4aef4047f62f7045a70de44aca87195387",
+    "date": "2024-05-09T16:52:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada interface MovieService para definir os endpoints da API de filmes. Inclui métodos para obter filmes populares, pesquisar filmes, obter detalhes de um filme específico e obter filmes similares. Cada método é anotado com @GET e especifica o caminho do endpoint e os parâmetros necessários. Os métodos retornam diferentes tipos de resposta, como MovieResponse e SearchResponse.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/599d1d4aef4047f62f7045a70de44aca87195387"
+  },
+  {
+    "sha": "b992540ae36bb8534da2e91b52d1f6d9e4ae8d73",
+    "date": "2024-05-09T16:51:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado modelo de domínio MovieSearch para representar os detalhes de um filme para fins de pesquisa.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/b992540ae36bb8534da2e91b52d1f6d9e4ae8d73"
+  },
+  {
+    "sha": "ff430b8d5f74924d9f50b7698e34c85784e6f801",
+    "date": "2024-05-09T16:48:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe MovieResult para representar um resultado de filme da resposta da API. Esta classe contém várias propriedades, incluindo se é para maiores de idade, URL do pôster, título original, idioma original, resumo, popularidade, data de lançamento, título, entre outros. Essas propriedades correspondem aos campos retornados pela API de filmes.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/ff430b8d5f74924d9f50b7698e34c85784e6f801"
+  },
+  {
+    "sha": "a249b956d3d133074f665a8db33317b8c23ccb9a",
+    "date": "2024-05-09T16:48:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe MovieResponse para representar a resposta da API de filmes. Esta classe contém informações sobre a página atual, o total de páginas, o total de resultados e a lista de resultados de filmes. Os resultados de filmes são representados por uma lista de MovieResult.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/a249b956d3d133074f665a8db33317b8c23ccb9a"
+  },
+  {
+    "sha": "6dcebfbc487cea304d0612596ac0060fb142d71b",
+    "date": "2024-05-09T16:47:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado componente MovieRate para exibir a avaliação de um filme. Este componente consiste em um ícone de estrela e o valor da avaliação, representados em uma linha. O ícone de estrela é preenchido em amarelo e o valor da avaliação é exibido ao lado. O componente é envolvido em uma pré-visualização para demonstrar seu funcionamento.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/6dcebfbc487cea304d0612596ac0060fb142d71b"
+  },
+  {
+    "sha": "c7ce0699bac994327ae50e7ac6cfe9a5427defb8",
+    "date": "2024-05-09T16:47:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe MoviePopularViewModel para a tela de filmes populares. Esta ViewModel é responsável por gerenciar o estado da tela e obter os dados dos filmes populares usando o caso de uso GetPopularMoviesUseCase. Os filmes são observados usando cachedIn(viewModelScope) para garantir que os dados sejam armazenados em cache durante a vida útil da ViewModel e não sejam recarregados desnecessariamente ao girar a tela.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/c7ce0699bac994327ae50e7ac6cfe9a5427defb8"
+  },
+  {
+    "sha": "c281fd1e9305f9be08847b93ba84f8d80ad8bcae",
+    "date": "2024-05-09T16:46:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe MoviePopularState para representar o estado da tela de filmes populares. Este estado inclui um fluxo de PagingData<Movie> para os filmes populares. Por padrão, o fluxo está vazio (emptyFlow()), o que significa que inicialmente não há filmes a serem exibidos.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/c281fd1e9305f9be08847b93ba84f8d80ad8bcae"
+  },
+  {
+    "sha": "3ade95d3f97c43e6c76107eb0f18a9faf14dc57c",
+    "date": "2024-05-09T16:45:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada tela MoviePopularScreen para exibir a lista de filmes populares. Esta tela é composta por um Scaffold com um TopAppBar que exibe o título \"Filmes Populares\". O conteúdo principal é o componente MovieContent, que mostra os filmes populares em uma grade paginada. Os filmes são obtidos do estado MoviePopularState e observados com collectAsLazyPagingItems(). Quando um filme é clicado, o ID é registrado usando UtilFunctions.logInfo() e a função navigateToDetailMovie é chamada para navegar para os detalhes do filme.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/3ade95d3f97c43e6c76107eb0f18a9faf14dc57c"
+  },
+  {
+    "sha": "363d7486e07f2d2b95fc014aea2442c46d478403",
+    "date": "2024-05-09T16:45:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada implementação MoviePopularRepositoryImpl da interface MoviePopularRepository. Esta classe é responsável por fornecer dados de filmes populares utilizando a arquitetura de paginação do Jetpack. Ela cria um Pager com a configuração de paginação fornecida e uma fábrica de fontes de paginação que obtém a fonte de dados remota MoviePopularRemoteDataSource. O fluxo de PagingData<Movie> é retornado para permitir a observação dos dados de forma reativa.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/363d7486e07f2d2b95fc014aea2442c46d478403"
+  },
+  {
+    "sha": "b8cfb75526095c5feef3c8aa759f08db32389e7b",
+    "date": "2024-05-09T16:43:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada interface MoviePopularRepository para definir o repositório responsável por fornecer dados de filmes populares. Este repositório fornece um fluxo de PagingData<Movie> para permitir a paginação dos filmes populares. A implementação desta interface será responsável por recuperar os filmes populares da fonte de dados apropriada.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/b8cfb75526095c5feef3c8aa759f08db32389e7b"
+  },
+  {
+    "sha": "235fc0cc3bf0db14e59e84e898a57cd72c3f9710",
+    "date": "2024-05-09T16:42:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada implementação MoviePopularRemoteDataSourceImpl da interface MoviePopularRemoteDataSource. Esta classe é responsável por obter os filmes populares da API através de MovieService. Ela fornece a fonte de paginação de filmes populares (getPopularMoviesPagingSource) e recupera os filmes populares de uma determinada página (getPopularMovies).",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/235fc0cc3bf0db14e59e84e898a57cd72c3f9710"
+  },
+  {
+    "sha": "29096e55ebc9855b1d142af70373f751d19f9a8e",
+    "date": "2024-05-09T16:42:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada interface MoviePopularRemoteDataSource para representar a fonte de dados remota de filmes populares. Esta interface define métodos para obter a fonte de paginação de filmes populares (getPopularMoviesPagingSource) e para recuperar os filmes populares de uma determinada página (getPopularMovies).",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/29096e55ebc9855b1d142af70373f751d19f9a8e"
+  },
+  {
+    "sha": "860b4f04f4082aed410dd19bc448b09527792937",
+    "date": "2024-05-09T16:41:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado módulo de injeção de dependência MoviePopularFeatureModule para o recurso de filmes populares. Este módulo fornece instâncias para MoviePopularRemoteDataSource, MoviePopularRepository e GetPopularMoviesUseCase, todos anotados com @Singleton. Ele define os provedores para as implementações dessas interfaces, que serão injetadas em outras partes do aplicativo.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/860b4f04f4082aed410dd19bc448b09527792937"
+  },
+  {
+    "sha": "cb4df08f7ecec1988e99ce0d8ad9fbdd6029a4fd",
+    "date": "2024-05-09T16:41:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe MoviePagingSource para lidar com a paginação de filmes populares. Esta classe estende PagingSource<Int, Movie> e utiliza o MoviePopularRemoteDataSource para obter os dados dos filmes populares da API. Ela mapeia os dados obtidos para o modelo de domínio Movie e fornece a próxima chave e a chave anterior para a paginação. Além disso, implementa a lógica para tratar exceções de IO e HTTP.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/cb4df08f7ecec1988e99ce0d8ad9fbdd6029a4fd"
+  },
+  {
+    "sha": "40a7f00144b0430d6872c4163a03d68d01ca5984",
+    "date": "2024-05-09T14:49:27Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado mapper para converter uma lista de MovieResult em uma lista de Movie. Este mapper é responsável por mapear os dados do resultado da API para o modelo de domínio Movie. Ele extrai as informações relevantes, como ID, título, média de votos e URL da imagem, e as converte para o modelo de domínio Movie, utilizando a extensão toPostUrl() para a formatação da URL da imagem.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/40a7f00144b0430d6872c4163a03d68d01ca5984"
+  },
+  {
+    "sha": "63f8f6675523585180b43724571182bc1d69dbdb",
+    "date": "2024-05-09T14:48:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado componente MovieItem para representar um item de filme na lista. Este componente exibe uma imagem de filme com um cartão arredondado e uma avaliação de filme no canto inferior esquerdo. Ele é envolvido em um Box para sobreposição da avaliação sobre a imagem. O componente é clicável e permite passar o ID do filme para uma função de retorno de chamada onClick.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/63f8f6675523585180b43724571182bc1d69dbdb"
+  },
+  {
+    "sha": "4aed96c32dee99dbd8ab58972832556828d0d97f",
+    "date": "2024-05-09T14:48:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado modelo de domínio MovieDetails para representar detalhes de um filme. Este modelo contém informações como ID, título, gêneros, descrição, URL do pôster de fundo, data de lançamento, média de votos, duração e contagem de votos. Além disso, algumas propriedades têm valores padrão definidos.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/4aed96c32dee99dbd8ab58972832556828d0d97f"
+  },
+  {
+    "sha": "192d2bb0bcb6160d28654523f2e7e443713d5993",
+    "date": "2024-05-09T14:47:02Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado componente MovieContent para exibir uma lista de filmes paginada. Este componente é composto por um LazyVerticalGrid que mostra os filmes em colunas fixas de 3 itens. Cada item é representado pelo componente MovieItem. Ele recebe uma lista de filmes paginados (LazyPagingItems<Movie>), um Modificador, valores de padding e uma função de clique para lidar com a interação do usuário.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/192d2bb0bcb6160d28654523f2e7e443713d5993"
+  },
+  {
+    "sha": "e822654072384c4b05213918ea70f40ece48f243",
+    "date": "2024-05-09T14:46:30Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe MovieApp que estende Application e é anotada com @HiltAndroidApp para inicializar Hilt. No método onCreate(), Timber é configurado para logging em modo de depuração (DEBUG) usando Timber.DebugTree().",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/e822654072384c4b05213918ea70f40ece48f243"
+  },
+  {
+    "sha": "de978249af8cc5954fdf80782c49a793e67750fe",
+    "date": "2024-05-09T14:46:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado modelo de domínio Movie para representar informações básicas de um filme. Este modelo contém as propriedades essenciais de um filme, incluindo ID, título, média de votos e URL da imagem. Este modelo é utilizado em camadas de domínio e apresentação para representar informações básicas de filmes.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/de978249af8cc5954fdf80782c49a793e67750fe"
+  },
+  {
+    "sha": "37012d27eb59d5bcceab1dbf4e89e2aa589a7d00",
+    "date": "2024-05-09T14:45:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado modelo de dados Movie para representar informações de um filme. Este modelo inclui várias propriedades como título, descrição, data de lançamento, orçamento, receita, etc. As informações são obtidas da resposta da API.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/37012d27eb59d5bcceab1dbf4e89e2aa589a7d00"
+  },
+  {
+    "sha": "9d52a3611e415f46ff8497947e30b5509e28d803",
+    "date": "2024-05-09T14:44:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada tela principal (MainScreen) que utiliza um Scaffold do Jetpack Compose. Esta tela contém uma barra de navegação inferior (BottomNavigationBar) e um content (NavigationGraph) que exibe o conteúdo principal da aplicação, gerenciado pelo NavHostController.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/9d52a3611e415f46ff8497947e30b5509e28d803"
+  },
+  {
+    "sha": "bbf7521c9d1e197f85dc896094994b7a9f7991c2",
+    "date": "2024-05-09T14:44:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado caso de uso GetPopularMoviesUseCase para recuperar filmes populares. Este caso de uso retorna um fluxo de PagingData<Movie> que representa uma lista paginada de filmes populares. A implementação GetPopularMoviesUseCaseImpl utiliza o repositório MoviePopularRepository para buscar os filmes populares com uma configuração de paginação específica.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/bbf7521c9d1e197f85dc896094994b7a9f7991c2"
+  },
+  {
+    "sha": "a5829643282201b98ea57e293219f1327c386fa6",
+    "date": "2024-05-09T14:43:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado modelo de dados Genre para representar gêneros de filmes. Este modelo inclui propriedades para o ID e o nome do gênero.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/a5829643282201b98ea57e293219f1327c386fa6"
+  },
+  {
+    "sha": "8a9eb1fff619eb36e992d28643ddcc9690f251d7",
+    "date": "2024-05-09T14:43:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionadas funções de extensão para String para construir URLs de imagem. Essas funções, toPostUrl() e toBackdropUrl(), utilizam a base da URL de imagem definida em BuildConfig para criar URLs completas a partir de partes específicas.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/8a9eb1fff619eb36e992d28643ddcc9690f251d7"
+  },
+  {
+    "sha": "1904e2593f734c7d021ee7831de907b35b25080f",
+    "date": "2024-05-09T14:43:04Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionadas constantes de utilidade para o projeto. Constants define valores fixos usados em todo o aplicativo, como parâmetros de API e valores de idioma. Inclui os parâmetros API_KEY_PARAM e LANGUAGE_PARAM, com a constante LANGUAGE_VALUE definida como \"pt-BR\".",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/1904e2593f734c7d021ee7831de907b35b25080f"
+  },
+  {
+    "sha": "dc52c6658916e8e939658ce65e10ff6f9feceea4",
+    "date": "2024-05-09T14:42:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionada classe BottomNavItem para representar itens da barra de navegação inferior. Cada item contém um título, um ícone e uma rota correspondente para a navegação. Os itens disponíveis são FilmePopulares, Pesquisar e Favoritos.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/dc52c6658916e8e939658ce65e10ff6f9feceea4"
+  },
+  {
+    "sha": "4dadc9410f0320b98609f758c677d6c807586e74",
+    "date": "2024-05-09T14:41:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adicionado BottomNavigationBar para a navegação entre telas. Este componente Compose exibe uma barra de navegação inferior com ícones e rótulos para as telas principais do aplicativo. Ele permite a navegação entre as telas MoviePopular, MovieSearch e MovieFavorite usando o NavController.",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/4dadc9410f0320b98609f758c677d6c807586e74"
+  },
+  {
+    "sha": "9d7eda9f975eb874022101f1d5390dedd3b57e3a",
+    "date": "2024-05-09T14:39:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuração do Projeto, mudança de estrutura",
+    "html_url": "https://github.com/JulianoVinceCampos/MovieApp/commit/9d7eda9f975eb874022101f1d5390dedd3b57e3a"
+  }
+]

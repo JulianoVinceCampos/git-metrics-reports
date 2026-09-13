@@ -1,0 +1,23 @@
+[
+  {
+    "sha": "d723a9839169136d40e04618be203aac64e4fd1b",
+    "date": "2026-08-03T02:18:33Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog-api/commit/d723a9839169136d40e04618be203aac64e4fd1b"
+  },
+  {
+    "sha": "3cbac97d6899b76f40b80da80ec466bdfd29b905",
+    "date": "2026-08-03T01:52:28Z",
+    "author": "Juliano Vince De Campos",
+    "message": "style: troca travessão por pontuação no README e em comentários",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog-api/commit/3cbac97d6899b76f40b80da80ec466bdfd29b905"
+  },
+  {
+    "sha": "f034912f0ce16ae1a567de2f63539515f2c2bf30",
+    "date": "2026-02-21T16:05:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Desafio Técnico - API de Catálogo com Busca, Cache e Observabilidade",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog-api/commit/f034912f0ce16ae1a567de2f63539515f2c2bf30"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "sha": "2ab457f1fac4135746ff08554325be83a99f4a38",
+    "date": "2026-07-30T15:19:26Z",
+    "author": "Juliano Vince de Campos",
+    "message": "troca travessoes e simbolos por pontuacao simples",
+    "html_url": "https://github.com/JulianoVinceCampos/simulador-superendividamento/commit/2ab457f1fac4135746ff08554325be83a99f4a38"
+  },
+  {
+    "sha": "6a131b55d56ef80bc93fe8587cd2666bdfd38361",
+    "date": "2026-07-30T15:04:31Z",
+    "author": "Juliano Vince de Campos",
+    "message": "deixa os textos mais diretos e tira os ADRs",
+    "html_url": "https://github.com/JulianoVinceCampos/simulador-superendividamento/commit/6a131b55d56ef80bc93fe8587cd2666bdfd38361"
+  },
+  {
+    "sha": "e596fa39211c2e1e850dd1063e35f9b09cc2526f",
+    "date": "2026-07-30T03:36:52Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat: simulador de saida do superendividamento (bola de neve x avalanche)",
+    "html_url": "https://github.com/JulianoVinceCampos/simulador-superendividamento/commit/e596fa39211c2e1e850dd1063e35f9b09cc2526f"
+  }
+]

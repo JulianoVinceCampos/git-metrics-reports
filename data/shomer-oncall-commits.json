@@ -1,0 +1,114 @@
+[
+  {
+    "sha": "d35e9e3d99e41f53ab992befff22c11d11c8901e",
+    "date": "2026-08-03T02:18:16Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/d35e9e3d99e41f53ab992befff22c11d11c8901e"
+  },
+  {
+    "sha": "e8572211460aeeec5171f4d20187eb8579f18aba",
+    "date": "2026-08-03T01:52:33Z",
+    "author": "Juliano Vince De Campos",
+    "message": "fix: URLs de projeto apontavam para example.com",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/e8572211460aeeec5171f4d20187eb8579f18aba"
+  },
+  {
+    "sha": "ea3a2ab8db35e3c667de5f090024fe42ce6594f9",
+    "date": "2026-07-30T03:07:52Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(web): tema Israel (azul/branco), Estrela de David e textos claros em PT-BR",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/ea3a2ab8db35e3c667de5f090024fe42ce6594f9"
+  },
+  {
+    "sha": "33ac71c836942470af80b84fc76f28460e41dd0b",
+    "date": "2026-07-30T02:58:37Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: link do visualizador (GitHub Pages) no README",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/33ac71c836942470af80b84fc76f28460e41dd0b"
+  },
+  {
+    "sha": "db0771bb957797f8dcd4dfe579c1dfd5aa956fcf",
+    "date": "2026-07-30T02:55:41Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(web): visualizador estatico HTML/CSS/JS (zero dep) de escala + fairness",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/db0771bb957797f8dcd4dfe579c1dfd5aa956fcf"
+  },
+  {
+    "sha": "aa13ef6cb06e584765c116678cb37a53ce98325c",
+    "date": "2026-07-29T22:32:36Z",
+    "author": "JulianoVinceCampos",
+    "message": "test(e2e): verificador end-to-end reproduzivel afirmando as garantias + wiring no CI",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/aa13ef6cb06e584765c116678cb37a53ce98325c"
+  },
+  {
+    "sha": "a15877fbdf7741a130fb4ab2142f9dd7b5b34bb6",
+    "date": "2026-07-29T22:26:54Z",
+    "author": "JulianoVinceCampos",
+    "message": "style: remove travessoes (em/en dash) de toda a base e corrige anchors internas",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/a15877fbdf7741a130fb4ab2142f9dd7b5b34bb6"
+  },
+  {
+    "sha": "0f5e798421ae6847158b969553a510e1fbeb6bd2",
+    "date": "2026-07-29T21:57:07Z",
+    "author": "JulianoVinceCampos",
+    "message": "ci: GitHub Actions (ruff, mypy, pytest coverage gate) em py3.11-3.13",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/0f5e798421ae6847158b969553a510e1fbeb6bd2"
+  },
+  {
+    "sha": "3c6019324ee48a5a5ad8f6e192d4059a03cc22d2",
+    "date": "2026-07-29T21:57:07Z",
+    "author": "JulianoVinceCampos",
+    "message": "test: suites unit, golden, property, determinism e e2e da CLI",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/3c6019324ee48a5a5ad8f6e192d4059a03cc22d2"
+  },
+  {
+    "sha": "3b8429cac388cc21ac53caded6c08a864f2f361a",
+    "date": "2026-07-29T21:57:07Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(cli): pipeline, adapters, comandos da CLI e time de exemplo",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/3b8429cac388cc21ac53caded6c08a864f2f361a"
+  },
+  {
+    "sha": "a6394d1c89b1920d29421e59a76dbd41c334bd02",
+    "date": "2026-07-29T21:57:06Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(reporting): metricas de fairness/coverage e audit trail",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/a6394d1c89b1920d29421e59a76dbd41c334bd02"
+  },
+  {
+    "sha": "47ae5d64142af465bc0506ae04176e7216ae9738",
+    "date": "2026-07-29T21:57:06Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(scheduling): shift generator, load weights, feasibility, fair allocator",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/47ae5d64142af465bc0506ae04176e7216ae9738"
+  },
+  {
+    "sha": "d01a4715135bab4b4566386f78f55ecdb9fd5aee",
+    "date": "2026-07-29T21:57:06Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(calendar): calendario hebraico, zmanim solares, holidays, opinions, engine",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/d01a4715135bab4b4566386f78f55ecdb9fd5aee"
+  },
+  {
+    "sha": "2a02a78de0a418f254d40d6502b121a8e8f6c6c1",
+    "date": "2026-07-29T21:57:06Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat(core): domain models, erros tipados, clock injetavel, config",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/2a02a78de0a418f254d40d6502b121a8e8f6c6c1"
+  },
+  {
+    "sha": "68d28b444bb3ddc089720e491c5e30aafa4c79a9",
+    "date": "2026-07-29T21:57:05Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: arquitetura, dominio, algoritmos, metricas, testes e ADRs (PT-BR)",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/68d28b444bb3ddc089720e491c5e30aafa4c79a9"
+  },
+  {
+    "sha": "b7e6ee3e19fae6c96ac46f02e3e81de8126ab858",
+    "date": "2026-07-29T21:57:05Z",
+    "author": "JulianoVinceCampos",
+    "message": "chore: scaffolding do projeto, packaging e guia de contribuicao",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-oncall/commit/b7e6ee3e19fae6c96ac46f02e3e81de8126ab858"
+  }
+]
