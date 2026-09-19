@@ -1,0 +1,814 @@
+[
+  {
+    "sha": "12b92034b4a0e762e98cdf478782369dbf666eeb",
+    "date": "2022-10-16T15:15:12Z",
+    "author": "Juliano Vince",
+    "message": "Merge pull request #3 from JulianoVinceCampos/ui-testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/12b92034b4a0e762e98cdf478782369dbf666eeb"
+  },
+  {
+    "sha": "1dcf2db8cd4adb481ad0f1e2935f28eed4adcb44",
+    "date": "2022-10-16T15:02:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Merge branch 'ui-testing' of https://github.com/JulianoVinceCampos/android-marvel-app into ui-testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1dcf2db8cd4adb481ad0f1e2935f28eed4adcb44"
+  },
+  {
+    "sha": "fcbae5d77ca252fa50790108e6ea97c84fe44e82",
+    "date": "2022-10-16T15:02:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test issue fix / Update library pagin3",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/fcbae5d77ca252fa50790108e6ea97c84fe44e82"
+  },
+  {
+    "sha": "055cd0f6f9512b94cc68ff23a73e3f6b771d5490",
+    "date": "2022-10-16T14:58:01Z",
+    "author": "Juliano Vince",
+    "message": "Merge branch 'develop' into ui-testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/055cd0f6f9512b94cc68ff23a73e3f6b771d5490"
+  },
+  {
+    "sha": "e450523bd1d0c6ebf20793fef3f85b18a2303a86",
+    "date": "2022-10-16T14:46:14Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test issue fix",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/e450523bd1d0c6ebf20793fef3f85b18a2303a86"
+  },
+  {
+    "sha": "0ed84cc15e61e128629d2b3b3a327994376c38f3",
+    "date": "2022-10-16T14:45:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "update library verison's",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/0ed84cc15e61e128629d2b3b3a327994376c38f3"
+  },
+  {
+    "sha": "1f0d9fb92efb3d5d11369c198773947d2c623b1a",
+    "date": "2022-10-16T13:16:25Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating class that encapsulates hilt functionality in test environment",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1f0d9fb92efb3d5d11369c198773947d2c623b1a"
+  },
+  {
+    "sha": "f5194f36b56bf37201fd620860487b34ceac6d13",
+    "date": "2022-10-16T13:16:00Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the HiltTesteActivity that simulates and configures the hilt manager in the project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f5194f36b56bf37201fd620860487b34ceac6d13"
+  },
+  {
+    "sha": "1cee5917fb7254a70c4a4dcbad76bf0f5c320ccf",
+    "date": "2022-10-16T13:15:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a file responsible for enabling android studio to execute http localhost in our project, we are using it for local testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1cee5917fb7254a70c4a4dcbad76bf0f5c320ccf"
+  },
+  {
+    "sha": "093912c72ef63492a1415fa18cc0e7a92838b5d1",
+    "date": "2022-10-16T13:13:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating Json Test",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/093912c72ef63492a1415fa18cc0e7a92838b5d1"
+  },
+  {
+    "sha": "1bd72ec660fdae669e584013c7d20e9ff3c2471e",
+    "date": "2022-10-16T13:13:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a fun extension responsible for converting Json",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1bd72ec660fdae669e584013c7d20e9ff3c2471e"
+  },
+  {
+    "sha": "fc991891b48de0f4426403c4f038292e4910f586",
+    "date": "2022-10-16T13:12:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a CustomTestRunnes class responsible for helping us in tests",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/fc991891b48de0f4426403c4f038292e4910f586"
+  },
+  {
+    "sha": "413e8931a7de90b323ee3ee271474d4b9fa82baf",
+    "date": "2022-10-16T13:12:09Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating mock test jsons for the project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/413e8931a7de90b323ee3ee271474d4b9fa82baf"
+  },
+  {
+    "sha": "524cae7bf9dd120780595470b68e7bf870c70d99",
+    "date": "2022-10-16T13:11:45Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a baseUrl module test Mock",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/524cae7bf9dd120780595470b68e7bf870c70d99"
+  },
+  {
+    "sha": "63271eb9d4eb23807ad5e9e96a26734a68923ffe",
+    "date": "2022-10-16T13:11:16Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a baseUrl configuration module in the project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/63271eb9d4eb23807ad5e9e96a26734a68923ffe"
+  },
+  {
+    "sha": "b76d2084d38501e5cbf71bd4bdda3ee844756791",
+    "date": "2022-10-16T13:09:46Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a dynamic baseUrl parameter thus facilitating testing in a release debug environment in the project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b76d2084d38501e5cbf71bd4bdda3ee844756791"
+  },
+  {
+    "sha": "020c5397ee88390d302baed1b6082756dc0c4f78",
+    "date": "2022-10-16T13:08:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Excluded tests that were generated automatically",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/020c5397ee88390d302baed1b6082756dc0c4f78"
+  },
+  {
+    "sha": "2d83f3c2abc344319ac397f6918efc4ccb2b67f6",
+    "date": "2022-10-16T13:08:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating test class CharactersFragmentTest.kt",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/2d83f3c2abc344319ac397f6918efc4ccb2b67f6"
+  },
+  {
+    "sha": "b9203b930a32e7b4579ddcf9f52009b6ad716c57",
+    "date": "2022-10-16T13:08:13Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "correcting imports",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b9203b930a32e7b4579ddcf9f52009b6ad716c57"
+  },
+  {
+    "sha": "1b3612dcf11ed9713fe5dc23317101dc64bc1325",
+    "date": "2022-10-16T13:07:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Enabling UI Test Settings in the Project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1b3612dcf11ed9713fe5dc23317101dc64bc1325"
+  },
+  {
+    "sha": "3887d4d2ebb2a70d1842a1ca981cef12135a8620",
+    "date": "2022-10-14T22:08:01Z",
+    "author": "Juliano Vince",
+    "message": "Merge pull request #1 from JulianoVinceCampos/otmizacao-ci",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/3887d4d2ebb2a70d1842a1ca981cef12135a8620"
+  },
+  {
+    "sha": "5394fd9e07eca5864ca9fc6e0112487d0195816b",
+    "date": "2022-10-14T22:03:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Merge branch 'otmizacao-ci' of https://github.com/JulianoVinceCampos/android-marvel-app into otmizacao-ci",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/5394fd9e07eca5864ca9fc6e0112487d0195816b"
+  },
+  {
+    "sha": "ca17216678c20d162202318a6a5f47935de04396",
+    "date": "2022-10-14T22:02:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "update gradle set config Bitrise CI/CD",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ca17216678c20d162202318a6a5f47935de04396"
+  },
+  {
+    "sha": "2e3b10e11d4c9e04e681e4371666721a8d305618",
+    "date": "2022-10-14T21:03:24Z",
+    "author": "Juliano Vince",
+    "message": "Merge branch 'develop' into otmizacao-ci",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/2e3b10e11d4c9e04e681e4371666721a8d305618"
+  },
+  {
+    "sha": "d197e41f75c8521fc4d3368c25d7000b130d1f9a",
+    "date": "2022-10-14T20:51:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test protected branch github",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/d197e41f75c8521fc4d3368c25d7000b130d1f9a"
+  },
+  {
+    "sha": "9f852968dcf7e8384642e68613d1b8aca4c97677",
+    "date": "2022-10-14T20:49:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test protected branch github",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/9f852968dcf7e8384642e68613d1b8aca4c97677"
+  },
+  {
+    "sha": "fca107710cf0e439b79639e8f4c78b4db7bf6778",
+    "date": "2022-10-14T20:26:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "add gitignore",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/fca107710cf0e439b79639e8f4c78b4db7bf6778"
+  },
+  {
+    "sha": "657155e1a765c9d22047ad72582c2c92f876d248",
+    "date": "2022-10-14T17:30:52Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding new proguard rule so that it is possible to run the project with encryption",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/657155e1a765c9d22047ad72582c2c92f876d248"
+  },
+  {
+    "sha": "7580f7dec9731d6118c9089123819dbcf3f0b782",
+    "date": "2022-10-14T17:30:04Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding new string files to the project so that at the time of build and generation of apk it is possible to identify in which version they are using apk",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/7580f7dec9731d6118c9089123819dbcf3f0b782"
+  },
+  {
+    "sha": "68856675c877edde9e1f926e64d2b7e6f91a2649",
+    "date": "2022-10-14T17:28:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding annotations so that it is possible to run the application in a pre-productive environment and not have a problem with encryption",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/68856675c877edde9e1f926e64d2b7e6f91a2649"
+  },
+  {
+    "sha": "e132a65f63601fdf8addc22d32c93a0ff28683da",
+    "date": "2022-10-14T17:28:35Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Changing application name",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/e132a65f63601fdf8addc22d32c93a0ff28683da"
+  },
+  {
+    "sha": "0ab5987b49a3c90d04832991a4ac91fbbaf8a6aa",
+    "date": "2022-10-14T17:28:10Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding proguard rules to the project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/0ab5987b49a3c90d04832991a4ac91fbbaf8a6aa"
+  },
+  {
+    "sha": "f7f432bfe7e3b72143c5838bf42389bc9e1e1264",
+    "date": "2022-10-14T17:27:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding annotations so that it is possible to run the application in a pre-productive environment and not have a problem with encryption",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f7f432bfe7e3b72143c5838bf42389bc9e1e1264"
+  },
+  {
+    "sha": "0ff821f1615bd5ce0cb95ae43d74a4fcd064044a",
+    "date": "2022-10-14T17:27:46Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding annotations so that it is possible to run the application in a pre-productive environment and not have a problem with encryption",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/0ff821f1615bd5ce0cb95ae43d74a4fcd064044a"
+  },
+  {
+    "sha": "b086fe2c4bd0247f17bdfc48d90a0546ab5b8b27",
+    "date": "2022-10-14T17:27:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding annotations so that it is possible to run the application in a pre-productive environment and not have a problem with encryption",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b086fe2c4bd0247f17bdfc48d90a0546ab5b8b27"
+  },
+  {
+    "sha": "14677dfdb6f808605bd5b220a0e4d480c1db9d54",
+    "date": "2022-10-14T17:26:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding application signature in release, creating project variant builds and configuring it so that it can be run in debug and pre-production environment with staging",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/14677dfdb6f808605bd5b220a0e4d480c1db9d54"
+  },
+  {
+    "sha": "c4671d4bdde4f2244195a84d9a81d02ededb5e9c",
+    "date": "2022-10-14T17:25:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding /store in gitignore",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/c4671d4bdde4f2244195a84d9a81d02ededb5e9c"
+  },
+  {
+    "sha": "f7b2c2437d3cb00e0398851e04dd259cb313c679",
+    "date": "2022-10-14T13:00:46Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating new module to provide us with an injected GetCharactersUseCase to help with testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f7b2c2437d3cb00e0398851e04dd259cb313c679"
+  },
+  {
+    "sha": "ee2c2dbefc9b624cfb3bfc6f9f1c55ba3ada5c4c",
+    "date": "2022-10-14T13:00:11Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating new module to provide us with an injected GetCharactersUseCase to help with testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ee2c2dbefc9b624cfb3bfc6f9f1c55ba3ada5c4c"
+  },
+  {
+    "sha": "9cbbe1d4e9ae85be41a40db4bed83042683063bc",
+    "date": "2022-10-14T13:00:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating new module to provide us with an injected GetCharactersUseCase to help with testing",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/9cbbe1d4e9ae85be41a40db4bed83042683063bc"
+  },
+  {
+    "sha": "cdd5724598a40774b9d169cc61f33014d1888efc",
+    "date": "2022-10-14T12:58:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating Response List Creation Helper Class",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/cdd5724598a40774b9d169cc61f33014d1888efc"
+  },
+  {
+    "sha": "ad1b3f346b1f9cd3196b04b58829418e901be642",
+    "date": "2022-10-14T12:58:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating character creation helper class",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ad1b3f346b1f9cd3196b04b58829418e901be642"
+  },
+  {
+    "sha": "f579d2cbf019c884e49f6c37999c7386425c98e9",
+    "date": "2022-10-14T12:58:10Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating testing module",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f579d2cbf019c884e49f6c37999c7386425c98e9"
+  },
+  {
+    "sha": "73e20c8d6dd32d1c809d9702cc55159133b3c827",
+    "date": "2022-10-14T12:57:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding new project/module dependency inside settings.gradle",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/73e20c8d6dd32d1c809d9702cc55159133b3c827"
+  },
+  {
+    "sha": "1db0d441196404cd16503d203ed3b790c8df1b25",
+    "date": "2022-10-14T12:57:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating GetCharactersUseCaseImplTest test class",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1db0d441196404cd16503d203ed3b790c8df1b25"
+  },
+  {
+    "sha": "93ff9c95725a6b7c8c101c2fb9f6a4938ab2a8ed",
+    "date": "2022-10-14T12:56:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Optimizing getCharactersUseCase class to implement an interface so we decouple the implementation more and follow stronger with SOLID patterns",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/93ff9c95725a6b7c8c101c2fb9f6a4938ab2a8ed"
+  },
+  {
+    "sha": "6a67dbd41a5a68962ccdb663b3c0e866904cc94c",
+    "date": "2022-10-14T12:55:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating CharacterViewModelTest.kt class",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/6a67dbd41a5a68962ccdb663b3c0e866904cc94c"
+  },
+  {
+    "sha": "e55a4abd20d5f25e3c01409cdbd38124a4a18dc2",
+    "date": "2022-10-14T12:55:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating CharactersPagingSourceTest test class",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/e55a4abd20d5f25e3c01409cdbd38124a4a18dc2"
+  },
+  {
+    "sha": "e4199e3b4fc460f1b0b28d235f7a7cf57f1b6781",
+    "date": "2022-10-14T12:54:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "correcting imports",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/e4199e3b4fc460f1b0b28d235f7a7cf57f1b6781"
+  },
+  {
+    "sha": "3d48f5cf2d78c0528f6d75aa4c75f4aba65ac170",
+    "date": "2022-10-14T12:54:39Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Fixing issue in build gradle version",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/3d48f5cf2d78c0528f6d75aa4c75f4aba65ac170"
+  },
+  {
+    "sha": "1e5d7f40792e5c959f1f0fe0bca3dd162e3ff80a",
+    "date": "2022-10-14T12:54:06Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding new created test module to the core project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1e5d7f40792e5c959f1f0fe0bca3dd162e3ff80a"
+  },
+  {
+    "sha": "6621c0de9061884a8870635cf9a312e0cd614276",
+    "date": "2022-10-14T12:53:48Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding new created test module to the app project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/6621c0de9061884a8870635cf9a312e0cd614276"
+  },
+  {
+    "sha": "bb45bfdd64ecbdb2b1597ae28cede90905942912",
+    "date": "2022-10-13T17:49:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding error layout inside character fragment",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/bb45bfdd64ecbdb2b1597ae28cede90905942912"
+  },
+  {
+    "sha": "7fab113521cc3fb7fca96a47e36752f5ba1ab17b",
+    "date": "2022-10-13T17:48:55Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a new error load de caracter string",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/7fab113521cc3fb7fca96a47e36752f5ba1ab17b"
+  },
+  {
+    "sha": "b9ecefe457239636b4951f3fc0855f07f86bcedc",
+    "date": "2022-10-13T17:48:20Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the viewholder referring to error cases and scroll list loading.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b9ecefe457239636b4951f3fc0855f07f86bcedc"
+  },
+  {
+    "sha": "8e3818dfb39173c99731224cc1b0b4189e140bfe",
+    "date": "2022-10-13T17:48:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the adapter referring to error cases and scroll list loading.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/8e3818dfb39173c99731224cc1b0b4189e140bfe"
+  },
+  {
+    "sha": "b22f6cc7c987546a41360b7de55dc2612b7baac3",
+    "date": "2022-10-13T17:47:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the error screen, when we can't load the layout",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b22f6cc7c987546a41360b7de55dc2612b7baac3"
+  },
+  {
+    "sha": "5af20eae41beaf448561d9802854ff0e39c8b623",
+    "date": "2022-10-13T17:46:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Created a preview screen to give the user the feeling that we are loading the list",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/5af20eae41beaf448561d9802854ff0e39c8b623"
+  },
+  {
+    "sha": "589f3fbeea15354688969fa5c0eb6ac4f643fc35",
+    "date": "2022-10-13T17:45:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "By adding the creation of our adapter inside lifeCycle started, I avoid problems with the application running in the background and failure by also adding a viewflipper, so I can manage the state of the screen components, when a loading happens, when it happens to load the list of characters and when an error occurs. for the animation of the loading of the list loading, I'm using the facebook library, so I can get a ShimmerFrameLayout making the loading animation more beautiful.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/589f3fbeea15354688969fa5c0eb6ac4f643fc35"
+  },
+  {
+    "sha": "be9114f80bd069ed376773b6b91d4a9f5c9d218b",
+    "date": "2022-10-13T17:45:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "By adding the creation of our adapter inside lifeCycle started, I avoid problems with the application running in the background and failure by also adding a viewflipper, so I can manage the state of the screen components, when a loading happens, when it happens to load the list of characters and when an error occurs. for the animation of the loading of the list loading, I'm using the facebook library, so I can get a ShimmerFrameLayout making the loading animation more beautiful.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/be9114f80bd069ed376773b6b91d4a9f5c9d218b"
+  },
+  {
+    "sha": "c3514264eddfd50b247258dc397bb960f67c33cb",
+    "date": "2022-10-13T17:41:21Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Update library lifecycle_version",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/c3514264eddfd50b247258dc397bb960f67c33cb"
+  },
+  {
+    "sha": "c0af1a488b8107c29a28e59a347acaad9d5006d7",
+    "date": "2022-10-13T14:02:35Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating our other Use Case Abstract class to help us implement the concrete use cases so we can follow the solid separation of responsibility principles and we can also use the doWork method that each useCase concrete class will be able to use using the operator fun invoke",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/c0af1a488b8107c29a28e59a347acaad9d5006d7"
+  },
+  {
+    "sha": "e13d923b6f5bb78cee8ecad1a16dc59d71bfbcf8",
+    "date": "2022-10-13T14:00:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Also creating a sealed class responsible for helping us with the events that we are going to work with at the time of the request, we have 3 statuses: Loading, Success and Error, so we also override the toString method so if it is necessary to use it we will be able to get the information from a more detailed way.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/e13d923b6f5bb78cee8ecad1a16dc59d71bfbcf8"
+  },
+  {
+    "sha": "ef75d81b6e10d9dbf67e0ba252f1f05de0ae844a",
+    "date": "2022-10-13T13:58:46Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating an abstract class that is generic in order to specify how we are going to use the PagingUseCase",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ef75d81b6e10d9dbf67e0ba252f1f05de0ae844a"
+  },
+  {
+    "sha": "f0d6050425e4fcd1db2f7e15f676b9330a232610",
+    "date": "2022-10-13T13:57:50Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the GetCharactersUseCase class responsible for requesting the getCharacters call from the repository, fully respecting the principle of single responsibility by implementing only the corresponding method. It also implements the PagingUseCase class, receives the generics types, which in our case is GetCharactersParms and returns the Character correctly formatted for use.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f0d6050425e4fcd1db2f7e15f676b9330a232610"
+  },
+  {
+    "sha": "9b8349c3ec18dc5c67fa7757ee29577788857298",
+    "date": "2022-10-13T13:55:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the CharacterViewModel class responsible for calling useCase getCharactersUseCase to get the list of characters",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/9b8349c3ec18dc5c67fa7757ee29577788857298"
+  },
+  {
+    "sha": "84f82e9007255ff40690bcd7ac507d862c579db5",
+    "date": "2022-10-13T13:54:38Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding the data class AppCoroutinesDispatchers that will be responsible for managing and providing which scope of coroutines we will need",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/84f82e9007255ff40690bcd7ac507d862c579db5"
+  },
+  {
+    "sha": "186fe1403b2592930467bbd55a4e400164839048",
+    "date": "2022-10-13T13:53:53Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Parameters naming correction",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/186fe1403b2592930467bbd55a4e400164839048"
+  },
+  {
+    "sha": "706e4f7423bd1d2800d5a72d19219de98eac7f02",
+    "date": "2022-10-13T13:53:46Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Parameters naming correction",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/706e4f7423bd1d2800d5a72d19219de98eac7f02"
+  },
+  {
+    "sha": "0a4588134ae7e700a2b63f4fb2840c9166970a6e",
+    "date": "2022-10-13T13:53:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Parameters naming correction",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/0a4588134ae7e700a2b63f4fb2840c9166970a6e"
+  },
+  {
+    "sha": "cce8bf3e02badb1413a5426f752f9e41235c76c2",
+    "date": "2022-10-13T13:53:08Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Fixing wrong naming problem in our respose result for results, added the annotation of Suppress(\"TooGenericExceptionCaught\") to allow us to check which error will happen in the general exception so, we will with time modifying this error handling and improving",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/cce8bf3e02badb1413a5426f752f9e41235c76c2"
+  },
+  {
+    "sha": "4f88cbd41c53a7359eebce76dbf1f4ed3d34d2bb",
+    "date": "2022-10-13T13:51:40Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Removed mock code from the project and also creating the viewModel using viewmodes() to help us and inject our viewmodel",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/4f88cbd41c53a7359eebce76dbf1f4ed3d34d2bb"
+  },
+  {
+    "sha": "9d95cbbc3ab5db5fe4163f4d1bacbd13d8447ee0",
+    "date": "2022-10-13T13:50:56Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Doing a replace so that instead of passing the http convert to https so I was able to show the images correcting a problem that in the latest versions of Android happens when making requests in Http",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/9d95cbbc3ab5db5fe4163f4d1bacbd13d8447ee0"
+  },
+  {
+    "sha": "f3f1c65ee1c7d92a9a25e4766993e03622bf9807",
+    "date": "2022-10-13T13:49:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Converting the ListAdapter to PagingDataAdapter as the implementations were similar, at the first moment of testing, only this implementation was chosen to follow up, however it was replaced by the final class that in fact does the entire paging process",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f3f1c65ee1c7d92a9a25e4766993e03622bf9807"
+  },
+  {
+    "sha": "9ff2f6daa1be640dc6e7392170852862f3035bb6",
+    "date": "2022-10-13T13:44:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Fixing incorrect parameter names issue",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/9ff2f6daa1be640dc6e7392170852862f3035bb6"
+  },
+  {
+    "sha": "1e271ceed9517e78e40be3046e339416e8d2fe8f",
+    "date": "2022-10-13T13:44:10Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Fixing permission internet issue in the app",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1e271ceed9517e78e40be3046e339416e8d2fe8f"
+  },
+  {
+    "sha": "b12cdc129589ae1ceeb9689ab7ffc64e9d5da74d",
+    "date": "2022-10-11T21:01:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating a module that manages the creation of the CharacterRepository and also that manages the request with backend and retrofit",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b12cdc129589ae1ceeb9689ab7ffc64e9d5da74d"
+  },
+  {
+    "sha": "d8187b54ce3aa70b7910890f9aef61af226e5fad",
+    "date": "2022-10-11T21:00:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the class that actually loads the character list, also implementing the method that manages the saved items of the getRefreskey() list, it checks if the application is placed in the background",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/d8187b54ce3aa70b7910890f9aef61af226e5fad"
+  },
+  {
+    "sha": "7945a401aa3ba3b598aa84e7bb1165cc8395186a",
+    "date": "2022-10-11T20:57:18Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating new parameters necessary to carry out searches in the api",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/7945a401aa3ba3b598aa84e7bb1165cc8395186a"
+  },
+  {
+    "sha": "6837e4ac37c18614ceca66a4fdca63f0669031d7",
+    "date": "2022-10-11T20:15:22Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Actually implementing the getCharacters method",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/6837e4ac37c18614ceca66a4fdca63f0669031d7"
+  },
+  {
+    "sha": "934531f3dcf4ea0ab2cb876a0a7f7bd788101bd2",
+    "date": "2022-10-11T20:14:30Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating extended function for CharacterReposen to Character object conversion",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/934531f3dcf4ea0ab2cb876a0a7f7bd788101bd2"
+  },
+  {
+    "sha": "b2359d0b834094714ea17c13d1af859441e9b50e",
+    "date": "2022-10-11T11:16:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Implement repository in the network layer",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b2359d0b834094714ea17c13d1af859441e9b50e"
+  },
+  {
+    "sha": "24acbd975dbfc1f2b49e2906f244c0d15aca65ba",
+    "date": "2022-10-10T19:14:23Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "remove unnecessary files",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/24acbd975dbfc1f2b49e2906f244c0d15aca65ba"
+  },
+  {
+    "sha": "7a2991902cad929b0e719f10fd91814ff5249c8f",
+    "date": "2022-10-10T19:13:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Doing a refactor of the build.gralde(core/App) like this inside the core module I have only the libraries that do not depend on the Android frameworks and keeping the version of each lib centralized within the general build.gradle file",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/7a2991902cad929b0e719f10fd91814ff5249c8f"
+  },
+  {
+    "sha": "2dcd0cc735f255d4a6f4277bad7670bee678b6bb",
+    "date": "2022-10-10T19:12:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "I created the interfaces for the data sources, passing this generic because I don't have direct access to the DataWrapperResponse class, so whoever makes the interface calls using a generic type will be able to pass the necessary generic object.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/2dcd0cc735f255d4a6f4277bad7670bee678b6bb"
+  },
+  {
+    "sha": "511cbb76d712b14891e177ed22be92f1a1619e2c",
+    "date": "2022-10-10T18:43:17Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Making the implementation of the CharacterFragment class responsible for the home screen (Main and first screen to be shown when we open the app) I added only mocked data to facilitate the tests and application behavior. And all databinding configuration for binding view components was done.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/511cbb76d712b14891e177ed22be92f1a1619e2c"
+  },
+  {
+    "sha": "f0c720d3e0cdf652f9f22ce97e0fdefa849657b9",
+    "date": "2022-10-10T18:40:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Thinking about the Clean Architecture usage model, I moved the classes that depend on frameworks to the framworks package, so in the core layer we don't have dependencies on any frameworks, facilitating the maintainability of the project in case a replacement is necessary.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/f0c720d3e0cdf652f9f22ce97e0fdefa849657b9"
+  },
+  {
+    "sha": "da56c5d31a8c50680e5354cc81c7b7dc080713cf",
+    "date": "2022-10-10T18:40:29Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Thinking about the Clean Architecture usage model, I moved the classes that depend on frameworks to the framworks package, so in the core layer we don't have dependencies on any frameworks, facilitating the maintainability of the project in case a replacement is necessary.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/da56c5d31a8c50680e5354cc81c7b7dc080713cf"
+  },
+  {
+    "sha": "917c1336005d825bb5477a4046ea1fb2a76e8bbd",
+    "date": "2022-10-10T18:38:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "1 - Creating the Character model class",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/917c1336005d825bb5477a4046ea1fb2a76e8bbd"
+  },
+  {
+    "sha": "b5380c188f1de50ef99524cdbe12f01df0ac3559",
+    "date": "2022-10-10T18:37:41Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Adding internet permission in android manifest",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b5380c188f1de50ef99524cdbe12f01df0ac3559"
+  },
+  {
+    "sha": "581d8a7641a4fcebbe6cffd5c6440a87ef3fb688",
+    "date": "2022-10-10T16:56:42Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the characters presentation layer, configuration of the fragment container and the item layout",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/581d8a7641a4fcebbe6cffd5c6440a87ef3fb688"
+  },
+  {
+    "sha": "46cede24ae8ff0f0706fae438feeda98343a107f",
+    "date": "2022-10-10T13:57:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the Characters/ activity layout",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/46cede24ae8ff0f0706fae438feeda98343a107f"
+  },
+  {
+    "sha": "a95c2f57496477495e321ef44ed68adbafc2172d",
+    "date": "2022-10-10T13:57:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the favorites/activity layout",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/a95c2f57496477495e321ef44ed68adbafc2172d"
+  },
+  {
+    "sha": "4f29d60df4bb01c41322c5edd8404b5741e0b082",
+    "date": "2022-10-10T13:53:47Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the characters menu navigation chart",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/4f29d60df4bb01c41322c5edd8404b5741e0b082"
+  },
+  {
+    "sha": "a270e9947772782a815d004b5c802a30a7fdbd7d",
+    "date": "2022-10-10T13:53:28Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the favorites menu navigation chart",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/a270e9947772782a815d004b5c802a30a7fdbd7d"
+  },
+  {
+    "sha": "173cef7c9b7be6558f1f0fa349c1fc4d9ea8c138",
+    "date": "2022-10-10T13:52:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating the about menu grafi navigation",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/173cef7c9b7be6558f1f0fa349c1fc4d9ea8c138"
+  },
+  {
+    "sha": "a4ab02f5356b5ebd571f58f05f166206f45dcdb6",
+    "date": "2022-10-10T13:51:42Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuring bottomnavigation in the project, doing a refactor in the string.xml file, linking the navController to seupWithNavController in the activity",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/a4ab02f5356b5ebd571f58f05f166206f45dcdb6"
+  },
+  {
+    "sha": "4379a66fd84a4beeff524e6baacfabe2481613a0",
+    "date": "2022-10-10T12:34:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuration of the navigation component in the project. Adding settings in Activiy and also adding xml activity",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/4379a66fd84a4beeff524e6baacfabe2481613a0"
+  },
+  {
+    "sha": "ad626a75840b3280fe02a7f5822b93623b46aea2",
+    "date": "2022-10-09T12:48:35Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "This interceptor is related to the encryption of public and private keys and parameters needed to make the request in the marvel api. In short it is always getting the current request and adding through a standard build new parameters in the url (Parameters needed for the request with the marvel api) after the configuration we are returning the ready url, inside the NetWorkModule object we are creating a new provide for this new interceptor",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ad626a75840b3280fe02a7f5822b93623b46aea2"
+  },
+  {
+    "sha": "4f88af364e00ec37a5b21fadbdedee531f093b2c",
+    "date": "2022-10-09T12:48:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "This interceptor is related to the encryption of public and private keys and parameters needed to make the request in the marvel api. In short it is always getting the current request and adding through a standard build new parameters in the url (Parameters needed for the request with the marvel api) after the configuration we are returning the ready url, inside the NetWorkModule object we are creating a new provide for this new interceptor",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/4f88af364e00ec37a5b21fadbdedee531f093b2c"
+  },
+  {
+    "sha": "1034cc3f968567a2cb9716ee26b2b58ca1ccb3dc",
+    "date": "2022-10-07T15:41:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring project dependencies",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1034cc3f968567a2cb9716ee26b2b58ca1ccb3dc"
+  },
+  {
+    "sha": "ba4aa58e089265d1c0ac3a2c1f6065d252ccdc7b",
+    "date": "2022-10-07T15:41:19Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactoring the build core to instead of using implementation and just providing resources from the local libraries, we made the change to API and thus sharing with Module App all the lib signed with the core API. Inside the build.gradle module app we are using the implementation project(':core')",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ba4aa58e089265d1c0ac3a2c1f6065d252ccdc7b"
+  },
+  {
+    "sha": "9198c0e5c3e797ff4b441e0997728a4362f6d199",
+    "date": "2022-10-07T15:39:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating DI module for network layer",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/9198c0e5c3e797ff4b441e0997728a4362f6d199"
+  },
+  {
+    "sha": "d70ff5133b9139bec719c8a00d300e72be90f4c5",
+    "date": "2022-10-06T21:31:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating MarvelApi interface and also mapping the characters url",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/d70ff5133b9139bec719c8a00d300e72be90f4c5"
+  },
+  {
+    "sha": "281d4e276d86931037e73c9d84416b63791315b7",
+    "date": "2022-10-06T21:05:52Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Creating build config and automating build gradle/app files",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/281d4e276d86931037e73c9d84416b63791315b7"
+  },
+  {
+    "sha": "b87e291760d62a3a2f2cc4cbcbc485c9b9af5c9a",
+    "date": "2022-10-06T15:25:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "and mapping the data that we are actually going to use",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b87e291760d62a3a2f2cc4cbcbc485c9b9af5c9a"
+  },
+  {
+    "sha": "ef0d4d995ec72f9631da10c0b23389dfd95c24db",
+    "date": "2022-10-06T15:23:30Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Transferred the retrofit and data conversion libraries from gson to their corresponding module. The module that actually makes the request with the server.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ef0d4d995ec72f9631da10c0b23389dfd95c24db"
+  },
+  {
+    "sha": "7db65916e83cc6fb9ca80bc234d1490a8bbad043",
+    "date": "2022-10-06T14:17:57Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "setting dagger hilt in project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/7db65916e83cc6fb9ca80bc234d1490a8bbad043"
+  },
+  {
+    "sha": "1a6a0b49dd2a369ad6ba1c78ee56d6249722b796",
+    "date": "2022-10-04T19:16:15Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuration of the detekt plugin to analyze the static code in the project/modules.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/1a6a0b49dd2a369ad6ba1c78ee56d6249722b796"
+  },
+  {
+    "sha": "e4c99fe211df3d306198c4d1bccb5afe2b2e9a2c",
+    "date": "2022-10-03T13:18:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Importing the core module into main",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/e4c99fe211df3d306198c4d1bccb5afe2b2e9a2c"
+  },
+  {
+    "sha": "43fbea765b9bcaf5f866d39cd04ced25fa5ce288",
+    "date": "2022-10-03T13:12:44Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Organizing project structure, creating the core module, creating data, domain, usecase packages within the core module, creating the frameworks and presetation packages within the app module.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/43fbea765b9bcaf5f866d39cd04ced25fa5ce288"
+  },
+  {
+    "sha": "4ede7bc4a60560599cc80395bd98ec484e69c6a7",
+    "date": "2022-09-30T18:24:37Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Refactor code project, updates local file path.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/4ede7bc4a60560599cc80395bd98ec484e69c6a7"
+  },
+  {
+    "sha": "cb8ed0fc7de9af28459d9b1429425f412da4ad4d",
+    "date": "2022-09-30T18:13:34Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Include module core project",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/cb8ed0fc7de9af28459d9b1429425f412da4ad4d"
+  },
+  {
+    "sha": "b1a70842813fc9c9e6c3f515f25e46f4a8392a72",
+    "date": "2022-09-30T18:13:17Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Update Library version kotlin plugin",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/b1a70842813fc9c9e6c3f515f25e46f4a8392a72"
+  },
+  {
+    "sha": "ee45ae68d218a44cf944e95a6ec321973c33eb0c",
+    "date": "2022-09-30T18:12:54Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Update Library version kotlin plugin",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/ee45ae68d218a44cf944e95a6ec321973c33eb0c"
+  },
+  {
+    "sha": "8f3ab3526d62179b90eef9589fc89d52719d2ea8",
+    "date": "2022-09-30T13:40:32Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "Configuring the project with its dependencies in gradle, initial project commit.",
+    "html_url": "https://github.com/JulianoVinceCampos/android-marvel-app/commit/8f3ab3526d62179b90eef9589fc89d52719d2ea8"
+  }
+]
