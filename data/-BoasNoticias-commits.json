@@ -1,0 +1,51 @@
+[
+  {
+    "sha": "49bde7ce74b13f289b3216bda4996beee5fa2024",
+    "date": "2019-07-23T09:08:54Z",
+    "author": "Juliano Campos",
+    "message": "Finalisação projeto BoasNoticias",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/49bde7ce74b13f289b3216bda4996beee5fa2024"
+  },
+  {
+    "sha": "2c4c36c999b8e3145bb86dc1508e6b6638b60969",
+    "date": "2019-07-18T10:42:39Z",
+    "author": "Juliano Campos",
+    "message": "Criando Cell customizadas, Finalizando detalhes de layout no StoryBoard, Deixando busca na API funcional(Funciona apenas por 1 dia, e não estamos pegando a data de hoje! e setando na nossa url)",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/2c4c36c999b8e3145bb86dc1508e6b6638b60969"
+  },
+  {
+    "sha": "2f8fc3b1e85fcbcc6938658d9d5fb5b551a92a03",
+    "date": "2019-07-17T10:34:04Z",
+    "author": "Juliano Campos",
+    "message": "Criando ViewModel",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/2f8fc3b1e85fcbcc6938658d9d5fb5b551a92a03"
+  },
+  {
+    "sha": "cdf57ccf38d019114082d067388da81f6bb98ee3",
+    "date": "2019-07-17T10:09:48Z",
+    "author": "Juliano Campos",
+    "message": "Corrigindo URL/Corrigindo Decoder e Criando Struct ArticleList",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/cdf57ccf38d019114082d067388da81f6bb98ee3"
+  },
+  {
+    "sha": "16c26ce9a409763680ac4079feba286654f3fefe",
+    "date": "2019-07-17T09:35:17Z",
+    "author": "Juliano Campos",
+    "message": "Criando package e Struct/Model de Article",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/16c26ce9a409763680ac4079feba286654f3fefe"
+  },
+  {
+    "sha": "5c8c1b2b0813f5019a26d8c07624a17fbb1b16e1",
+    "date": "2019-07-17T09:29:57Z",
+    "author": "Juliano Campos",
+    "message": "Criando meu proprio controller e StoryBoard, configurando permissão de internet, criando package serviço e controllers",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/5c8c1b2b0813f5019a26d8c07624a17fbb1b16e1"
+  },
+  {
+    "sha": "4256e3a23a93e7ef7117547bfe6a55990b0f862f",
+    "date": "2019-07-16T09:38:55Z",
+    "author": "Juliano Campos",
+    "message": "Começando do Zero)",
+    "html_url": "https://github.com/JulianoVinceCampos/-BoasNoticias/commit/4256e3a23a93e7ef7117547bfe6a55990b0f862f"
+  }
+]
