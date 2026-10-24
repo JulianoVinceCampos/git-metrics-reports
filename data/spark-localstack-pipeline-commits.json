@@ -1,0 +1,254 @@
+[
+  {
+    "sha": "0761cee8982eeda2a402f882d799b476f94dddff",
+    "date": "2026-08-03T02:17:49Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/0761cee8982eeda2a402f882d799b476f94dddff"
+  },
+  {
+    "sha": "bd34db453b2c3f8e9b9467691221d78e44bb4b62",
+    "date": "2026-08-03T01:52:42Z",
+    "author": "Juliano Vince De Campos",
+    "message": "fix: restaura o job de ingestão, que tinha sido sobrescrito pelo job de load",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/bd34db453b2c3f8e9b9467691221d78e44bb4b62"
+  },
+  {
+    "sha": "0eab38792a4e916a22d29fd2c05843147f27942f",
+    "date": "2026-02-22T17:46:20Z",
+    "author": "github-actions[bot]",
+    "message": "chore: autoformat with ruff",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/0eab38792a4e916a22d29fd2c05843147f27942f"
+  },
+  {
+    "sha": "1def0f37d874e047079e54e6dc248b7557ed3131",
+    "date": "2026-02-22T17:45:29Z",
+    "author": "Juliano Vince",
+    "message": "Add GitHub Actions workflow for autoformatting with Ruff",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/1def0f37d874e047079e54e6dc248b7557ed3131"
+  },
+  {
+    "sha": "df4da2fe7c8d7a6d5082e5e0bd001f0ac512d619",
+    "date": "2026-02-22T17:43:45Z",
+    "author": "Juliano Vince",
+    "message": "Refactor import statements in transformation.py",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/df4da2fe7c8d7a6d5082e5e0bd001f0ac512d619"
+  },
+  {
+    "sha": "f57fcb2597d6d6b1fd92af3fa402c5fd32be3ea0",
+    "date": "2026-02-22T17:42:33Z",
+    "author": "Juliano Vince",
+    "message": "Refactor load.py and enhance logging",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f57fcb2597d6d6b1fd92af3fa402c5fd32be3ea0"
+  },
+  {
+    "sha": "cdd836d271dedd9a4ef3a11e822e32a72c925955",
+    "date": "2026-02-22T17:41:06Z",
+    "author": "Juliano Vince",
+    "message": "Refactor ingestion job to load Gold layer from Silver",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/cdd836d271dedd9a4ef3a11e822e32a72c925955"
+  },
+  {
+    "sha": "6325975aecb8d268676b7d889798c86eaba8eecb",
+    "date": "2026-02-22T17:38:56Z",
+    "author": "Juliano Vince",
+    "message": "Update ingestion.py",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/6325975aecb8d268676b7d889798c86eaba8eecb"
+  },
+  {
+    "sha": "cac4ce07ecaad2bac96e43e8c8d9c845fb8c24fa",
+    "date": "2026-02-22T17:37:43Z",
+    "author": "Juliano Vince",
+    "message": "Update load.py",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/cac4ce07ecaad2bac96e43e8c8d9c845fb8c24fa"
+  },
+  {
+    "sha": "e132662672509f25409bcaf2f29924756c4bb5d3",
+    "date": "2026-02-22T17:36:47Z",
+    "author": "Juliano Vince",
+    "message": "Refactor ingestion.py for improved readability",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/e132662672509f25409bcaf2f29924756c4bb5d3"
+  },
+  {
+    "sha": "d523d08931ceabeddbd60e5a75e754894f8058d4",
+    "date": "2026-02-22T17:36:04Z",
+    "author": "Juliano Vince",
+    "message": "Refactor transformation.py for improved readability",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/d523d08931ceabeddbd60e5a75e754894f8058d4"
+  },
+  {
+    "sha": "1b801232d2c739f9464eef20984d2da25f58a797",
+    "date": "2026-02-22T17:34:28Z",
+    "author": "Juliano Vince",
+    "message": "Refactor upload option and update main function signature",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/1b801232d2c739f9464eef20984d2da25f58a797"
+  },
+  {
+    "sha": "f92fa12568cec0cb00c7c1ecfb4ee242466bb9e0",
+    "date": "2026-02-22T17:32:41Z",
+    "author": "Juliano Vince",
+    "message": "Refactor test_transformation.py for readability",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f92fa12568cec0cb00c7c1ecfb4ee242466bb9e0"
+  },
+  {
+    "sha": "8a051090c9c82b8c666ca5ea88b1f28f0fe5e3cc",
+    "date": "2026-02-22T17:31:15Z",
+    "author": "Juliano Vince",
+    "message": "Fix formatting and add newline in test_ingestion.py",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/8a051090c9c82b8c666ca5ea88b1f28f0fe5e3cc"
+  },
+  {
+    "sha": "1e7528abcf15dbe5b645d80e29aa3d770850f837",
+    "date": "2026-02-22T17:29:27Z",
+    "author": "Juliano Vince",
+    "message": "Refactor test_ingestion.py for improved clarity",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/1e7528abcf15dbe5b645d80e29aa3d770850f837"
+  },
+  {
+    "sha": "3207a7f8004de14505cecc6177e7ee78916db9fe",
+    "date": "2026-02-22T17:27:37Z",
+    "author": "Juliano Vince",
+    "message": "Refactor get_spark_session to use optional master type",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/3207a7f8004de14505cecc6177e7ee78916db9fe"
+  },
+  {
+    "sha": "3517eb3cab764b1e4c06c4b5da8f20fbbc9578ef",
+    "date": "2026-02-22T17:26:02Z",
+    "author": "Juliano Vince",
+    "message": "Update type hints for optional parameters in aws_helpers",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/3517eb3cab764b1e4c06c4b5da8f20fbbc9578ef"
+  },
+  {
+    "sha": "e93e4c3fcf6f3cccdc6b8fff627a9d113fb964f1",
+    "date": "2026-02-22T17:24:45Z",
+    "author": "Juliano Vince",
+    "message": "Update get_s3_client parameter type hint",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/e93e4c3fcf6f3cccdc6b8fff627a9d113fb964f1"
+  },
+  {
+    "sha": "80a94bf62609092b09ef32fa8e7b408e9e766760",
+    "date": "2026-02-22T17:23:51Z",
+    "author": "Juliano Vince",
+    "message": "Remove unused imports in aws_helpers.py",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/80a94bf62609092b09ef32fa8e7b408e9e766760"
+  },
+  {
+    "sha": "243ee18cfd4cd3060822593d13a614e95538a549",
+    "date": "2026-02-22T17:23:10Z",
+    "author": "Juliano Vince",
+    "message": "Change List type to built-in list in run_pipeline",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/243ee18cfd4cd3060822593d13a614e95538a549"
+  },
+  {
+    "sha": "861949ad5e9c54abb365f146320fdf7953a92ed6",
+    "date": "2026-02-22T17:21:30Z",
+    "author": "Juliano Vince",
+    "message": "Remove unused LongType import from ingestion.py",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/861949ad5e9c54abb365f146320fdf7953a92ed6"
+  },
+  {
+    "sha": "ef7d8b5f190fc6246ccc921924cba22e0aa563a1",
+    "date": "2026-02-22T17:14:35Z",
+    "author": "Juliano Vince",
+    "message": "Refactor imports and remove unused sys module",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/ef7d8b5f190fc6246ccc921924cba22e0aa563a1"
+  },
+  {
+    "sha": "6a3bee6167a994db2ecbfd130900e417ec2c6795",
+    "date": "2026-02-22T17:12:08Z",
+    "author": "Juliano Vince",
+    "message": "Add N812 to ignored lint rules in pyproject.toml",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/6a3bee6167a994db2ecbfd130900e417ec2c6795"
+  },
+  {
+    "sha": "72b8618ffc87dff8934cde3ae48f4c77f325b886",
+    "date": "2026-02-22T17:08:49Z",
+    "author": "Juliano Vince",
+    "message": "Revise architecture section in README",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/72b8618ffc87dff8934cde3ae48f4c77f325b886"
+  },
+  {
+    "sha": "261bad0a1084040dd1e47c4876ce827a4ae52169",
+    "date": "2026-02-22T16:40:41Z",
+    "author": "Juliano Vince",
+    "message": "Update architecture section in README",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/261bad0a1084040dd1e47c4876ce827a4ae52169"
+  },
+  {
+    "sha": "e13a0da8325edf702698a063b28c27673881bbae",
+    "date": "2026-02-22T16:37:25Z",
+    "author": "Juliano Vince",
+    "message": "Add files via upload",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/e13a0da8325edf702698a063b28c27673881bbae"
+  },
+  {
+    "sha": "994fcbd4a6ed1377f4a7b6ab23348fe86a1b09f6",
+    "date": "2026-02-22T16:34:57Z",
+    "author": "Juliano Vince",
+    "message": "Add architecture diagram for Docker Compose stack",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/994fcbd4a6ed1377f4a7b6ab23348fe86a1b09f6"
+  },
+  {
+    "sha": "268a1882f16b45713af86bb40f42c6425efd89bc",
+    "date": "2026-02-22T16:29:43Z",
+    "author": "Juliano Vince",
+    "message": "Remove CI/CD badge from README",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/268a1882f16b45713af86bb40f42c6425efd89bc"
+  },
+  {
+    "sha": "2406d4df9aaaa28812722b89e60d9d527f7eca18",
+    "date": "2026-02-22T16:25:36Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "docs: add readme",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/2406d4df9aaaa28812722b89e60d9d527f7eca18"
+  },
+  {
+    "sha": "aa54a456e94e648da52dabd5666f716300c49e9a",
+    "date": "2026-02-22T16:25:31Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: add make targets",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/aa54a456e94e648da52dabd5666f716300c49e9a"
+  },
+  {
+    "sha": "bbfe3e179e070701b1b8f5240c427b54eae9b367",
+    "date": "2026-02-22T16:25:26Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: add docker stack (localstack and services)",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/bbfe3e179e070701b1b8f5240c427b54eae9b367"
+  },
+  {
+    "sha": "f4d5450595b351d414f69fd1d88fa898c65afdc4",
+    "date": "2026-02-22T16:25:05Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "ci: add github actions workflows",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f4d5450595b351d414f69fd1d88fa898c65afdc4"
+  },
+  {
+    "sha": "cf68262b191d916188b52935f5c94e8ed26bb0c4",
+    "date": "2026-02-22T16:23:12Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "test: add automated tests",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/cf68262b191d916188b52935f5c94e8ed26bb0c4"
+  },
+  {
+    "sha": "8fa900780015f3e8ebaee9d054f3121ecc6e2e93",
+    "date": "2026-02-22T16:23:07Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: add helper scripts",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/8fa900780015f3e8ebaee9d054f3121ecc6e2e93"
+  },
+  {
+    "sha": "0616f285566faf7966752f0e6f6f19b478f9c9e4",
+    "date": "2026-02-22T16:22:59Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: add pipeline source code",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/0616f285566faf7966752f0e6f6f19b478f9c9e4"
+  },
+  {
+    "sha": "f1237267f139857ff997f36a6e3480db67ec4b97",
+    "date": "2026-02-22T16:22:51Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: add docker stack (localstack, services)",
+    "html_url": "https://github.com/JulianoVinceCampos/spark-localstack-pipeline/commit/f1237267f139857ff997f36a6e3480db67ec4b97"
+  }
+]

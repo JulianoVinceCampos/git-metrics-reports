@@ -1,0 +1,30 @@
+[
+  {
+    "sha": "000b11e414d25b444b19dc0b1804c4861f35a573",
+    "date": "2026-08-03T02:20:53Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/contador-mvp/commit/000b11e414d25b444b19dc0b1804c4861f35a573"
+  },
+  {
+    "sha": "0c095aa996986e94babf9084bf9676f3f436c84e",
+    "date": "2026-08-03T01:51:29Z",
+    "author": "Juliano Vince De Campos",
+    "message": "style: troca travessão por pontuação e hífen",
+    "html_url": "https://github.com/JulianoVinceCampos/contador-mvp/commit/0c095aa996986e94babf9084bf9676f3f436c84e"
+  },
+  {
+    "sha": "bbfbea3d6c2913492077d082cb08bb5db3be0ba2",
+    "date": "2026-02-22T14:46:33Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "chore: normalize line endings with gitattributes",
+    "html_url": "https://github.com/JulianoVinceCampos/contador-mvp/commit/bbfbea3d6c2913492077d082cb08bb5db3be0ba2"
+  },
+  {
+    "sha": "41e7b6fe2d0e9d28eeff7f906380268b7e51a0ff",
+    "date": "2026-02-22T14:44:01Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: MVP cadastro por CNPJ com API, SQLite, semáforo e UI",
+    "html_url": "https://github.com/JulianoVinceCampos/contador-mvp/commit/41e7b6fe2d0e9d28eeff7f906380268b7e51a0ff"
+  }
+]
