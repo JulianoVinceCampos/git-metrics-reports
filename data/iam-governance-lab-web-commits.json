@@ -1,0 +1,268 @@
+[
+  {
+    "sha": "083b14bf426809d5720c2423cfc2efa6ee3528bb",
+    "date": "2026-08-03T02:20:11Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #11 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/083b14bf426809d5720c2423cfc2efa6ee3528bb"
+  },
+  {
+    "sha": "6bbf7afe68c2027a51869ff8b94f26aefbabce88",
+    "date": "2026-08-03T01:51:51Z",
+    "author": "Juliano Vince De Campos",
+    "message": "style: troca os dois travessões do README",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/6bbf7afe68c2027a51869ff8b94f26aefbabce88"
+  },
+  {
+    "sha": "5de80ba09f4eb8fc8d7f47b9a302127c6ccd08f7",
+    "date": "2026-08-02T03:20:26Z",
+    "author": "Juliano Vince",
+    "message": "Merge pull request #10 from JulianoVinceCampos/docs/badges-and-license",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/5de80ba09f4eb8fc8d7f47b9a302127c6ccd08f7"
+  },
+  {
+    "sha": "f3c2d2cc5bec6de14ff26dd80da4f683ee0af0e4",
+    "date": "2026-08-02T03:18:21Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: add status badges and the missing MIT LICENSE file",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/f3c2d2cc5bec6de14ff26dd80da4f683ee0af0e4"
+  },
+  {
+    "sha": "b17e759f600dadeb11f1a8364a9d8c86769a1364",
+    "date": "2026-08-02T03:16:08Z",
+    "author": "Juliano Vince",
+    "message": "Merge pull request #9 from JulianoVinceCampos/ci/python-314",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/b17e759f600dadeb11f1a8364a9d8c86769a1364"
+  },
+  {
+    "sha": "1529ffaf6f89451662c58ead3dbf2ab153611b89",
+    "date": "2026-08-02T01:33:48Z",
+    "author": "JulianoVinceCampos",
+    "message": "ci: ship on Python 3.14 and cover it in the test matrix",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/1529ffaf6f89451662c58ead3dbf2ab153611b89"
+  },
+  {
+    "sha": "7ec9e31142a6e11f44f2edd6251f35af4f2eeeac",
+    "date": "2026-08-02T01:25:41Z",
+    "author": "Juliano Vince",
+    "message": "Merge pull request #8 from JulianoVinceCampos/ci/bump-workflow-actions",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/7ec9e31142a6e11f44f2edd6251f35af4f2eeeac"
+  },
+  {
+    "sha": "683091fdb1ac4a8a6198639ab7feafe380ef21b9",
+    "date": "2026-08-02T01:16:49Z",
+    "author": "JulianoVinceCampos",
+    "message": "ci: bump workflow actions to current majors",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/683091fdb1ac4a8a6198639ab7feafe380ef21b9"
+  },
+  {
+    "sha": "48654093d7ba58d69dd74951296edb1406674bdf",
+    "date": "2026-08-02T01:06:33Z",
+    "author": "Juliano Vince",
+    "message": "Merge pull request #7 from JulianoVinceCampos/docs/readme-live-demo",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/48654093d7ba58d69dd74951296edb1406674bdf"
+  },
+  {
+    "sha": "9cda231b134092a34df16afe86ee93ee1038ce7e",
+    "date": "2026-08-02T00:34:07Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs(readme): link the live demo instance",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/9cda231b134092a34df16afe86ee93ee1038ce7e"
+  },
+  {
+    "sha": "180902bd1a49e7c482e514f2867f31ed3eb7e136",
+    "date": "2026-08-01T15:08:10Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(web): add a demo login screen (client-side gate)",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/180902bd1a49e7c482e514f2867f31ed3eb7e136"
+  },
+  {
+    "sha": "5b9b44d1e0851f63d5563c800989252dab257659",
+    "date": "2026-08-01T12:26:24Z",
+    "author": "Juliano Vince de Campos",
+    "message": "docs: explain IAM, IGA, RBAC and ABAC and the project intent",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/5b9b44d1e0851f63d5563c800989252dab257659"
+  },
+  {
+    "sha": "805dbc7b8892e9d76784498cf6a0dd712dfd1b40",
+    "date": "2026-08-01T12:26:13Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(web): light blue and white theme with UI/UX polish",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/805dbc7b8892e9d76784498cf6a0dd712dfd1b40"
+  },
+  {
+    "sha": "a77968f84cc163b0ea75ba5d2f18684eb907f6d9",
+    "date": "2026-08-01T03:04:33Z",
+    "author": "Juliano Vince de Campos",
+    "message": "refactor(web): render the SoD doughnut on real data, drop zero placeholder",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/a77968f84cc163b0ea75ba5d2f18684eb907f6d9"
+  },
+  {
+    "sha": "63d65ea45ff71d768809b265b4ee4fa4c57d3ca4",
+    "date": "2026-08-01T03:04:23Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(data): populate SoD violations across all four severities",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/63d65ea45ff71d768809b265b4ee4fa4c57d3ca4"
+  },
+  {
+    "sha": "27b733e2af0757ff12bb5969c59aa1f3abe200ca",
+    "date": "2026-08-01T02:56:22Z",
+    "author": "Juliano Vince de Campos",
+    "message": "docs: reconcile docs with ABAC, security scanning and deploy",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/27b733e2af0757ff12bb5969c59aa1f3abe200ca"
+  },
+  {
+    "sha": "06624c51a060a8d2291b964d20b24fcc25990185",
+    "date": "2026-08-01T02:43:51Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(web): render every SoD severity in the doughnut, zeros included",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/06624c51a060a8d2291b964d20b24fcc25990185"
+  },
+  {
+    "sha": "0d07fd0d7c71204d94c267c466eabdb13b024f7d",
+    "date": "2026-08-01T02:27:04Z",
+    "author": "Juliano Vince de Campos",
+    "message": "fix(api): drop wildcard CORS, make allowed origins configurable",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/0d07fd0d7c71204d94c267c466eabdb13b024f7d"
+  },
+  {
+    "sha": "7d862288327f794c0424ffaf84d30eecbf2a35da",
+    "date": "2026-08-01T02:20:45Z",
+    "author": "Juliano Vince de Campos",
+    "message": "ci: audit only the project deps, keep semgrep out of pip-audit",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/7d862288327f794c0424ffaf84d30eecbf2a35da"
+  },
+  {
+    "sha": "328a16e9f14e609e8a9c22933e9d460d23ff279f",
+    "date": "2026-08-01T02:13:56Z",
+    "author": "Juliano Vince de Campos",
+    "message": "ci: skip the editable package in pip-audit instead of failing strict",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/328a16e9f14e609e8a9c22933e9d460d23ff279f"
+  },
+  {
+    "sha": "6b97ddd9503c19d7eced026a60514816279b96cf",
+    "date": "2026-08-01T02:04:07Z",
+    "author": "Juliano Vince de Campos",
+    "message": "ci: add SAST and dependency scanning, document the deploy",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/6b97ddd9503c19d7eced026a60514816279b96cf"
+  },
+  {
+    "sha": "6d2af4adc3181d739a64aa046603afee13e859f7",
+    "date": "2026-08-01T02:03:48Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(web): count every SoD severity and colour RBAC vs ABAC",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/6d2af4adc3181d739a64aa046603afee13e859f7"
+  },
+  {
+    "sha": "b7d8301d9765db73313843b028fc90e657b495f4",
+    "date": "2026-08-01T02:03:39Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(access): model ABAC grants alongside RBAC groups",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/b7d8301d9765db73313843b028fc90e657b495f4"
+  },
+  {
+    "sha": "f399a89ef639fb2eee23877f337897380af88801",
+    "date": "2026-07-31T22:08:18Z",
+    "author": "Juliano Vince de Campos",
+    "message": "ci: lowercase GHCR image name so the publish job builds",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/f399a89ef639fb2eee23877f337897380af88801"
+  },
+  {
+    "sha": "2f3f194d74de21d32b682b74a8f226db15b8ab19",
+    "date": "2026-07-31T22:05:19Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(web): per-screen tutorials, richer colored charts and focused path view",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/2f3f194d74de21d32b682b74a8f226db15b8ab19"
+  },
+  {
+    "sha": "729345a6a46142c8229405442de235ec1d3b7ccc",
+    "date": "2026-07-31T21:35:36Z",
+    "author": "Juliano Vince de Campos",
+    "message": "build: bind container to \\ and free-tier Render blueprint",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/729345a6a46142c8229405442de235ec1d3b7ccc"
+  },
+  {
+    "sha": "c69cc02123410af55e8c58fd9933b2ad803bc64b",
+    "date": "2026-07-31T21:29:55Z",
+    "author": "Juliano Vince de Campos",
+    "message": "docs: README, architecture (C4 + sequence), CI/CD and action plan",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/c69cc02123410af55e8c58fd9933b2ad803bc64b"
+  },
+  {
+    "sha": "9af9ea338d5d8b9e77c65b4062ef3eec0154a103",
+    "date": "2026-07-31T21:29:55Z",
+    "author": "Juliano Vince de Campos",
+    "message": "ci: lint, type, test matrix and container build",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/9af9ea338d5d8b9e77c65b4062ef3eec0154a103"
+  },
+  {
+    "sha": "4cb132d31ef3e9f6d63bfdbfbbf2c74fce10019e",
+    "date": "2026-07-31T21:29:55Z",
+    "author": "Juliano Vince de Campos",
+    "message": "build: container image, compose and Render blueprint",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/4cb132d31ef3e9f6d63bfdbfbbf2c74fce10019e"
+  },
+  {
+    "sha": "0a15b59b2ab9a85887b8760831542696fe2a6604",
+    "date": "2026-07-31T21:29:55Z",
+    "author": "Juliano Vince de Campos",
+    "message": "test: ground-truth tests for engines, store, db and API",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/0a15b59b2ab9a85887b8760831542696fe2a6604"
+  },
+  {
+    "sha": "bcd9872559103af816deef44c0fda80fc22f84b0",
+    "date": "2026-07-31T21:29:55Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(web): interactive dashboard with graph, charts and editor",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/bcd9872559103af816deef44c0fda80fc22f84b0"
+  },
+  {
+    "sha": "cf65c44660d16eb57f3855fbb5a8484b8a15e79f",
+    "date": "2026-07-31T21:29:54Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(api): FastAPI endpoints, data editor and CLI",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/cf65c44660d16eb57f3855fbb5a8484b8a15e79f"
+  },
+  {
+    "sha": "57996e894d6d2cab8faae701546693b0aee3e293",
+    "date": "2026-07-31T21:29:54Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(persistence): SQLAlchemy database and editable store with restore",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/57996e894d6d2cab8faae701546693b0aee3e293"
+  },
+  {
+    "sha": "0edbdab3a108d469c31bb5c68c39de16215c0d6e",
+    "date": "2026-07-31T21:29:54Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(report): JSON and Markdown report aggregation",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/0edbdab3a108d469c31bb5c68c39de16215c0d6e"
+  },
+  {
+    "sha": "6f31334567c824cae853f6c0084cd90432eb2bbe",
+    "date": "2026-07-31T21:29:54Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(engines): access, SoD, reachability, JML and recertification",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/6f31334567c824cae853f6c0084cd90432eb2bbe"
+  },
+  {
+    "sha": "e634f4c60391daf138ec9684e27326237a3b72c6",
+    "date": "2026-07-31T21:29:54Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(data): synthetic multi-account dataset",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/e634f4c60391daf138ec9684e27326237a3b72c6"
+  },
+  {
+    "sha": "9d504945fdeb982a93428ea0b8feb6f5367bbfc1",
+    "date": "2026-07-31T21:29:53Z",
+    "author": "Juliano Vince de Campos",
+    "message": "feat(model): typed domain model, loader and integrity validation",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/9d504945fdeb982a93428ea0b8feb6f5367bbfc1"
+  },
+  {
+    "sha": "88375bc0e4363dd60638faad674301d01f5ccd28",
+    "date": "2026-07-31T21:29:53Z",
+    "author": "Juliano Vince de Campos",
+    "message": "chore: scaffold project tooling and packaging",
+    "html_url": "https://github.com/JulianoVinceCampos/iam-governance-lab-web/commit/88375bc0e4363dd60638faad674301d01f5ccd28"
+  }
+]
