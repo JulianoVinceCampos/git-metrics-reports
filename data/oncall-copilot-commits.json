@@ -1,0 +1,23 @@
+[
+  {
+    "sha": "149dd4e560ab38f3b33358ad6e879ac5ab62a6d7",
+    "date": "2026-08-09T20:42:13Z",
+    "author": "JulianoVinceCampos",
+    "message": "fix: verificador de links resolve contra o git, não contra o disco",
+    "html_url": "https://github.com/JulianoVinceCampos/oncall-copilot/commit/149dd4e560ab38f3b33358ad6e879ac5ab62a6d7"
+  },
+  {
+    "sha": "bf80b9f84998beff98d2227806ec4879ddc90c92",
+    "date": "2026-08-09T20:32:34Z",
+    "author": "JulianoVinceCampos",
+    "message": "ci: alinha a esteira ao marco atual e cobre os gates que faltavam",
+    "html_url": "https://github.com/JulianoVinceCampos/oncall-copilot/commit/bf80b9f84998beff98d2227806ec4879ddc90c92"
+  },
+  {
+    "sha": "0f7114f29dce05dfcc1010bad1fc4415ec9c912c",
+    "date": "2026-08-09T20:15:25Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat: arquitetura, contratos de evento e infraestrutura local (M1)",
+    "html_url": "https://github.com/JulianoVinceCampos/oncall-copilot/commit/0f7114f29dce05dfcc1010bad1fc4415ec9c912c"
+  }
+]

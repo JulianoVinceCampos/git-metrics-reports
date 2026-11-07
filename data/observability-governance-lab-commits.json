@@ -1,0 +1,51 @@
+[
+  {
+    "sha": "a18754421f577aa98c4270678fa8ee6db19a14c2",
+    "date": "2026-08-10T04:20:42Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat: pré-preenche a credencial da demo no portão de login",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/a18754421f577aa98c4270678fa8ee6db19a14c2"
+  },
+  {
+    "sha": "a4863ace55a256a369e0d497896fa1745df3b6ae",
+    "date": "2026-08-10T03:15:07Z",
+    "author": "JulianoVinceCampos",
+    "message": "refactor: reorganiza o dashboard em seis camadas, na ordem da pergunta",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/a4863ace55a256a369e0d497896fa1745df3b6ae"
+  },
+  {
+    "sha": "cc083bc77ea858e9f15e9a1c07c33cc269ef2b0f",
+    "date": "2026-08-10T01:02:56Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: reescreve os diagramas com a sintaxe que o renderizador do GitHub aceita",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/cc083bc77ea858e9f15e9a1c07c33cc269ef2b0f"
+  },
+  {
+    "sha": "f6a4aafd52e5d1ff26fd626695f9fb66158b7dbd",
+    "date": "2026-08-10T00:15:10Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: alinha a credencial publicada com a instância que está no ar",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/f6a4aafd52e5d1ff26fd626695f9fb66158b7dbd"
+  },
+  {
+    "sha": "af8961e405591c0a580538e5400386c59ea9238b",
+    "date": "2026-08-09T23:58:32Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: publica o link da demo ao vivo e a credencial de demonstração",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/af8961e405591c0a580538e5400386c59ea9238b"
+  },
+  {
+    "sha": "95165097a10c152af9af35358e62a2a7926381b8",
+    "date": "2026-08-09T22:55:18Z",
+    "author": "JulianoVinceCampos",
+    "message": "ci: esteira de dez camadas, diagramas e governança do repositório",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/95165097a10c152af9af35358e62a2a7926381b8"
+  },
+  {
+    "sha": "aa1261214a5be2e0f2a027160e26e6fee52c02a7",
+    "date": "2026-08-09T21:39:47Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat: motor de conformidade de observabilidade com catálogo ITIL/COBIT e dashboard",
+    "html_url": "https://github.com/JulianoVinceCampos/observability-governance-lab/commit/aa1261214a5be2e0f2a027160e26e6fee52c02a7"
+  }
+]

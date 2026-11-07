@@ -1,0 +1,177 @@
+[
+  {
+    "sha": "16bd33d23573c8319c0d2b2c6dca1d1f05847b1c",
+    "date": "2021-01-04T22:32:57Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Error multidex",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/16bd33d23573c8319c0d2b2c6dca1d1f05847b1c"
+  },
+  {
+    "sha": "da4ca40a4f8d20718977b55a2eea6cfbc49505b7",
+    "date": "2021-01-04T19:31:54Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Permissions and Sharing",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/da4ca40a4f8d20718977b55a2eea6cfbc49505b7"
+  },
+  {
+    "sha": "2b1c618e482cd2f32da2fb9b5416fc9b62b26221",
+    "date": "2021-01-04T13:04:32Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação de options menu detailFragments",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/2b1c618e482cd2f32da2fb9b5416fc9b62b26221"
+  },
+  {
+    "sha": "b02e89abbae3ddd890f4ed8fab93ac7f195a8540",
+    "date": "2020-12-28T15:50:05Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando preferences",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/b02e89abbae3ddd890f4ed8fab93ac7f195a8540"
+  },
+  {
+    "sha": "1d4dc4688daa0f6e1976a567035b45e0b023be1b",
+    "date": "2020-12-28T14:35:37Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Chamando notification quando lista e carregada do back-end",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/1d4dc4688daa0f6e1976a567035b45e0b023be1b"
+  },
+  {
+    "sha": "2f5bd1d9c079046342cedf4d1d23f218d71d8f41",
+    "date": "2020-12-28T14:21:09Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Create notification",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/2f5bd1d9c079046342cedf4d1d23f218d71d8f41"
+  },
+  {
+    "sha": "f6603ffb1584d7838b52b4d3dce5e2a736852430",
+    "date": "2020-12-23T18:57:01Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Add Palette",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/f6603ffb1584d7838b52b4d3dce5e2a736852430"
+  },
+  {
+    "sha": "c954adb334cfb34268d6a12a28912d1d1a7a332a",
+    "date": "2020-12-22T16:20:05Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Finalizando live data",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/c954adb334cfb34268d6a12a28912d1d1a7a332a"
+  },
+  {
+    "sha": "4df1106d16ea8ed1cb0b17e160c4976ac4bde39e",
+    "date": "2020-12-21T16:53:45Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Data Binding",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/4df1106d16ea8ed1cb0b17e160c4976ac4bde39e"
+  },
+  {
+    "sha": "4eb15f81b01a33ab778759141323288ec9701d93",
+    "date": "2020-12-21T12:59:29Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Refactory classe DogsBreed, BogsDao. Finalização de banco de dados room, DetailViewModel",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/4eb15f81b01a33ab778759141323288ec9701d93"
+  },
+  {
+    "sha": "d8b13240c78cdb117bf8f8a9ebc95fa9cc8d6eff",
+    "date": "2020-12-17T20:04:30Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Adicionando SharedPreferences, criando logica que decide busca no backend ou local",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/d8b13240c78cdb117bf8f8a9ebc95fa9cc8d6eff"
+  },
+  {
+    "sha": "8c40ad322604b3a48780f320f7d7b47a33161c86",
+    "date": "2020-12-17T18:56:50Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando configuração de acesso ao banco de dados",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/8c40ad322604b3a48780f320f7d7b47a33161c86"
+  },
+  {
+    "sha": "9075721734f32a21cc237b8d9aef9e3426cc5ee6",
+    "date": "2020-12-17T15:05:26Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Configurando Room, criando interface e Classes de manipulação de banco de dados local",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/9075721734f32a21cc237b8d9aef9e3426cc5ee6"
+  },
+  {
+    "sha": "48426c3951d810089f0ec7cf39f7e7d904a646b5",
+    "date": "2020-12-17T13:38:13Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Adicionando Glide no projeto, carregamento de imagens e configuração",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/48426c3951d810089f0ec7cf39f7e7d904a646b5"
+  },
+  {
+    "sha": "6ee634e67ac07198d58585707ab0d44d6bc99a04",
+    "date": "2020-12-16T22:05:31Z",
+    "author": "Juliano Vince De Campos",
+    "message": "“puts”",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/6ee634e67ac07198d58585707ab0d44d6bc99a04"
+  },
+  {
+    "sha": "7db028a77f5ee1c1913897660453e1a685eb6096",
+    "date": "2020-12-16T17:27:29Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Implementação do Retrofit e RXJava com requisição no servidor",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/7db028a77f5ee1c1913897660453e1a685eb6096"
+  },
+  {
+    "sha": "20880090e7c2cdc31277d09e95634606c0a05174",
+    "date": "2020-12-16T13:32:49Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando a comunicação com o servidor",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/20880090e7c2cdc31277d09e95634606c0a05174"
+  },
+  {
+    "sha": "3a17675877c5d00e0a50f5b65a53231a4aacb2cb",
+    "date": "2020-12-16T12:55:42Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Deixando dados de forma dinamica na navegação entre telas, criando a navegação e correção no layouts",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/3a17675877c5d00e0a50f5b65a53231a4aacb2cb"
+  },
+  {
+    "sha": "a911195d2500e62bfd2b38e35405f3c77d430ab8",
+    "date": "2020-12-15T16:37:15Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação de style para TextView, criação de layouts item, list, detales",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/a911195d2500e62bfd2b38e35405f3c77d430ab8"
+  },
+  {
+    "sha": "80458866be8f7b63e0c7245abe2ca52309609521",
+    "date": "2020-12-15T01:18:47Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Finalizando testes de navegação",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/80458866be8f7b63e0c7245abe2ca52309609521"
+  },
+  {
+    "sha": "dc2c15871d1f803344b27a49dcb62ce78df26e51",
+    "date": "2020-12-14T19:46:36Z",
+    "author": "Juliano Vince De Campos",
+    "message": "refactore gradle module e project. add func Main onSupportNavigateUp back action, finsh fragments nav and layout",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/dc2c15871d1f803344b27a49dcb62ce78df26e51"
+  },
+  {
+    "sha": "d45756772bd2da7ea516a249a37cf730ec06fc28",
+    "date": "2020-12-14T18:45:22Z",
+    "author": "Juliano Vince De Campos",
+    "message": "correção gralde, configuração inicial de layout framgents",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/d45756772bd2da7ea516a249a37cf730ec06fc28"
+  },
+  {
+    "sha": "ec99d95e8577bf29041ecded8c3d601c17ca4405",
+    "date": "2020-12-14T17:53:14Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação de framents, navigation",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/ec99d95e8577bf29041ecded8c3d601c17ca4405"
+  },
+  {
+    "sha": "0ca2c06e89a94866b991f529036c8d2b352b9652",
+    "date": "2020-12-14T17:17:06Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Configuração gradle icon app",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/0ca2c06e89a94866b991f529036c8d2b352b9652"
+  },
+  {
+    "sha": "179fa5f1df224da9a6d26808a5898b3558d83e1b",
+    "date": "2020-12-14T13:40:23Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/dogs/commit/179fa5f1df224da9a6d26808a5898b3558d83e1b"
+  }
+]

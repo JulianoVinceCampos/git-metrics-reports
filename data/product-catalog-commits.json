@@ -1,0 +1,51 @@
+[
+  {
+    "sha": "d47ca8bc5c473b77fd7875ff14f9ed67812a75aa",
+    "date": "2026-08-03T02:18:52Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/d47ca8bc5c473b77fd7875ff14f9ed67812a75aa"
+  },
+  {
+    "sha": "06cf6525836709adb31932d313722135ae97eede",
+    "date": "2026-08-03T01:52:22Z",
+    "author": "Juliano Vince De Campos",
+    "message": "style: troca travessão por pontuação no README e nos @DisplayName",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/06cf6525836709adb31932d313722135ae97eede"
+  },
+  {
+    "sha": "8b7f32f33f12885d95d10cafe5259f072228aad0",
+    "date": "2026-02-22T13:46:53Z",
+    "author": "Juliano Vince",
+    "message": "Refactor ProductServiceTest for improved clarity",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/8b7f32f33f12885d95d10cafe5259f072228aad0"
+  },
+  {
+    "sha": "8f64bf483648249198ee12d5ac144faf52c5361e",
+    "date": "2026-02-22T13:44:26Z",
+    "author": "Juliano Vince",
+    "message": "Refactor ProductServiceTest for improved readability",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/8f64bf483648249198ee12d5ac144faf52c5361e"
+  },
+  {
+    "sha": "57f6e28e08789e9947f008da47593d6f3b1e4d2d",
+    "date": "2026-02-22T13:39:17Z",
+    "author": "Juliano Vince",
+    "message": "Fix endpoint formatting in S3StorageService",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/57f6e28e08789e9947f008da47593d6f3b1e4d2d"
+  },
+  {
+    "sha": "7edac96db608b193d89a055b78207a68759d6510",
+    "date": "2026-02-22T13:34:42Z",
+    "author": "Juliano Vince",
+    "message": "Grant execute permission to mvnw in CI workflow",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/7edac96db608b193d89a055b78207a68759d6510"
+  },
+  {
+    "sha": "e53c02f37c4bfa3f808e7164b53d6f3c7f1d73f8",
+    "date": "2026-02-22T13:27:10Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: inicializa API Java de catálogo de produtos com estrutura em camadas e dockerização",
+    "html_url": "https://github.com/JulianoVinceCampos/product-catalog/commit/e53c02f37c4bfa3f808e7164b53d6f3c7f1d73f8"
+  }
+]
