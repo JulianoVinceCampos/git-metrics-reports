@@ -1,0 +1,23 @@
+[
+  {
+    "sha": "8b5d58136217ca9f466caab87ee299392e6d3dcd",
+    "date": "2026-08-03T02:17:24Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Merge pull request #1 from JulianoVinceCampos/chore/portfolio-cleanup",
+    "html_url": "https://github.com/JulianoVinceCampos/spring-keycloak/commit/8b5d58136217ca9f466caab87ee299392e6d3dcd"
+  },
+  {
+    "sha": "c1ec93ce68c7cf31dcd36b2f4ac8d919adcd63ba",
+    "date": "2026-08-03T01:52:47Z",
+    "author": "Juliano Vince De Campos",
+    "message": "style: troca travessão nos títulos de passo do README",
+    "html_url": "https://github.com/JulianoVinceCampos/spring-keycloak/commit/c1ec93ce68c7cf31dcd36b2f4ac8d919adcd63ba"
+  },
+  {
+    "sha": "f4e5b0daff2b4d3e01c4da68e4be57df9882d672",
+    "date": "2026-03-20T15:53:58Z",
+    "author": "JULIANOCAMPOS\\julia",
+    "message": "feat: bootstrap IAM project with clean architecture, security config and initial API",
+    "html_url": "https://github.com/JulianoVinceCampos/spring-keycloak/commit/f4e5b0daff2b4d3e01c4da68e4be57df9882d672"
+  }
+]

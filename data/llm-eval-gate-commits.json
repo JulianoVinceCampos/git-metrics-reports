@@ -1,0 +1,72 @@
+[
+  {
+    "sha": "f32ff88a3a3cfdc253509b6d35312125ab27d35d",
+    "date": "2026-09-26T21:34:56Z",
+    "author": "JulianoVinceCampos",
+    "message": "chore: remaining project files",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/f32ff88a3a3cfdc253509b6d35312125ab27d35d"
+  },
+  {
+    "sha": "8fa18ff3e312bfbfb04948ae3907fa9f657f0e0b",
+    "date": "2026-09-26T21:34:56Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: README, contributing guide, and security policy",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/8fa18ff3e312bfbfb04948ae3907fa9f657f0e0b"
+  },
+  {
+    "sha": "9172525e059f855a7c2f7d5127373eaa0ebe43c0",
+    "date": "2026-09-26T21:34:55Z",
+    "author": "JulianoVinceCampos",
+    "message": "docs: architecture, methodology, and operations",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/9172525e059f855a7c2f7d5127373eaa0ebe43c0"
+  },
+  {
+    "sha": "13d4040bc0a0690df437c26fbb14a04003bdc3cc",
+    "date": "2026-09-26T21:34:55Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat: container image and deployment config",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/13d4040bc0a0690df437c26fbb14a04003bdc3cc"
+  },
+  {
+    "sha": "f24447d916aa8951ddec5c5b1135fd043c0ba7ad",
+    "date": "2026-09-26T21:34:54Z",
+    "author": "JulianoVinceCampos",
+    "message": "ci: GitHub Actions pipeline",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/f24447d916aa8951ddec5c5b1135fd043c0ba7ad"
+  },
+  {
+    "sha": "2a95a0f99543afb1f16fd0cbdf47feda14f05866",
+    "date": "2026-09-26T21:34:54Z",
+    "author": "JulianoVinceCampos",
+    "message": "chore: security and quality tooling",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/2a95a0f99543afb1f16fd0cbdf47feda14f05866"
+  },
+  {
+    "sha": "53b7d9a570d36112c41c0e6e7616b9b0eef2aa18",
+    "date": "2026-09-26T21:34:53Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat: synthetic datasets, evaluation scenarios, and prompts",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/53b7d9a570d36112c41c0e6e7616b9b0eef2aa18"
+  },
+  {
+    "sha": "2f502ef947621fa6dfab909baf3d436f2066169b",
+    "date": "2026-09-26T21:34:52Z",
+    "author": "JulianoVinceCampos",
+    "message": "test: unit and property-based test suite",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/2f502ef947621fa6dfab909baf3d436f2066169b"
+  },
+  {
+    "sha": "77c0c586af377b47da6957d0d59d82d4df443c89",
+    "date": "2026-09-26T21:34:50Z",
+    "author": "JulianoVinceCampos",
+    "message": "feat: core evaluation engine",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/77c0c586af377b47da6957d0d59d82d4df443c89"
+  },
+  {
+    "sha": "75e3438d86c9181fe88aa726fa49663302665090",
+    "date": "2026-09-26T21:34:49Z",
+    "author": "JulianoVinceCampos",
+    "message": "chore: project scaffolding and license",
+    "html_url": "https://github.com/JulianoVinceCampos/llm-eval-gate/commit/75e3438d86c9181fe88aa726fa49663302665090"
+  }
+]

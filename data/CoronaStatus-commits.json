@@ -1,0 +1,128 @@
+[
+  {
+    "sha": "8ef858b32919dbda95af872be99fb173fa8c9fe3",
+    "date": "2021-08-11T21:41:59Z",
+    "author": "julianovince",
+    "message": "Create README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/8ef858b32919dbda95af872be99fb173fa8c9fe3"
+  },
+  {
+    "sha": "7bc992c3cf153195438a9fb626bd24002bdb33d8",
+    "date": "2021-08-11T21:23:27Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Corrigindo a busca de detalhes de paises com nomes grandes",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/7bc992c3cf153195438a9fb626bd24002bdb33d8"
+  },
+  {
+    "sha": "871676db2cfec2ee0d451039895fb90dccbc7fc9",
+    "date": "2021-08-11T21:16:40Z",
+    "author": "Juliano Vince De Campos",
+    "message": "corrigindo layout ListHeaderView, corrigindo layout de CountryDataRowView, Terminando implementação layout CountryDetailView",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/871676db2cfec2ee0d451039895fb90dccbc7fc9"
+  },
+  {
+    "sha": "3bf41f12df4d06bf3257ed5f113bffd9e6335e2a",
+    "date": "2021-08-11T20:32:24Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando nova chamada de API de detalhes, refatorando o layout de detalhes, mudando a passagem de parametros da tela principal para tela de detalhes",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/3bf41f12df4d06bf3257ed5f113bffd9e6335e2a"
+  },
+  {
+    "sha": "0859d5d3568bb24f38b014578edd31962dfaa5f0",
+    "date": "2021-08-11T19:54:18Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando nova classe model DetailedCountryData, implementando CountryStatisticsFetchRequest, Fazendo testes das chamandas na classe RecentView",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/0859d5d3568bb24f38b014578edd31962dfaa5f0"
+  },
+  {
+    "sha": "17ea4b8e9c62ade6724da862ace7d0b71118556a",
+    "date": "2021-08-11T19:08:51Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Configurando color ListHeaderView, criando nova classes de requisição para pegar detalhes da requisição, Configurando menu Maps tela principal",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/17ea4b8e9c62ade6724da862ace7d0b71118556a"
+  },
+  {
+    "sha": "ead982b02b8627cce1a497f337337f53d6f6761b",
+    "date": "2021-08-11T18:16:31Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando menu map, criando layout responsavel por mostradar dados do mapa, configurando onclick em cada item do array, organizando pastas dos projetos",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/ead982b02b8627cce1a497f337337f53d6f6761b"
+  },
+  {
+    "sha": "77b9574c1be2ec6e4603bde1bccae7a34f509715",
+    "date": "2021-08-10T22:54:14Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criando a classe responsavel pela pesquisa",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/77b9574c1be2ec6e4603bde1bccae7a34f509715"
+  },
+  {
+    "sha": "c8a34168ce14c54ed051431d70b15eef0bf859d2",
+    "date": "2021-08-10T22:40:30Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Configuração da barra de titulo RecentView, configuração de parametros TotalDataView e chamada de layout",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/c8a34168ce14c54ed051431d70b15eef0bf859d2"
+  },
+  {
+    "sha": "dccccf972b007ea9f8c66cb5eb8d0ceeaf822a39",
+    "date": "2021-08-10T21:46:55Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Definindo paletas de cores, definindo layout TotalDataView e TotalDataCard",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/dccccf972b007ea9f8c66cb5eb8d0ceeaf822a39"
+  },
+  {
+    "sha": "d67c5846a73599eb31a409a79af287b5dc489dd1",
+    "date": "2021-08-10T20:47:26Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Organizando group's. ajustantando layout",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/d67c5846a73599eb31a409a79af287b5dc489dd1"
+  },
+  {
+    "sha": "51c3bb59c52fd4a8e3914dab5708d040c5ce700e",
+    "date": "2021-08-10T20:35:18Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Fazendo a tela principal, carregando os dados, e construindo o layout",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/51c3bb59c52fd4a8e3914dab5708d040c5ce700e"
+  },
+  {
+    "sha": "a3e5d544ddac49525fc6d756e5b0ab5b58f6467f",
+    "date": "2021-08-10T20:09:04Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação de extension para formatação de numeros, criação de layout RowView",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/a3e5d544ddac49525fc6d756e5b0ab5b58f6467f"
+  },
+  {
+    "sha": "1307fd9275523eb7bd50c86f51067bd66625fc42",
+    "date": "2021-08-10T19:43:59Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Organização de arquivos, criação de classe responsavel por layout fixo",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/1307fd9275523eb7bd50c86f51067bd66625fc42"
+  },
+  {
+    "sha": "c08abb9bcef74b6d8744957bc51d85a37dbb6db4",
+    "date": "2021-08-10T18:13:26Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Correção da key(Utilizando uma key que é paga, possibilitanto assim fazer a chamada do metodo), também feito o refactor e inicio da implementação da tela tab bar",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/c08abb9bcef74b6d8744957bc51d85a37dbb6db4"
+  },
+  {
+    "sha": "3d20df0ace68363b78c6e95bf97c097ecee4222d",
+    "date": "2021-08-10T12:54:29Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Motrando primeiro resultado da requisição na tela principal",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/3d20df0ace68363b78c6e95bf97c097ecee4222d"
+  },
+  {
+    "sha": "57c8b222edcb6bb5a354b9cb94dec68ec5fb68b3",
+    "date": "2021-08-10T12:38:12Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Criação, configuração de projeto que verifica com status do covid-19 no mundo. Já implementei as classes model, CovidFetchRequest",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/57c8b222edcb6bb5a354b9cb94dec68ec5fb68b3"
+  },
+  {
+    "sha": "2d49188f91727861e93e5c1dfb09f76dfd2340bb",
+    "date": "2021-08-09T23:17:20Z",
+    "author": "Juliano Vince De Campos",
+    "message": "Initial Commit",
+    "html_url": "https://github.com/JulianoVinceCampos/CoronaStatus/commit/2d49188f91727861e93e5c1dfb09f76dfd2340bb"
+  }
+]
