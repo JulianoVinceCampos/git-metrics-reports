@@ -1,0 +1,198 @@
+[
+  {
+    "sha": "ad298cbcb15cb48ec45ef783fee922091843415e",
+    "date": "2018-05-28T01:59:10Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Alterando package da classe MainActivity",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/ad298cbcb15cb48ec45ef783fee922091843415e"
+  },
+  {
+    "sha": "58822926dc82eb494bc47e89b3064534be6934fc",
+    "date": "2018-05-28T01:57:21Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação de model, mapper, response, view customizadas, interactor, interface, presenter, fragments relacionados a \"investimento\".",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/58822926dc82eb494bc47e89b3064534be6934fc"
+  },
+  {
+    "sha": "32918c43a1ca5b414de167d8948a54bfcbd21f7a",
+    "date": "2018-05-28T01:49:16Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação model, views(Fragments), interactor, interfaces e componentes customizados de contato.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/32918c43a1ca5b414de167d8948a54bfcbd21f7a"
+  },
+  {
+    "sha": "73b904be1b958536bbe2e6231b03357a653c1647",
+    "date": "2018-05-28T01:42:59Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Enum responsavel pela centralização de Status de WebService.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/73b904be1b958536bbe2e6231b03357a653c1647"
+  },
+  {
+    "sha": "52fdfdbdf83812ee932643531e1b97c264b10f55",
+    "date": "2018-05-28T01:41:41Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Classe responsavel por realizar a deserialização de objetos utilizando a lib GSON.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/52fdfdbdf83812ee932643531e1b97c264b10f55"
+  },
+  {
+    "sha": "4c384e798d471e3851b0a9627959760185734ec9",
+    "date": "2018-05-28T01:40:00Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Classe responsavel por fornecer a url base do projeto",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/4c384e798d471e3851b0a9627959760185734ec9"
+  },
+  {
+    "sha": "143a884628ee7370a618d7859c415bc7aa60a941",
+    "date": "2018-05-28T01:39:13Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação de classes responsaveis por realizar as requisições(API) do projeto.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/143a884628ee7370a618d7859c415bc7aa60a941"
+  },
+  {
+    "sha": "11ca376eb7f59142e14e7636de97320c8f83e510",
+    "date": "2018-05-28T01:35:39Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Centralização e definição de texto no arquivo String.xml do projeto.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/11ca376eb7f59142e14e7636de97320c8f83e510"
+  },
+  {
+    "sha": "7d8ab353d89db8bf5bc2afc0731757f069a50568",
+    "date": "2018-05-28T01:34:02Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação, definição e adaptação de layouts no projeto.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/7d8ab353d89db8bf5bc2afc0731757f069a50568"
+  },
+  {
+    "sha": "ccd19b2d1c6de2d7cef931b97b7822107fd83b69",
+    "date": "2018-05-28T01:31:05Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Definição de ic_laucher do projeto.(-v26)",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/ccd19b2d1c6de2d7cef931b97b7822107fd83b69"
+  },
+  {
+    "sha": "325e1c672917896629a7bee11552d06e3d09ecb5",
+    "date": "2018-05-28T01:27:04Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação de colors personalizadas e padronizadas",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/325e1c672917896629a7bee11552d06e3d09ecb5"
+  },
+  {
+    "sha": "0e9651ece51da5e0fb5836e5bc885f8a1ac8a83f",
+    "date": "2018-05-28T01:25:17Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação de Styles customizada.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/0e9651ece51da5e0fb5836e5bc885f8a1ac8a83f"
+  },
+  {
+    "sha": "0926955c832922c1e078e9f2ac691f0d82514190",
+    "date": "2018-05-28T01:22:53Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação de componentes de layouts customizados.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/0926955c832922c1e078e9f2ac691f0d82514190"
+  },
+  {
+    "sha": "3e8daa43a1ad2b3c84eef0416cf3d4b1fb9b69c3",
+    "date": "2018-05-28T01:20:15Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação de componentes customizados no projeto.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/3e8daa43a1ad2b3c84eef0416cf3d4b1fb9b69c3"
+  },
+  {
+    "sha": "56e61aacc9ee376c064ae9de8d5df4ea3cb7ce85",
+    "date": "2018-05-28T01:17:38Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Declaração de uso de internet no aplicativo.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/56e61aacc9ee376c064ae9de8d5df4ea3cb7ce85"
+  },
+  {
+    "sha": "01d5fb171b5e72825f9b910a307486c69fbed474",
+    "date": "2018-05-28T01:14:27Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Criação das classes de arquitetura base do projeto.",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/01d5fb171b5e72825f9b910a307486c69fbed474"
+  },
+  {
+    "sha": "72f1ce80c0f4e629438817101dde36d41b54a33f",
+    "date": "2018-05-27T22:52:08Z",
+    "author": "Juliano Vince de Campos",
+    "message": "Commit inicial do projeto após a configuração do gradle",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/72f1ce80c0f4e629438817101dde36d41b54a33f"
+  },
+  {
+    "sha": "cb02a835b4aa289ff79534a8ae7257eaeeed033d",
+    "date": "2018-04-26T21:23:21Z",
+    "author": "Vitor Rentes Pimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/cb02a835b4aa289ff79534a8ae7257eaeeed033d"
+  },
+  {
+    "sha": "2858c80b89020794bf4bce4f38053a1f3c70b214",
+    "date": "2018-04-23T14:32:38Z",
+    "author": "Vitor Rentes Pimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/2858c80b89020794bf4bce4f38053a1f3c70b214"
+  },
+  {
+    "sha": "53a872d94342532f39e4f4b1cf0e535588afb0a6",
+    "date": "2018-04-10T13:57:05Z",
+    "author": "Fernando Cugliandro (Cugli)",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/53a872d94342532f39e4f4b1cf0e535588afb0a6"
+  },
+  {
+    "sha": "d6d33f0f657377dca9ebde69df8aea0f0917a3a3",
+    "date": "2018-04-09T17:36:43Z",
+    "author": "Vitor Rentes Pimentel (Tata)",
+    "message": "assets",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/d6d33f0f657377dca9ebde69df8aea0f0917a3a3"
+  },
+  {
+    "sha": "9fa82c8e1c4eb73cd28f69db56560031a86db978",
+    "date": "2018-04-09T17:32:33Z",
+    "author": "vpimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/9fa82c8e1c4eb73cd28f69db56560031a86db978"
+  },
+  {
+    "sha": "490eb0eccd4090ebd8815bb763d88c6ce7f60cf0",
+    "date": "2018-04-09T17:31:55Z",
+    "author": "vpimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/490eb0eccd4090ebd8815bb763d88c6ce7f60cf0"
+  },
+  {
+    "sha": "ecec5b647d9fb3d5a714588f1965773206703dd6",
+    "date": "2018-04-09T17:31:27Z",
+    "author": "vpimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/ecec5b647d9fb3d5a714588f1965773206703dd6"
+  },
+  {
+    "sha": "b6b783a391a70c2c31ad3e50fac9c3f23480da2d",
+    "date": "2018-04-09T17:29:49Z",
+    "author": "vpimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/b6b783a391a70c2c31ad3e50fac9c3f23480da2d"
+  },
+  {
+    "sha": "acb986ce6b1839965e878bddf2bd092663e2979d",
+    "date": "2018-04-09T15:38:44Z",
+    "author": "vpimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/acb986ce6b1839965e878bddf2bd092663e2979d"
+  },
+  {
+    "sha": "aed87d8d34ce7f70d3d86f6d74d392228f02fd45",
+    "date": "2018-04-09T15:36:09Z",
+    "author": "vpimentel",
+    "message": "Update README.md",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/aed87d8d34ce7f70d3d86f6d74d392228f02fd45"
+  },
+  {
+    "sha": "78055fd3a70c67dec8deee9b1112f6cefc8c0b22",
+    "date": "2018-04-09T15:27:39Z",
+    "author": "vpimentel",
+    "message": "Initial commit",
+    "html_url": "https://github.com/JulianoVinceCampos/Projeto-Android-Santander/commit/78055fd3a70c67dec8deee9b1112f6cefc8c0b22"
+  }
+]

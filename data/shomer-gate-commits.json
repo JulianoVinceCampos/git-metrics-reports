@@ -1,0 +1,30 @@
+[
+  {
+    "sha": "2ea2c0273ae93af32835746e0b4a82d39dead6ce",
+    "date": "2026-10-28T22:53:04Z",
+    "author": "Juliano Vince De Campos",
+    "message": "style(ui): clareia a paleta do login (fundo, aurora e cartao mais luminosos, vinheta suave)",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-gate/commit/2ea2c0273ae93af32835746e0b4a82d39dead6ce"
+  },
+  {
+    "sha": "61f06a2a5fda45788fb7f8468e6a4b3bef9406e8",
+    "date": "2026-10-28T22:40:56Z",
+    "author": "Juliano Vince De Campos",
+    "message": "feat(ui): tela de login com aurora, borda em gradiente animada, shimmer e rede neural reativa ao mouse; UI em portugues",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-gate/commit/61f06a2a5fda45788fb7f8468e6a4b3bef9406e8"
+  },
+  {
+    "sha": "15f234cfdd3f3053c50df77c3490b57d9b9c7226",
+    "date": "2026-10-28T22:31:12Z",
+    "author": "Juliano Vince De Campos",
+    "message": "docs: README em portugues, demo no GitHub Pages e blueprint de deploy no Render",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-gate/commit/15f234cfdd3f3053c50df77c3490b57d9b9c7226"
+  },
+  {
+    "sha": "f284ad94c56b459b53353fbaf7798597020d08b7",
+    "date": "2026-10-28T22:15:35Z",
+    "author": "Juliano Vince De Campos",
+    "message": "feat: shomer-gate 0.1.0, deterministic LLM guardrail with tamper-evident ledger",
+    "html_url": "https://github.com/JulianoVinceCampos/shomer-gate/commit/f284ad94c56b459b53353fbaf7798597020d08b7"
+  }
+]
